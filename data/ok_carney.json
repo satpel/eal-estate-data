@@ -1,0 +1,912 @@
+[
+  {
+    "id": "857971560",
+    "price": "",
+    "zipCode": "74832",
+    "type": "MobileOrManufacturedHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "1792.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4a66ffc12f6689faa1b6c27cbef1d4673a3909e2_md2.jpg"
+  },
+  {
+    "id": "836835817",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2112.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a118315325a1aed13cadd596f539935a7035c111_md2.jpg"
+  },
+  {
+    "id": "900919304",
+    "price": "",
+    "zipCode": "74832",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1d582a1ebdfc75d5bf80b5364c71ffcc2693f503_md2.jpg"
+  },
+  {
+    "id": "919287456",
+    "price": "",
+    "zipCode": "74832",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "720.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/721e11a94e2ddbbfb0a95d815d68f92b47e298ee_md2.jpg"
+  },
+  {
+    "id": "873760687",
+    "price": "",
+    "zipCode": "74832",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "2432.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b2f84063b8566a3c2124b93d1fa263495c1823dd_md2.jpg"
+  },
+  {
+    "id": "915993077",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b693e079a89b9ffac88f30522b1d7638851707b_md2.jpg"
+  },
+  {
+    "id": "915992894",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6d678e104d574713ee22694f7232b6e1e9e05105_md2.jpg"
+  },
+  {
+    "id": "915962171",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "3.0",
+    "squareFeet": "2252.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7b517ecfb6bb77fe1fb8f77116f566d2127afeb7_md2.jpg"
+  },
+  {
+    "id": "875968803",
+    "price": "",
+    "zipCode": "74881",
+    "type": "MobileOrManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1120.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/252ed1124f78cfed0a4647fc756bfe2edeb7ec2c_md2.jpg"
+  },
+  {
+    "id": "918289989",
+    "price": "",
+    "zipCode": "74875",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/980dafd2ca04a610b577f3667069810cbc91e9c3_md2.jpg"
+  },
+  {
+    "id": "912764432",
+    "price": "",
+    "zipCode": "74875",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1470.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c9750b2393855bb72facbfee963f3bd3b8c7a0ab_md2.jpg"
+  },
+  {
+    "id": "915414235",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1920.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3dbce1854dc03087adb3d4d40fb6b0222a1d9bc1_md2.jpg"
+  },
+  {
+    "id": "883518069",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b351e9f17cf3cc1dcf7f2e6d16ac4e339f18bac8_md2.jpg"
+  },
+  {
+    "id": "910818305",
+    "price": "",
+    "zipCode": "74875",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1479.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b838c41d1e965ae60aca49c51afd9e577b12abf8_md2.jpg"
+  },
+  {
+    "id": "913349697",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f038b822ab079eb6d7997b57fe770a0a88953fec_md2.jpg"
+  },
+  {
+    "id": "914069186",
+    "price": "",
+    "zipCode": "74875",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1950.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f5c02cc63a77ee6e8234fae2f98d5525c65bd60d_md2.jpg"
+  },
+  {
+    "id": "876962649",
+    "price": "",
+    "zipCode": "0",
+    "type": "74834",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/48c46e8e08d2d8b445a1ce423f96d71fd1e2a770_md2.jpg"
+  },
+  {
+    "id": "916095914",
+    "price": "",
+    "zipCode": "74834",
+    "type": "Multi-family(2-4units",
+    "beds": "8.0",
+    "baths": "8.0",
+    "squareFeet": "9876.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/63e4b35e6c7969acdcdfae3bddfde0ed10fc12b4_md2.jpg"
+  },
+  {
+    "id": "916776240",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "3289.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b9362fe94212efc03b7abf3207bcc236093322c_md2.jpg"
+  },
+  {
+    "id": "915424769",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2114.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2d6a96843c0c91743a82e9a2557f328743da0105_md2.jpg"
+  },
+  {
+    "id": "863823624",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2170.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/74b0ad7e7fb6668d9ed7c85d49332f5fd6be4d6f_md2.jpg"
+  },
+  {
+    "id": "909893257",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "6.0",
+    "squareFeet": "5419.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/75e5f22d86822cdb3ca163ea892ec020fd73b179_md2.jpg"
+  },
+  {
+    "id": "916005085",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3204.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0f2693b500d06f21db4cf2de1283e2f63cd5f21f_md2.jpg"
+  },
+  {
+    "id": "897639351",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2876.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bfb6c791c1c1776313de917671380f8859e8e4a3_md2.jpg"
+  },
+  {
+    "id": "911822024",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "912.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f5a17b4ff0b900c7630a572ba013bbe7083a499d_md2.jpg"
+  },
+  {
+    "id": "915408948",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1274.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1faf620a0eef18588e4ae194e5d866a1c3aee26a_md2.jpg"
+  },
+  {
+    "id": "911808826",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "800.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/479f34febe67605ed6e148b642a740a203046e52_md2.jpg"
+  },
+  {
+    "id": "912766732",
+    "price": "",
+    "zipCode": "500",
+    "type": "74834",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3572134eee77c2c5b21aa90eaa078c0d059bdf6a_md2.jpg"
+  },
+  {
+    "id": "777303672",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3059ca3eff74c5a7e9f79e0b550ebdfd53f9eb2c_md2.jpg"
+  },
+  {
+    "id": "911784915",
+    "price": "",
+    "zipCode": "500",
+    "type": "74824",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3202.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c1adf4330f1f408375edef30cc7b885616b8bb6b_md2.jpg"
+  },
+  {
+    "id": "914582577",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1b3f43805a038876b9f24176f05281615e56ec66_md2.jpg"
+  },
+  {
+    "id": "913334059",
+    "price": "",
+    "zipCode": "74834",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1184.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/507125501dbf2e21c0db77121270d3461f94c2c5_md2.jpg"
+  },
+  {
+    "id": "916145302",
+    "price": "",
+    "zipCode": "500",
+    "type": "74881",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b8aa3a3e79b9f1fbd403659ba70578b25d5cb4e6_md2.jpg"
+  },
+  {
+    "id": "841223872",
+    "price": "",
+    "zipCode": "74881",
+    "type": "VacantLand",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2617.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a401c5dd7f794197237dcaeac4f87cc59e29f195_md2.jpg"
+  },
+  {
+    "id": "893196411",
+    "price": "",
+    "zipCode": "74059",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "3.0",
+    "squareFeet": "3290.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cf8ee60a7d60849f071dbc0de7725e7f3ef96362_md2.jpg"
+  },
+  {
+    "id": "915119990",
+    "price": "",
+    "zipCode": "0",
+    "type": "74881",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3e56fa4533666378f507dcb58b28925aca4dcfd7_md2.jpg"
+  },
+  {
+    "id": "901007357",
+    "price": "",
+    "zipCode": "0",
+    "type": "74834",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a73b1cdebc1c6f805ad78c4a41139cdb9295f028_md2.jpg"
+  },
+  {
+    "id": "916035395",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "6.0",
+    "squareFeet": "6000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c718da4c505b4b680a420000e5a19d00ee1d2f1d_md2.jpg"
+  },
+  {
+    "id": "913010897",
+    "price": "",
+    "zipCode": "0",
+    "type": "74881",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1232.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/21a8a2cee62cd575c0570813f2c3b6fc977ce0b7_md2.jpg"
+  },
+  {
+    "id": "878072100",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2200.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2d97fbe49fdff70de19a0d26b329213f8d7d0ced_md2.jpg"
+  },
+  {
+    "id": "874941034",
+    "price": "",
+    "zipCode": "74059",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "3122.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ee0996a9f1f1943990960c2b8341f7b4a17cbbc6_md2.jpg"
+  },
+  {
+    "id": "916177202",
+    "price": "",
+    "zipCode": "0",
+    "type": "74881",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5d978d9b830fb22d7002996ab514683b0593bc7_md2.jpg"
+  },
+  {
+    "id": "897222511",
+    "price": "",
+    "zipCode": "74824",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2018.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0026e3b5fc72cfcb7a92056d78ef2c2d4abecf6a_md2.jpg"
+  },
+  {
+    "id": "880942204",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1520.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/da87281c4148f6ec4e827a6efb93ae94a04e108a_md2.jpg"
+  },
+  {
+    "id": "912865668",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1310.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4b5a63a7e1fc49214ff52fd8b673f53507ba7ae1_md2.jpg"
+  },
+  {
+    "id": "917355392",
+    "price": "",
+    "zipCode": "74881",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1309.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed11a663bee8ad1e9b33dd761afca01b7334bb1e_md2.jpg"
+  },
+  {
+    "id": "914576790",
+    "price": "",
+    "zipCode": "74059",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3eb28b97cdadd802685159dbd3da95e5772a2e48_md2.jpg"
+  },
+  {
+    "id": "916073818",
+    "price": "",
+    "zipCode": "74881",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6700f582d30ab42dbd6c41e3bd18d69213dda772_md2.jpg"
+  },
+  {
+    "id": "916095195",
+    "price": "",
+    "zipCode": "0",
+    "type": "73054",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1d22c0dd7e6c9b0776653a5c39e4945b09a8bbdf_md2.jpg"
+  },
+  {
+    "id": "876836315",
+    "price": "",
+    "zipCode": "0",
+    "type": "74834",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1129.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/af92975187c90060aad16f1b277e51eb5db819f0_md2.jpg"
+  },
+  {
+    "id": "914790856",
+    "price": "",
+    "zipCode": "73007",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2229.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d838c48611f64f934e38ce072af7111632f4c7dd_md2.jpg"
+  },
+  {
+    "id": "907957803",
+    "price": "",
+    "zipCode": "74824",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8ab769baf211160880d81a7408bd4dc9b711ea26_md2.jpg"
+  },
+  {
+    "id": "901494791",
+    "price": "",
+    "zipCode": "74824",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3b238578e01946a181dd04a9251310c025d49b66_md2.jpg"
+  },
+  {
+    "id": "886867034",
+    "price": "",
+    "zipCode": "74824",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6542775eee5be8cd41b3bf2d98468e22d8fad421_md2.jpg"
+  },
+  {
+    "id": "883527304",
+    "price": "",
+    "zipCode": "74824",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7d9cd23029726b99046a8aac85a5702c0b401688_md2.jpg"
+  },
+  {
+    "id": "901359588",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/518409412639d14aa5ff8867d95cd2e0b3afa88c_md2.jpg"
+  },
+  {
+    "id": "913919962",
+    "price": "",
+    "zipCode": "73054",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "1088.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e89a614d728a37ad83b10dbd18bf5f2944d02dd3_md2.jpg"
+  },
+  {
+    "id": "918690879",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2130.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e4fb4b533e5067f2ce133163fc38fb7199730eb5_md2.jpg"
+  },
+  {
+    "id": "796476370",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1484.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a4ddace3c8812f48f741bc39e092abeb7c6bd60d_md2.jpg"
+  },
+  {
+    "id": "914584321",
+    "price": "",
+    "zipCode": "0",
+    "type": "73054",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/625f1b0ed7315edfc25a171f6994305b7ca9f38d_md2.jpg"
+  },
+  {
+    "id": "894931661",
+    "price": "",
+    "zipCode": "0",
+    "type": "74834",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "826.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/340bb258d2cadccebb054b915907999b3f29de20_md2.jpg"
+  },
+  {
+    "id": "884602634",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1513.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5e411c684950b6c0f1241838af30889b0caea797_md2.jpg"
+  },
+  {
+    "id": "914584492",
+    "price": "",
+    "zipCode": "0",
+    "type": "73054",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7db8ed918e0ab4d99470a549526c0fffa82ee297_md2.jpg"
+  },
+  {
+    "id": "914600517",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1146.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/66a8b8b91ab4bf98bee4fcda3d8700f02d6cbb8f_md2.jpg"
+  },
+  {
+    "id": "920946894",
+    "price": "",
+    "zipCode": "900",
+    "type": "74834",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a874af28c370e0825e780ac37fb7118bfc019f10_md2.jpg"
+  },
+  {
+    "id": "919654562",
+    "price": "",
+    "zipCode": "74834",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0cc2896a668797865b01fe6ac9f2e9fe86b9a245_md2.jpg"
+  },
+  {
+    "id": "919653988",
+    "price": "",
+    "zipCode": "74834",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9f1af5ee8983ccc344ea7149115700cb4a76c421_md2.jpg"
+  },
+  {
+    "id": "919636771",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d18a335b1c6da71b8f05bdca9fb58d273623857e_md2.jpg"
+  },
+  {
+    "id": "918368279",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6ebd31b8436f0af1ae352c5c2867f5c619ec93c7_md2.jpg"
+  },
+  {
+    "id": "918338616",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c8b1bb235c6aa9eff86799e0652a328ee6090fd9_md2.jpg"
+  },
+  {
+    "id": "916780738",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1361.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1ff285e3d4aaf46ddaa38ab82297857eadcf1933_md2.jpg"
+  },
+  {
+    "id": "913137474",
+    "price": "",
+    "zipCode": "0",
+    "type": "74834",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fa6ac94da3bb1f3913297b0bf40cad483823f62e_md2.jpg"
+  },
+  {
+    "id": "911937210",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6162af0fd2b3851234ff5957d7bd4bb59f4038b3_md2.jpg"
+  },
+  {
+    "id": "909562393",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2385.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1b92acb0006f18a8253e4c710ab20b4ae1808d97_md2.jpg"
+  },
+  {
+    "id": "898817196",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2050.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d2cf6988b3efc5f53ffdb22c848ba6dae92908ab_md2.jpg"
+  },
+  {
+    "id": "896614747",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/76bcc1619218687fab1549593b7b7a90ead4cb24_md2.jpg"
+  },
+  {
+    "id": "886867408",
+    "price": "",
+    "zipCode": "0",
+    "type": "74834",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed9b0849f3ee3dbbc68513a0922f760f519d599e_md2.jpg"
+  },
+  {
+    "id": "886822825",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b60139554d196888b3da76c9bae36ba012178776_md2.jpg"
+  },
+  {
+    "id": "846745573",
+    "price": "",
+    "zipCode": "900",
+    "type": "74834",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/df6d9a85b76636b770b5ad0a5410a45f06c979a6_md2.jpg"
+  },
+  {
+    "id": "878510585",
+    "price": "",
+    "zipCode": "900",
+    "type": "74834",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cfe0859f7a2face0f21ef0a913d224a4a159469a_md2.jpg"
+  },
+  {
+    "id": "914583154",
+    "price": "",
+    "zipCode": "73054",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0c215800b6d699794d1782618a6bed607159d6c3_md2.jpg"
+  },
+  {
+    "id": "917376223",
+    "price": "",
+    "zipCode": "999",
+    "type": "74834",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1748.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/491aa2ccb160c72606c8fe92f99bf64562a1dba1_md2.jpg"
+  },
+  {
+    "id": "875751251",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f4670887aa07f2eca9dd8abc98299ef6c484e3cf_md2.jpg"
+  },
+  {
+    "id": "910487611",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2971.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4ba1604514dc31c5e7060721f81ebb37400a3a3f_md2.jpg"
+  },
+  {
+    "id": "903923070",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1724.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1261a67992b247a7a253c5bade961119e3acfdc4_md2.jpg"
+  },
+  {
+    "id": "879264813",
+    "price": "",
+    "zipCode": "73054",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9ad2ae97d4b8a81a1c10c9f391695513cf72d01c_md2.jpg"
+  },
+  {
+    "id": "915131420",
+    "price": "",
+    "zipCode": "74834",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2928.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ec973744f0248d1b19101fad1b5e59d74c9932bb_md2.jpg"
+  },
+  {
+    "id": "914583155",
+    "price": "",
+    "zipCode": "73054",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/751b09c38b61134063c7fad8e39c37071e9184f8_md2.jpg"
+  },
+  {
+    "id": "914583156",
+    "price": "",
+    "zipCode": "73054",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/675fc47b66b9340648ffab362591d7938fec8bf1_md2.jpg"
+  },
+  {
+    "id": "914583157",
+    "price": "",
+    "zipCode": "73054",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a5eca084f2651292e8d6d3c048d83677842caf38_md2.jpg"
+  },
+  {
+    "id": "916142718",
+    "price": "",
+    "zipCode": "74834",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ccbe8f1d46687be4db6554f6a21909b64a4b8697_md2.jpg"
+  }
+]

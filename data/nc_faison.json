@@ -1,0 +1,822 @@
+[
+  {
+    "id": "911811241",
+    "price": "",
+    "zipCode": "28341",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "3001.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f7804af6286914dcc8ef25ba9aecfa95edbc32d3_md2.jpg"
+  },
+  {
+    "id": "898337474",
+    "price": "",
+    "zipCode": "28341",
+    "type": "MobileOrManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "962.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2cc3bd0d9f7fd9785a76f5110beb6cba617c9cb0_md2.jpg"
+  },
+  {
+    "id": "910693949",
+    "price": "",
+    "zipCode": "28341",
+    "type": "MobileOrManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1404.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f7cceb3252364986b2f44b2da5eafbe71e7f708f_md2.jpg"
+  },
+  {
+    "id": "875474759",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2010.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2e51dfe6261157d4842761ced114159eb77dd514_md2.jpg"
+  },
+  {
+    "id": "892914483",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "2973.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1fea16684917dbbef5792e355a52bf87db46083e_md2.jpg"
+  },
+  {
+    "id": "917731236",
+    "price": "",
+    "zipCode": "28341",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "",
+    "squareFeet": "1300.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ac9a48fe423ff27ba33ede2c740f9669153b066_md2.jpg"
+  },
+  {
+    "id": "915789965",
+    "price": "",
+    "zipCode": "28393",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6eb93e8c9804091cca570555bfde25253fc31acd_md2.jpg"
+  },
+  {
+    "id": "915172386",
+    "price": "",
+    "zipCode": "28341",
+    "type": "MobileOrManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1344.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7964716b26a263c3ee4f426772a04ff105535761_md2.jpg"
+  },
+  {
+    "id": "915628095",
+    "price": "",
+    "zipCode": "28393",
+    "type": "MobileOrManufacturedHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2069.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3bb4a501f2e60a220b3e45257a8241fabc9d02fe_md2.jpg"
+  },
+  {
+    "id": "914587721",
+    "price": "",
+    "zipCode": "28328",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6fe297fee824cb3ac683b50f58cc36f85b9cacf8_md2.jpg"
+  },
+  {
+    "id": "875462661",
+    "price": "",
+    "zipCode": "28393",
+    "type": "MobileOrManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1120.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e99a7b403fbb1cb77b348e241f66485d3c8b05c2_md2.jpg"
+  },
+  {
+    "id": "916137715",
+    "price": "",
+    "zipCode": "28328",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/61a7d24b654d85c6cd9bd166c31c4ada51f38ef6_md2.jpg"
+  },
+  {
+    "id": "916147109",
+    "price": "",
+    "zipCode": "28328",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/af7287e938dbcffca99a78bf660c881df4d34f61_md2.jpg"
+  },
+  {
+    "id": "896062048",
+    "price": "",
+    "zipCode": "28325",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1612.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e0b66ea9226f1c9c7b69dd4f5ce41099776e136_md2.jpg"
+  },
+  {
+    "id": "894459100",
+    "price": "",
+    "zipCode": "28325",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1797.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1060d6b679fb868a8a3a13b97dc37b6123808840_md2.jpg"
+  },
+  {
+    "id": "793629935",
+    "price": "",
+    "zipCode": "28325",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9795c6aa718278f062ab9449380691c34fcd859c_md2.jpg"
+  },
+  {
+    "id": "903912048",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2216.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/151f66616553e82b1dea8deace65400a1a749b87_md2.jpg"
+  },
+  {
+    "id": "906418551",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2026.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b465e9a07432db7f69c9a038b9edfc44ed2a2cf_md2.jpg"
+  },
+  {
+    "id": "898871219",
+    "price": "",
+    "zipCode": "28393",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b9d4608bbddcca33d7f4243729b372bed81ebdf1_md2.jpg"
+  },
+  {
+    "id": "902974508",
+    "price": "",
+    "zipCode": "28341",
+    "type": "VacantLand",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/12e34c016047a88834435db3dc8fd501574d4357_md2.jpg"
+  },
+  {
+    "id": "881432771",
+    "price": "",
+    "zipCode": "28398",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2488.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/91dcd28ae2513ddf7e2a3f74f70d166ff28a8d7d_md2.jpg"
+  },
+  {
+    "id": "916138504",
+    "price": "",
+    "zipCode": "28425",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d2ed122e9d771771f602c09ec6959f3f306c8043_md2.jpg"
+  },
+  {
+    "id": "896108720",
+    "price": "",
+    "zipCode": "0",
+    "type": "28328",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1288.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/83a7bb229ce9a73a47a7367ec40548bf131b93f3_md2.jpg"
+  },
+  {
+    "id": "918707610",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2012.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a2568dbc4e8935e2865f4bc7a894d7c52776a079_md2.jpg"
+  },
+  {
+    "id": "914757253",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1280.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b0eb33e762e470481f6fccf4ca8910412e4797de_md2.jpg"
+  },
+  {
+    "id": "875201745",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1646.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d982238fcee98c85eb371db3dfa913c7d55a438b_md2.jpg"
+  },
+  {
+    "id": "915960331",
+    "price": "",
+    "zipCode": "28328",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1257.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6ad0c77cf9e7ade029f4def1e81dbca5fd657123_md2.jpg"
+  },
+  {
+    "id": "914587513",
+    "price": "",
+    "zipCode": "900",
+    "type": "28328",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b5ca84593971b000d1a32563daca86d30664a5fd_md2.jpg"
+  },
+  {
+    "id": "915594468",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "2729.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/05457cda61b595e488bad706b1be1e43462d68f6_md2.jpg"
+  },
+  {
+    "id": "915642946",
+    "price": "",
+    "zipCode": "28366",
+    "type": "MobileorManufacturedHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "2728.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/428ece7d6f99646ea05f2189e7764b01e96194c7_md2.jpg"
+  },
+  {
+    "id": "916110758",
+    "price": "",
+    "zipCode": "0",
+    "type": "28398",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6e4fcccf11021c14d0a59144773b0e05ad0a48a8_md2.jpg"
+  },
+  {
+    "id": "918406521",
+    "price": "",
+    "zipCode": "0",
+    "type": "28398",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8a0a25a6b4e86dd5a4fa5ce8f336914cc3c132b3_md2.jpg"
+  },
+  {
+    "id": "875916897",
+    "price": "",
+    "zipCode": "28328",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1488.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8c7e2c1a9a46fa9507a1d96a23428fffa0b10075_md2.jpg"
+  },
+  {
+    "id": "919019143",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2211.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/791c81ed7be1624f0f9d437f7125111fb08c0027_md2.jpg"
+  },
+  {
+    "id": "801346479",
+    "price": "",
+    "zipCode": "0",
+    "type": "28365",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1296.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c16046ef67103111d7f5d03e0d09de2b76e911a2_md2.jpg"
+  },
+  {
+    "id": "918013346",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "998.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e3f5aaee8cfa7a01f5b48569e0309ae690253f1_md2.jpg"
+  },
+  {
+    "id": "914898085",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1653.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c74ad34d3473d1ebb2c024a701ea30bdd5d35c3b_md2.jpg"
+  },
+  {
+    "id": "914603790",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "3329.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fc7d80ee296ce85fc4f97dbbea7c17a36ba96d45_md2.jpg"
+  },
+  {
+    "id": "903194506",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "2652.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/20428cd4118af740c77d6117fbf6f9e1ab813444_md2.jpg"
+  },
+  {
+    "id": "918477473",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2360.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/88d5f59f83a21238444226bbb6ff8accc27f14f2_md2.jpg"
+  },
+  {
+    "id": "895535030",
+    "price": "",
+    "zipCode": "950",
+    "type": "28365",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e9fa1ffb85b9f87b5f71dd677646949795571237_md2.jpg"
+  },
+  {
+    "id": "875562508",
+    "price": "",
+    "zipCode": "28328",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1728.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6b03c0a89e717fa3c749f39c48f0ed4006366391_md2.jpg"
+  },
+  {
+    "id": "917894978",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1325.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/31f8ff2dbf58a7f9f76cff40fdc3d1808354f627_md2.jpg"
+  },
+  {
+    "id": "841700204",
+    "price": "",
+    "zipCode": "0",
+    "type": "28328",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1824.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fdcb4d8f492f135300a00ccadd5abdb211134558_md2.jpg"
+  },
+  {
+    "id": "914608941",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2016.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0c2a5889c916e02a7438a536a7488aecce1103ab_md2.jpg"
+  },
+  {
+    "id": "913943645",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1613.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/83d4e685911dd2a4ff508bed4778fec57828fb1d_md2.jpg"
+  },
+  {
+    "id": "918004670",
+    "price": "",
+    "zipCode": "28398",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1122.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d5abef8ac10172fab78959d90706f382ff90670e_md2.jpg"
+  },
+  {
+    "id": "914950574",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "2691.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9318046374f893c3eb5e8b50518cf30cd23411e5_md2.jpg"
+  },
+  {
+    "id": "875454454",
+    "price": "",
+    "zipCode": "28366",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1098.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7531b30a017452e55d0aaec6c99f9a05ab294595_md2.jpg"
+  },
+  {
+    "id": "851437441",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1775.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/42bd93038e4987b93ab5b42a4b14a4b7760d1178_md2.jpg"
+  },
+  {
+    "id": "916071319",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2855.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/768093bfef1daa39b57d4d1b49c027a3f00d4ef7_md2.jpg"
+  },
+  {
+    "id": "900104842",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3092.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/23a10b0bb6d68e389397f03e150de97a987da28d_md2.jpg"
+  },
+  {
+    "id": "794478133",
+    "price": "",
+    "zipCode": "28365",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/05d97bb33e58f886426dc16a3c1dce43e49651f7_md2.jpg"
+  },
+  {
+    "id": "919266196",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/651c6e0a643ae82b1b59b52dbcab43262ba43a22_md2.jpg"
+  },
+  {
+    "id": "917252286",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1120.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0ffc9f757d70911cbd2193ece8dc88abaa87938c_md2.jpg"
+  },
+  {
+    "id": "913487060",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1530.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7cf27819b3d9b8701049b68477b831cc1cd255d4_md2.jpg"
+  },
+  {
+    "id": "870807300",
+    "price": "",
+    "zipCode": "0",
+    "type": "28365",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "792.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba9250719c8f01658fd80308cb50d04e8f7156ea_md2.jpg"
+  },
+  {
+    "id": "787843176",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3580.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c767210885abaa084106c3940c4f9510335b6b42_md2.jpg"
+  },
+  {
+    "id": "851919256",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/912954f1991e1600c879c5223d16c366d6c2e6e8_md2.jpg"
+  },
+  {
+    "id": "907079275",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2615.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/396d817280d9a688fb0f9700ad9f14cc867deac1_md2.jpg"
+  },
+  {
+    "id": "914960718",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "3068.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/19c1aeb7911bf622e0462331754e0b96cb6cddd3_md2.jpg"
+  },
+  {
+    "id": "916571217",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b9af73e8f21ff5026aa677eddd49836f8eb31713_md2.jpg"
+  },
+  {
+    "id": "879348859",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "11362.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8163556e4b5372c72fdbac9f9fc796fa55d2f705_md2.jpg"
+  },
+  {
+    "id": "915137410",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/988e25b1209f0f07a1fce667b8e2443f54e8bde6_md2.jpg"
+  },
+  {
+    "id": "916096912",
+    "price": "",
+    "zipCode": "0",
+    "type": "28393",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5cad0de4f4abb278ce06b474d39d0bdd532ffdd_md2.jpg"
+  },
+  {
+    "id": "905670359",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1482.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/51bb84b3efc2d145d6c0a6721036f9ce305dc6eb_md2.jpg"
+  },
+  {
+    "id": "917094759",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2484.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/207226d8de97d7cb847d1fd71fba4a1243bc026c_md2.jpg"
+  },
+  {
+    "id": "915106817",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1425.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a0bb30aa709bab26e7225fef231de123f1b8e45d_md2.jpg"
+  },
+  {
+    "id": "916172105",
+    "price": "",
+    "zipCode": "0",
+    "type": "28393",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fb813c6885d07382865d48f819cf858717fd3fdd_md2.jpg"
+  },
+  {
+    "id": "896708267",
+    "price": "",
+    "zipCode": "28328",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2271.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/04559f0447ecd0bd16c95e1af8e50e040c589262_md2.jpg"
+  },
+  {
+    "id": "875237576",
+    "price": "",
+    "zipCode": "28328",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1352.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/52934a65dcfa9425539b02f6a09d1b8aba9e5da3_md2.jpg"
+  },
+  {
+    "id": "892647264",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1873.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e18170ea0ea85b50ca5456f24468da5dbf12db19_md2.jpg"
+  },
+  {
+    "id": "805589717",
+    "price": "",
+    "zipCode": "0",
+    "type": "28365",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1702.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1da4e1b28c28f8582c2557b2203abdcfab815e07_md2.jpg"
+  },
+  {
+    "id": "915225215",
+    "price": "",
+    "zipCode": "28393",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d480b1258649c2698db321e366cb9aaa3837d0dd_md2.jpg"
+  },
+  {
+    "id": "915066064",
+    "price": "",
+    "zipCode": "500",
+    "type": "28328",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/89d1dac1811cdb80a3856534c906628a47821551_md2.jpg"
+  },
+  {
+    "id": "915541884",
+    "price": "",
+    "zipCode": "693",
+    "type": "28365",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fdd698b27cbd4a5686e7ee3bb045a21c03148713_md2.jpg"
+  },
+  {
+    "id": "914588542",
+    "price": "",
+    "zipCode": "750",
+    "type": "28328",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/64dcf573e5a0e7ed8771ff18ff06b06df52a6794_md2.jpg"
+  },
+  {
+    "id": "850708254",
+    "price": "",
+    "zipCode": "28328",
+    "type": "MobileorManufacturedHome",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5f985864bc645fd6b471c9716c52ac9f24d07622_md2.jpg"
+  },
+  {
+    "id": "898112885",
+    "price": "",
+    "zipCode": "28365",
+    "type": "MobileorManufacturedHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2356.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c04a5e7683c80c9e0f7b2b1b7afbf9524891631b_md2.jpg"
+  },
+  {
+    "id": "912019192",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1698.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8d72b5b596fe8e11d0cd511704e6b7cc0c641b35_md2.jpg"
+  },
+  {
+    "id": "907174576",
+    "price": "",
+    "zipCode": "28365",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1768.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d28c59d138297bb1ed33209859a6f0cab87ad80f_md2.jpg"
+  },
+  {
+    "id": "919303702",
+    "price": "",
+    "zipCode": "28366",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1556.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e260d8772618e8d5a0dee55401516a4d2ded3cc3_md2.jpg"
+  }
+]

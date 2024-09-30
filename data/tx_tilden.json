@@ -1,0 +1,832 @@
+[
+  {
+    "id": "920303670",
+    "price": "",
+    "zipCode": "78072",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "4177.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/75f6c32a695a645ec1fad8ae8cc450fafaba3f6c_md2.jpg"
+  },
+  {
+    "id": "915638812",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b40b782f4d2238c7180c61fc36f98bfd681acd88_md2.jpg"
+  },
+  {
+    "id": "828478999",
+    "price": "",
+    "zipCode": "78007",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1212.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8479ba0024cb854a38f386b5d7af0dde18b927a9_md2.jpg"
+  },
+  {
+    "id": "916093311",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/59bd9babe2ec44b754d4e2046092382de8000e63_md2.jpg"
+  },
+  {
+    "id": "916136809",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3052d1613d3dbde7842e20ff27b64dfe9c564fd6_md2.jpg"
+  },
+  {
+    "id": "900761127",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3904.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4947d8d2e2ced4f3f795431fa6da0ab9963fbf33_md2.jpg"
+  },
+  {
+    "id": "891222925",
+    "price": "",
+    "zipCode": "78357",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/649b235eff03bed8d2cc7a9cd92f426e2e2cb38e_md2.jpg"
+  },
+  {
+    "id": "884347312",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2070.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4df5cc6debbec904f2b7edf67dd748dbb6a15c6a_md2.jpg"
+  },
+  {
+    "id": "841227548",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1008.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3bcf0274ee3c26c7c03ececfdc2ce2e49a64698c_md2.jpg"
+  },
+  {
+    "id": "795208167",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1734.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f3a52565e96a88d3a76abc8b4375c09fb4d38ebf_md2.jpg"
+  },
+  {
+    "id": "915376660",
+    "price": "",
+    "zipCode": "78071",
+    "type": "MultifamilyFivePlusUnits",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "21913.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9ede52877a78118a3765be13516d9e2772ce606a_md2.jpg"
+  },
+  {
+    "id": "881582384",
+    "price": "",
+    "zipCode": "78071",
+    "type": "VacantLand",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2256.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dcf670b40460e882274fdcc5cb90c2168eb5cbee_md2.jpg"
+  },
+  {
+    "id": "915321554",
+    "price": "",
+    "zipCode": "78014",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2896.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ee1f31ba749ba1f8de924beec432936f90611a5c_md2.jpg"
+  },
+  {
+    "id": "799776960",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1828.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cec814983a0d8dcfadb340ae8033d14deaf1de2a_md2.jpg"
+  },
+  {
+    "id": "905737414",
+    "price": "",
+    "zipCode": "78071",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e168e0e6dc0e45866ca5985b83d9ddf1d4bf631f_md2.jpg"
+  },
+  {
+    "id": "915433113",
+    "price": "",
+    "zipCode": "78372",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2cf2dccb52a83c509d263c76b80e319560cf19ee_md2.jpg"
+  },
+  {
+    "id": "891309158",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "2400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/58568e78be2fdfe8ba7bc3740bb60a4dcdd92831_md2.jpg"
+  },
+  {
+    "id": "916085149",
+    "price": "",
+    "zipCode": "78357",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1251.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c40ca58d479a05b69b6bc7d19818c8c585987e0f_md2.jpg"
+  },
+  {
+    "id": "914616875",
+    "price": "",
+    "zipCode": "78357",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6e4285e85efa2803d74db0b8aa11654bd2a8c1d7_md2.jpg"
+  },
+  {
+    "id": "891222845",
+    "price": "",
+    "zipCode": "78357",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5ac116998f1350eff669b83f3b9482f60faf7357_md2.jpg"
+  },
+  {
+    "id": "903982570",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/43538aa65c047a5f16610418be41054433bcdda3_md2.jpg"
+  },
+  {
+    "id": "915348759",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1468.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/be2531db74d7f247844d3bc00f0f1678df4a7a7f_md2.jpg"
+  },
+  {
+    "id": "868412215",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2144.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/905da5751a46bfd5e06354c97eb37fd8b5a1072b_md2.jpg"
+  },
+  {
+    "id": "914581177",
+    "price": "",
+    "zipCode": "78071",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/74e1d35f27b359a14890c31cb2e860655f5c9b59_md2.jpg"
+  },
+  {
+    "id": "910668769",
+    "price": "",
+    "zipCode": "78357",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4d4835e8ff8bd3173b2ca27d297ddf54871bb429_md2.jpg"
+  },
+  {
+    "id": "841423592",
+    "price": "",
+    "zipCode": "78022",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1434.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/260ffc5c880db1d0d199bfb1379a428510add1e3_md2.jpg"
+  },
+  {
+    "id": "913626999",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1300.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1e4f2ecd5f7b0f250a4c40e4f7778ac0fe991d0c_md2.jpg"
+  },
+  {
+    "id": "875218506",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1370.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b6a6d4ab9640188f7d3b4841ba5684d9b6b2d3b2_md2.jpg"
+  },
+  {
+    "id": "905881557",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2039.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/883fa90a7028ef20ee11bc6f33efaba84ac71bf8_md2.jpg"
+  },
+  {
+    "id": "915091196",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "640.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fa61f81802e5637a2558da327ff1d57fcafe01fa_md2.jpg"
+  },
+  {
+    "id": "870568418",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1904.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/38f94431b7c55fb755b2baed19b399343065f7ca_md2.jpg"
+  },
+  {
+    "id": "876174416",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "6061.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2f086cdbeb5162ef66005e6786e266c0707d806c_md2.jpg"
+  },
+  {
+    "id": "915353924",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "4788.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ab3d8d925ffdbda1aa7e75fee622a611cc9d5ff8_md2.jpg"
+  },
+  {
+    "id": "900501153",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1238.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/81f4747029431dc3a7e2d3e30937b6de88b6ad6f_md2.jpg"
+  },
+  {
+    "id": "919789499",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "3940.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c4b4cd96b6565ad40cc23084e9ca0711e59b27ab_md2.jpg"
+  },
+  {
+    "id": "917560226",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2100.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/32d6b0f4779e257583658725db082022b69e8c6d_md2.jpg"
+  },
+  {
+    "id": "916959988",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5550714482a398807042006eef3bb728fb478251_md2.jpg"
+  },
+  {
+    "id": "916804254",
+    "price": "",
+    "zipCode": "78022",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2624.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/350ebf336ced8e0f278e35e36b447d226192a6c4_md2.jpg"
+  },
+  {
+    "id": "914962168",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1790.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1c9480610e0f8050ff98fe5513f0bb2c2ed33151_md2.jpg"
+  },
+  {
+    "id": "913826316",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1408.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1636f384857544c23251f915f0dc4836c3ea550c_md2.jpg"
+  },
+  {
+    "id": "904423221",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b523e31be5159d98e4a0a89c89c24f1406f16884_md2.jpg"
+  },
+  {
+    "id": "892579112",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1825.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f55f41af15d6517d4c110c0964ee9eee6709e9ca_md2.jpg"
+  },
+  {
+    "id": "887964622",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c027366620905e8aa99aaf1f020b76782e2a7a6c_md2.jpg"
+  },
+  {
+    "id": "877287132",
+    "price": "",
+    "zipCode": "78022",
+    "type": "MobileorManufacturedHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1980.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/259a4d996985bfffb98a41ea2bbd830fff81b4f7_md2.jpg"
+  },
+  {
+    "id": "874284466",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "1.0",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/95d218cfb15c4b4fac5b43334e1c6b14ee65e265_md2.jpg"
+  },
+  {
+    "id": "872332818",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c280e75a4ea0cc21874e6010536f7043b401393f_md2.jpg"
+  },
+  {
+    "id": "868900200",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0ec9ae65d70ce28a833c9d4dfdae21a423f9aad6_md2.jpg"
+  },
+  {
+    "id": "841337890",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1050.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f1644fe243faf5d16f00ff6d1810d7e0c6bfc34b_md2.jpg"
+  },
+  {
+    "id": "841243405",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1168.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/58ef4cdcd32b36f7bb2b2e1e00f45d7b8bf976a3_md2.jpg"
+  },
+  {
+    "id": "764450485",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f04e10608e4c5bcbc33a5296454f7e4fa36beabc_md2.jpg"
+  },
+  {
+    "id": "875096316",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "2476.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8cf266a361c49995f0a393b4bc1ff119adde1951_md2.jpg"
+  },
+  {
+    "id": "914853412",
+    "price": "",
+    "zipCode": "78357",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1104.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba35850bc83e5a470ddc58b5b49c847e6b9f3326_md2.jpg"
+  },
+  {
+    "id": "915757417",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2557.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4cc51dd82570f0b0405425a321fcd722df34fc88_md2.jpg"
+  },
+  {
+    "id": "916089055",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/826748c7b44a809b0dacf95de2ade3ed5b7067db_md2.jpg"
+  },
+  {
+    "id": "916122453",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f0048f3899f7236283f1276145df3b8a4a084ae6_md2.jpg"
+  },
+  {
+    "id": "902021859",
+    "price": "",
+    "zipCode": "78022",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/11d40c50a42ca2592eb5e1ce0828dcdd1981bb86_md2.jpg"
+  },
+  {
+    "id": "854189663",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1171.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b633c20c038aa2ad9ab7617549dd71aec1974cb4_md2.jpg"
+  },
+  {
+    "id": "866484112",
+    "price": "",
+    "zipCode": "78022",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1760.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b5d9a36f1f4400bd0d2397e08248186241591bf1_md2.jpg"
+  },
+  {
+    "id": "891150354",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1216.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f7980ffce20cd955a2dee7355233ba5591042483_md2.jpg"
+  },
+  {
+    "id": "892600929",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/615dff89cb4e4440ca529aec9fbbd7ffcfaa6946_md2.jpg"
+  },
+  {
+    "id": "916093504",
+    "price": "",
+    "zipCode": "78384",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b378fb9a2c6c18dc745cc0407a99e2188eed9af8_md2.jpg"
+  },
+  {
+    "id": "877397894",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1560.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/555b7e274b60aac9bd23471fc20b08589af3ac23_md2.jpg"
+  },
+  {
+    "id": "770291539",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2298.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3176e2ae289e996693b8055633edabe2e6cda1c0_md2.jpg"
+  },
+  {
+    "id": "914580151",
+    "price": "",
+    "zipCode": "78071",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9a655f8cad33fd291cd98b16cad0dcd13e8beac1_md2.jpg"
+  },
+  {
+    "id": "868810193",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1320.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1067bf48035c0db5d4ab6c489b04cac360ac359d_md2.jpg"
+  },
+  {
+    "id": "892617443",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3450.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e361a0d7461f80d76dd0c280cb1ce2590aa59d68_md2.jpg"
+  },
+  {
+    "id": "920953583",
+    "price": "",
+    "zipCode": "78071",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6d927f88f8230258656702dc4ae9f0a086b4bc5e_md2.jpg"
+  },
+  {
+    "id": "919366425",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1408.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6d4ef358fcaadcfe7ab17ff4ba5b43c9f5aee82e_md2.jpg"
+  },
+  {
+    "id": "916429726",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1590.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/afc154475134be8f655a04c23462a7ae3e709f62_md2.jpg"
+  },
+  {
+    "id": "912458531",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1510.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/07fd300a90720c50bad737742f60bec2059dac35_md2.jpg"
+  },
+  {
+    "id": "912375819",
+    "price": "",
+    "zipCode": "78071",
+    "type": "Multi-family(2-4units",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "10656.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f11533303ee462e6a8db1481fe199be696c7e89c_md2.jpg"
+  },
+  {
+    "id": "907385912",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "4240.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4d51d653bfadddb6b0c37b16aebd7ed5db55aeed_md2.jpg"
+  },
+  {
+    "id": "904658155",
+    "price": "",
+    "zipCode": "78071",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/761843b5d12d1aec14a70b5014e0613fc00f3003_md2.jpg"
+  },
+  {
+    "id": "902330838",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1148.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c876763d172aa7be02ec9f066aa09c67eac84340_md2.jpg"
+  },
+  {
+    "id": "901761680",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "7.0",
+    "baths": "4.0",
+    "squareFeet": "2102.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7230053be5c7527e73b7688f6ad53fa04b6062c3_md2.jpg"
+  },
+  {
+    "id": "898102121",
+    "price": "",
+    "zipCode": "78071",
+    "type": "Multi-family(5ormoreunits",
+    "beds": "2.0",
+    "baths": "",
+    "squareFeet": "5220.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9b4cab27e816032934221c4b9bd654411eb799d9_md2.jpg"
+  },
+  {
+    "id": "894413946",
+    "price": "",
+    "zipCode": "78071",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2112.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1228112cbe839b992d974a41ce9526d653875ee4_md2.jpg"
+  },
+  {
+    "id": "875299419",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a05ca18077c6de6d73c82b8285453f5287cef162_md2.jpg"
+  },
+  {
+    "id": "842130583",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1035.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c7bb7563cac88a1fbf583f8ded88ef0aea5c60ff_md2.jpg"
+  },
+  {
+    "id": "841359463",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1432.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9f72d38049f07151573f8154a0aee77de07a11af_md2.jpg"
+  },
+  {
+    "id": "807381635",
+    "price": "",
+    "zipCode": "78071",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1428.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ec48e657da6fa59789f2cbfb253a20b945b0320c_md2.jpg"
+  },
+  {
+    "id": "915061423",
+    "price": "",
+    "zipCode": "78022",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3450.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c51850d147167558acc848b05f3790dbae81a06e_md2.jpg"
+  },
+  {
+    "id": "913421091",
+    "price": "",
+    "zipCode": "78021",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/650fe0776118513c95d04a535bff3f0463e8238d_md2.jpg"
+  }
+]

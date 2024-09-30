@@ -1,0 +1,922 @@
+[
+  {
+    "id": "875392703",
+    "price": "",
+    "zipCode": "68018",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d69a9ed6dc3591ed61f93e7020ebc6bf50aaf64_md2.jpg"
+  },
+  {
+    "id": "900204572",
+    "price": "",
+    "zipCode": "68018",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1928.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0cc509d53f61d86524a870f9ef0566fa95b844fa_md2.jpg"
+  },
+  {
+    "id": "904228136",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "4.0",
+    "squareFeet": "3062.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/eabfd29fbe558bb8b00d5020e14ab9a80d28d57b_md2.jpg"
+  },
+  {
+    "id": "903505400",
+    "price": "",
+    "zipCode": "68066",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ef98d713ef4f5df071af17dcc949447575ab0da_md2.jpg"
+  },
+  {
+    "id": "844273915",
+    "price": "",
+    "zipCode": "68066",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b57ef60047e110e7485e124c10b512fd09133d3e_md2.jpg"
+  },
+  {
+    "id": "903786846",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2426.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/768c21d90eaed2f399aaddf777dd12c98bd823da_md2.jpg"
+  },
+  {
+    "id": "904482695",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d345de04d8bd512f7be79e4a90e5240ea328b7dc_md2.jpg"
+  },
+  {
+    "id": "904385970",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2705.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0791a09c59616ff2e52263501e7a40369faf5d6f_md2.jpg"
+  },
+  {
+    "id": "904651854",
+    "price": "",
+    "zipCode": "68066",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fdded49c5a2863781e355dac6587f6fcf6a8171a_md2.jpg"
+  },
+  {
+    "id": "903649161",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2252.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5ed640067bd0f8194b5f9834ed70625843c19eb4_md2.jpg"
+  },
+  {
+    "id": "904438845",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2671.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1df6a52873b467d981c20ec882dec28982710409_md2.jpg"
+  },
+  {
+    "id": "912323189",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1064.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5de3f308db5cf25e3c66dcbf1a99788840c5c413_md2.jpg"
+  },
+  {
+    "id": "903538446",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2044.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2413bbfa7bd64851105889e1daa333ecb5f446f2_md2.jpg"
+  },
+  {
+    "id": "911435352",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1029.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/626ef0b0d9b5473e2f9d9410120be391887a0968_md2.jpg"
+  },
+  {
+    "id": "909903439",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1298.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/81d1072bfc91313c5f1f79b6fd6f0d243bba6c36_md2.jpg"
+  },
+  {
+    "id": "834465223",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "2710.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/37716e52cc903eba8341fdd294fa06003d3f3368_md2.jpg"
+  },
+  {
+    "id": "901158116",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1411.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b78d8a3fcc148196bfe4141d34b3b08c5dd0e6c8_md2.jpg"
+  },
+  {
+    "id": "908109814",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2394.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4e06f1677c9a5727c8cce06937a6cfb9bf39ebbe_md2.jpg"
+  },
+  {
+    "id": "903373736",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1092.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b39940120c2eeb2b408bf4adea85e6f62c760052_md2.jpg"
+  },
+  {
+    "id": "903370179",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1092.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8cf9851b91ee3a5ce6ec6e13e4ef1a06b528d680_md2.jpg"
+  },
+  {
+    "id": "912144148",
+    "price": "",
+    "zipCode": "68066",
+    "type": "VacantLand",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1589.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0adef4fd2f5d1190bcccb63b35a318b1b45f1c0a_md2.jpg"
+  },
+  {
+    "id": "887922995",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2396.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/38ee76e23fef0de9a56477945d94e782849754c3_md2.jpg"
+  },
+  {
+    "id": "868384779",
+    "price": "",
+    "zipCode": "68066",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b74a62b68c89402d97d36d5fd31520770061d512_md2.jpg"
+  },
+  {
+    "id": "913055068",
+    "price": "",
+    "zipCode": "950",
+    "type": "68066",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "888.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba2e9d1961fb45a40128e7b2892bc951006b1c82_md2.jpg"
+  },
+  {
+    "id": "891159022",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2051.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/379ed188974fac844a6aa19d87c153ed78c62fec_md2.jpg"
+  },
+  {
+    "id": "871357143",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1158.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/038930896fc61f9d5acb8db50aa62c91c8dd9f04_md2.jpg"
+  },
+  {
+    "id": "913167125",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2304.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f099a33276626337fb35e75f94f80ebc3182e3aa_md2.jpg"
+  },
+  {
+    "id": "908888391",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1566.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1c371569c457cbfc685e6f17f629ec71886117cf_md2.jpg"
+  },
+  {
+    "id": "905420549",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1432.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/80d1cd981a6c697eb17244313428b82f70aec1e6_md2.jpg"
+  },
+  {
+    "id": "919555264",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1765.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ff218d251f79a1e46f4f8eb7f08a4c20cfeeaaf4_md2.jpg"
+  },
+  {
+    "id": "896773484",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3095.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ab573a22034cfeac7d0c0c2ab9650494e01fef8c_md2.jpg"
+  },
+  {
+    "id": "907280766",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1286.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8e8ae3b450a0816a6b6016ebfebe688acebffc49_md2.jpg"
+  },
+  {
+    "id": "807524402",
+    "price": "",
+    "zipCode": "0",
+    "type": "68040",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1561.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0aaec72bea8698c3efc4a74b0149fc5bb066d031_md2.jpg"
+  },
+  {
+    "id": "905917896",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1104.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b8e3562605d5258c532ebb355167d69f70f384cf_md2.jpg"
+  },
+  {
+    "id": "912451132",
+    "price": "",
+    "zipCode": "68015",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "2607.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cb01e080f4034863b918c6b81d1da9e58bdcd8e2_md2.jpg"
+  },
+  {
+    "id": "910680665",
+    "price": "",
+    "zipCode": "68015",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1246.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/91b052115c01ec2a1beb81b383035f0034e16fa5_md2.jpg"
+  },
+  {
+    "id": "865027153",
+    "price": "",
+    "zipCode": "68015",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1120.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/753d2f4a947c1577da65348824061558893c1570_md2.jpg"
+  },
+  {
+    "id": "904461820",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2855.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f1ae7ee880f646ced9d43f91df0dcc932e4b741d_md2.jpg"
+  },
+  {
+    "id": "919052159",
+    "price": "",
+    "zipCode": "68015",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bdf6e63cfc596605989880d893af574f70c45d3f_md2.jpg"
+  },
+  {
+    "id": "897993854",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "4524.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/04c8c9b51677282809f33a4f55d50fdc95934175_md2.jpg"
+  },
+  {
+    "id": "898088391",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3966.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3b89fb5a49c2f9fa0b8e3a7a40b8b73a5df50f9b_md2.jpg"
+  },
+  {
+    "id": "883979321",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "3.0",
+    "squareFeet": "1496.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/12dfe718bf04532a07b9aaf5f9027aee22c24bc4_md2.jpg"
+  },
+  {
+    "id": "834334512",
+    "price": "",
+    "zipCode": "68041",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1582.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5e9f6784ddb89d3e5ee6a63f0fbfd6ff989075a5_md2.jpg"
+  },
+  {
+    "id": "904245761",
+    "price": "",
+    "zipCode": "388",
+    "type": "68041",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1308.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/67106d0d066fd466467c42da970ab2a617293da4_md2.jpg"
+  },
+  {
+    "id": "880575930",
+    "price": "",
+    "zipCode": "68041",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1870.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/382c0cc59930ad00bb63a30036f0e1325bb270d1_md2.jpg"
+  },
+  {
+    "id": "916320612",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1937.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a74a39a79cd18d99d94c5a50f40604301eb801a0_md2.jpg"
+  },
+  {
+    "id": "903838572",
+    "price": "",
+    "zipCode": "68025",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9a72a10c95f8c3e665eb95c4529404031e5b4704_md2.jpg"
+  },
+  {
+    "id": "912616737",
+    "price": "",
+    "zipCode": "68025",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d86ff9357641ef212a3cc201c9325a4099851e77_md2.jpg"
+  },
+  {
+    "id": "910732577",
+    "price": "",
+    "zipCode": "668",
+    "type": "68025",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "1252.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b393e77c3ba1d7bd48d3f05870663a89997de711_md2.jpg"
+  },
+  {
+    "id": "909209824",
+    "price": "",
+    "zipCode": "68066",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "4365.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0fbff22edb6f3decac2a4c6249d08742a9fba36e_md2.jpg"
+  },
+  {
+    "id": "907974074",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "3180.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5ec8b4c63801016c67492f48947538a0cb9a3ac_md2.jpg"
+  },
+  {
+    "id": "913410230",
+    "price": "",
+    "zipCode": "68025",
+    "type": "VacantLand",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2652.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/409a7d1b3d089f9967dbc51203ff597b81a035da_md2.jpg"
+  },
+  {
+    "id": "863868369",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1715.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1ab5ea6704748232da36b0b5b55562ef1f40f5ba_md2.jpg"
+  },
+  {
+    "id": "913451443",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1395.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/004bde2ed244c61f9daabd1d273a9b635a32d0f0_md2.jpg"
+  },
+  {
+    "id": "884009787",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2640.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/301e7e967e753019225b50e5c66aaa07f34297ab_md2.jpg"
+  },
+  {
+    "id": "912965744",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "",
+    "squareFeet": "3430.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5b98c4934e872f6a5f37b9dced22d145db979a7_md2.jpg"
+  },
+  {
+    "id": "904672758",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1806.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/31de7188539c2112f8917fd51ae0bc79d3b39784_md2.jpg"
+  },
+  {
+    "id": "913453736",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3180.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e52ca2e831f956e01edba932c9ac98203b58e1c8_md2.jpg"
+  },
+  {
+    "id": "913450932",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2715.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c4aac9a9f3f2e1529569955773b3536d38678361_md2.jpg"
+  },
+  {
+    "id": "913451444",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1874.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7b9ec8258be9be64a7e978b8afe95a0aab8dea8b_md2.jpg"
+  },
+  {
+    "id": "912280882",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "3.0",
+    "squareFeet": "1593.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/71264b1ea54438dea5d070ba5c65854d13a3824d_md2.jpg"
+  },
+  {
+    "id": "912280881",
+    "price": "",
+    "zipCode": "68025",
+    "type": "VacantLand",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "952.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/85d60c2844df9456df5645a55a204635c3f90591_md2.jpg"
+  },
+  {
+    "id": "889539702",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "3.0",
+    "squareFeet": "3374.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c5f5c74567fa669fcace580e13796a559be9714e_md2.jpg"
+  },
+  {
+    "id": "912280883",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "3093.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/180be6ec0ef14e6927149881f1c9a85ac269b875_md2.jpg"
+  },
+  {
+    "id": "865517352",
+    "price": "",
+    "zipCode": "292",
+    "type": "68064",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1988.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/73be700d0d89f7378e815a8f4d662e5e25d00259_md2.jpg"
+  },
+  {
+    "id": "880426727",
+    "price": "",
+    "zipCode": "68025",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1383c8e5267a6714f9475cf01b7d39c396fbde6d_md2.jpg"
+  },
+  {
+    "id": "903712551",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1639.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bbd79cbe56ee2733f8c5ac49a25ac3ada429ee25_md2.jpg"
+  },
+  {
+    "id": "908656591",
+    "price": "",
+    "zipCode": "900",
+    "type": "68070",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "830.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fda753d82b554b76858366d542ee2105c4cd1dfc_md2.jpg"
+  },
+  {
+    "id": "886002257",
+    "price": "",
+    "zipCode": "0",
+    "type": "68025",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6214ebb9cc10adaba68ac0082e80fcd0cd921afa_md2.jpg"
+  },
+  {
+    "id": "723656925",
+    "price": "",
+    "zipCode": "200",
+    "type": "68025",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5e14a3e1c935d54cee54d5ed4b9ebdd6685fb44f_md2.jpg"
+  },
+  {
+    "id": "903706991",
+    "price": "",
+    "zipCode": "68066",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/243aaa7bd864eb803b2288d43c142d256b6d6aa9_md2.jpg"
+  },
+  {
+    "id": "906186721",
+    "price": "",
+    "zipCode": "250",
+    "type": "68025",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/26c215c497e715ee47c1c0e488c4910ade3fba5f_md2.jpg"
+  },
+  {
+    "id": "874541128",
+    "price": "",
+    "zipCode": "0",
+    "type": "68025",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "672.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/549b3469c3f8d55aeac48eaff520bb112dd7c7ea_md2.jpg"
+  },
+  {
+    "id": "911542626",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "3182.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/672809863f7e2dec1c75ec0726e8b67535dc8998_md2.jpg"
+  },
+  {
+    "id": "875259254",
+    "price": "",
+    "zipCode": "68070",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1384.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b1983625ae20c326e4ce708d5ce8a424b738bd15_md2.jpg"
+  },
+  {
+    "id": "788109338",
+    "price": "",
+    "zipCode": "283",
+    "type": "68050",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1085.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/745713d0e420448c771179a89bb914a993eda256_md2.jpg"
+  },
+  {
+    "id": "903891793",
+    "price": "",
+    "zipCode": "0",
+    "type": "68066",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a5e9f97728b45f28b083470b0f511828abd97e76_md2.jpg"
+  },
+  {
+    "id": "877956442",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "976.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/36330c5e756c37d5dc7e43dacefe88ba4f26f9c3_md2.jpg"
+  },
+  {
+    "id": "916342304",
+    "price": "",
+    "zipCode": "490",
+    "type": "68033",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "656.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e3a3b13d698c6aad3a1722343536c3220006ddd6_md2.jpg"
+  },
+  {
+    "id": "895888704",
+    "price": "",
+    "zipCode": "68050",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "1.0",
+    "squareFeet": "2040.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/abf10faa602569da4e0b6c8cb3ef496e9265f70d_md2.jpg"
+  },
+  {
+    "id": "841586247",
+    "price": "",
+    "zipCode": "900",
+    "type": "68025",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1362.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/524bf5eb3c8fed4ad1c268f59ea7c87e08aa7076_md2.jpg"
+  },
+  {
+    "id": "904461818",
+    "price": "",
+    "zipCode": "990",
+    "type": "68025",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1504.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/427b8ecc13c394a4e34a6f5228284e56dd7b43da_md2.jpg"
+  },
+  {
+    "id": "795819568",
+    "price": "",
+    "zipCode": "487",
+    "type": "68025",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "1709.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fcd584f02c28bcbde9a8b5b13eef5de5067f4acd_md2.jpg"
+  },
+  {
+    "id": "912578474",
+    "price": "",
+    "zipCode": "500",
+    "type": "68025",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "660.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba7d5564ff1afcd258fe6f6d932021c22696454e_md2.jpg"
+  },
+  {
+    "id": "917029964",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "960.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a5ab8f0f7cae9f8f4e8bd6d9de03fd1eb0ae2734_md2.jpg"
+  },
+  {
+    "id": "915565911",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1279.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/71deb735b3b64e5d2c4ad011ab6f9c0bb2368009_md2.jpg"
+  },
+  {
+    "id": "918735109",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1344.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/46beecc632a4723b109cf1caaf3faf9958c3ff15_md2.jpg"
+  },
+  {
+    "id": "913055600",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "816.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3ef648022bc8379740217efb5e5867b7f46305df_md2.jpg"
+  },
+  {
+    "id": "904255110",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1620.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cea3fa225f3ccc5f9706835593a5a2a68ceca285_md2.jpg"
+  },
+  {
+    "id": "906375160",
+    "price": "",
+    "zipCode": "0",
+    "type": "68025",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2900.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3388a59808b03faa7b8d4cf0b7ef5b1b8aff2e3c_md2.jpg"
+  },
+  {
+    "id": "910674819",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2614.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2095d519afc960b55a14b4b71b26d3b5f28c7c79_md2.jpg"
+  },
+  {
+    "id": "915886927",
+    "price": "",
+    "zipCode": "68025",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1618.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1c0a8fd225e3887007478c602f69f870bf7ab884_md2.jpg"
+  }
+]

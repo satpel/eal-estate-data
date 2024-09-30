@@ -1,0 +1,832 @@
+[
+  {
+    "id": "911279771",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "845.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/afba2065fa02f35048afde73d916540f8f4c1380_md2.jpg"
+  },
+  {
+    "id": "565425267",
+    "price": "",
+    "zipCode": "60101",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9087284b75f6c44de897d67543e2be307c63be39_md2.jpg"
+  },
+  {
+    "id": "778448385",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2600.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3d2d2f161a418710e1c47327a40b830fc009fa82_md2.jpg"
+  },
+  {
+    "id": "769563826",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2600.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7792456de4a3fc9669e40c9a6c18caa3c80268f0_md2.jpg"
+  },
+  {
+    "id": "915859485",
+    "price": "",
+    "zipCode": "60172",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5aeecb5b1d000b7ba2e17b842ad870a81c093237_md2.jpg"
+  },
+  {
+    "id": "767489467",
+    "price": "",
+    "zipCode": "60148",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fa8b4be722d073c630a982ebbef93dcff4b7c23b_md2.jpg"
+  },
+  {
+    "id": "764241521",
+    "price": "",
+    "zipCode": "60187",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "5.0",
+    "squareFeet": "3690.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/29c6f76c70180183c123bab19198de543e03b28a_md2.jpg"
+  },
+  {
+    "id": "759964748",
+    "price": "",
+    "zipCode": "60190",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/63b0f5ba08e722ee650980bba22034a3e6345abd_md2.jpg"
+  },
+  {
+    "id": "841479842",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1317.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/64351831f23bfed3aaa72dba3bb4478fcce5539d_md2.jpg"
+  },
+  {
+    "id": "841580254",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1186.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fe08e97bc2f980aa3f88d79d8a8d58ea0ebdf3c9_md2.jpg"
+  },
+  {
+    "id": "912150803",
+    "price": "",
+    "zipCode": "60101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3078.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e6797e80a7a23c233c64f416a1c25892176aa62c_md2.jpg"
+  },
+  {
+    "id": "855734630",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1303.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d00a87f8dd046f17f57cf6af6972a14c4ece6898_md2.jpg"
+  },
+  {
+    "id": "865373575",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1027.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e45e8749b6bbe089476057a5f7635de56aaf3251_md2.jpg"
+  },
+  {
+    "id": "865293591",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1020.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b617e8226e0aa6fa6f2bf145e2047f1a51721d2_md2.jpg"
+  },
+  {
+    "id": "830784270",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "3094.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b8e0bdd4b4f5ce5f692c7e3e7a9491d57344b420_md2.jpg"
+  },
+  {
+    "id": "884899927",
+    "price": "",
+    "zipCode": "60139",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1040.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6500073fb43301635984c96b420489fcbf6da160_md2.jpg"
+  },
+  {
+    "id": "903399889",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1020.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4e757ee31d574afaca3dad825b3fdd45bde7853a_md2.jpg"
+  },
+  {
+    "id": "788891935",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1104.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e6758486fbd5194f28d83c173e1a55c3e05a2568_md2.jpg"
+  },
+  {
+    "id": "858077475",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1494.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/66a792cf5335ba8d9c9f7898259e5bd9925ee551_md2.jpg"
+  },
+  {
+    "id": "910998480",
+    "price": "",
+    "zipCode": "60139",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1183.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c6b3e0273dab63ef57714a613ba9cdfd59c7e16b_md2.jpg"
+  },
+  {
+    "id": "839698296",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2236.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/63727e760dd986dcbaf7050b3cbb360531b4fb98_md2.jpg"
+  },
+  {
+    "id": "890617142",
+    "price": "",
+    "zipCode": "589",
+    "type": "60139",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1274.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2d11b0e7e1c3259a91f7b8853d6e42d52044dc57_md2.jpg"
+  },
+  {
+    "id": "863163569",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1098.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f0155110357abd7808bd9b55a984aca9ef248b6d_md2.jpg"
+  },
+  {
+    "id": "830729094",
+    "price": "",
+    "zipCode": "880",
+    "type": "60139",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1098.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e04fae74854d31e0aa9ffd84174d88744c44cd07_md2.jpg"
+  },
+  {
+    "id": "830608693",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2126.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1cb29026cb7adef6ffadcc63a0dae9c05e45e8c4_md2.jpg"
+  },
+  {
+    "id": "830531251",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1219.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c3331ad2d0b5a4f9cc8b91c955fc8a57bd5af305_md2.jpg"
+  },
+  {
+    "id": "841426558",
+    "price": "",
+    "zipCode": "905",
+    "type": "60139",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1332.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f795e2541b261089b04b2b63597c0bf82b8d52fa_md2.jpg"
+  },
+  {
+    "id": "900125640",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "3.0",
+    "squareFeet": "1010.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8c3ca576df8e4c7a75c7d389c55104a732e37503_md2.jpg"
+  },
+  {
+    "id": "788687468",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1104.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e9c0da108db15144f6e71d336c42c5f25378e15_md2.jpg"
+  },
+  {
+    "id": "896033453",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1664.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/87e0cf09a2885b2f815f4cc988e0148170deffb9_md2.jpg"
+  },
+  {
+    "id": "907361922",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1392.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b1aa6fb0b78089bd088ebf48b5dfdd69951989a1_md2.jpg"
+  },
+  {
+    "id": "865676904",
+    "price": "",
+    "zipCode": "310",
+    "type": "60139",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "795.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/92ace2f73404edc7ed903be7b42ac9bcc0eefb65_md2.jpg"
+  },
+  {
+    "id": "912663468",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1076.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a6bb235755b24faf8c7c130c0c63f946497eec5a_md2.jpg"
+  },
+  {
+    "id": "857580956",
+    "price": "",
+    "zipCode": "60139",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "3.0",
+    "squareFeet": "1248.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4a4e40e4933c5bb8f6c88011615ceecf69a16c63_md2.jpg"
+  },
+  {
+    "id": "788451376",
+    "price": "",
+    "zipCode": "500",
+    "type": "60139",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "882.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b10d7805b8f11a83c8823a39db2e0e863fdf0c44_md2.jpg"
+  },
+  {
+    "id": "890358153",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1170.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/37972ac84cd5470dc8087b9f94f357a919153f61_md2.jpg"
+  },
+  {
+    "id": "871309969",
+    "price": "",
+    "zipCode": "813",
+    "type": "60139",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "927.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d55c3a47ce36e6bb6c352e5b0a13c6aff16ace52_md2.jpg"
+  },
+  {
+    "id": "903531139",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1077.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/92cf795c361c8f4c6b3bfc24521a9c1328f9f0b2_md2.jpg"
+  },
+  {
+    "id": "802301280",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1248.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2851cb2bea716a486977c020dfca904a26da273e_md2.jpg"
+  },
+  {
+    "id": "798198427",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1232.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/64a247b3b5a3b15509d8d3e9a72cf5e17ea23a0c_md2.jpg"
+  },
+  {
+    "id": "791022959",
+    "price": "",
+    "zipCode": "240",
+    "type": "60139",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "927.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2debce779ad124dff920332bf72544edb8d8ba3f_md2.jpg"
+  },
+  {
+    "id": "794721754",
+    "price": "",
+    "zipCode": "0",
+    "type": "60139",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1710.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/83db31b967e280e8f813c0953e361676f19786ae_md2.jpg"
+  },
+  {
+    "id": "912070830",
+    "price": "",
+    "zipCode": "609",
+    "type": "60139",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "625.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/95947f1d7c1212140c6d9e0dffe31eb0541f637a_md2.jpg"
+  },
+  {
+    "id": "869655122",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1332.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0eae947c1578c9e120c762e3d28d86e78c69e965_md2.jpg"
+  },
+  {
+    "id": "852588671",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1401.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b09e7aecad2cf98f1dc8f3d2320d85fb643a7a4c_md2.jpg"
+  },
+  {
+    "id": "910727508",
+    "price": "",
+    "zipCode": "60139",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1152.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5806739c78a04de821836fa6fff1d1baef9ceb1_md2.jpg"
+  },
+  {
+    "id": "789807256",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1689.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1394e075889920cfa6b90885a246df4b43544307_md2.jpg"
+  },
+  {
+    "id": "889982837",
+    "price": "",
+    "zipCode": "0",
+    "type": "60139",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "725.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ac0f268f098607a894793570c8bd581f13ad17c2_md2.jpg"
+  },
+  {
+    "id": "866330894",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1517.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d9dc874ac6d151d0617b65aadc914d702b879a05_md2.jpg"
+  },
+  {
+    "id": "865439641",
+    "price": "",
+    "zipCode": "972",
+    "type": "60139",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "743.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cc6709654e8f3f5cec503a85c533491ccde2dfc8_md2.jpg"
+  },
+  {
+    "id": "907472123",
+    "price": "",
+    "zipCode": "60139",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1365.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/44fc906179603539e7752d16474ef63beb11dd84_md2.jpg"
+  },
+  {
+    "id": "890446099",
+    "price": "",
+    "zipCode": "500",
+    "type": "60108",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1006cf3ff39f0ee506fb04f93a1fb24bba466cc0_md2.jpg"
+  },
+  {
+    "id": "919129117",
+    "price": "",
+    "zipCode": "60139",
+    "type": "TownhouseorCondo",
+    "beds": "",
+    "baths": "3.0",
+    "squareFeet": "1776.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/154968313ed6c2ff78e5a840eb173c97b9c6df94_md2.jpg"
+  },
+  {
+    "id": "789808342",
+    "price": "",
+    "zipCode": "60108",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/61f84eed3838027dbf3eee4afc529d262b465da0_md2.jpg"
+  },
+  {
+    "id": "865542487",
+    "price": "",
+    "zipCode": "60108",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "2061.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/228a59ae5c92db91568476e2d1bc22ecf4b0e71e_md2.jpg"
+  },
+  {
+    "id": "841703669",
+    "price": "",
+    "zipCode": "900",
+    "type": "60108",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "2002.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/00b43527d7eb51fbdf8e7c8ec85fac60c80578f2_md2.jpg"
+  },
+  {
+    "id": "895953988",
+    "price": "",
+    "zipCode": "60108",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1636.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d3cb68f25314d65e350f0c93c1afdac1d71c982c_md2.jpg"
+  },
+  {
+    "id": "908018478",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3221.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d544fa2166c8b99c83a29cb781af3b29f009d747_md2.jpg"
+  },
+  {
+    "id": "830582612",
+    "price": "",
+    "zipCode": "60187",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3202.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/37acbb19283bd6a953e6fe579e094ecbeaef34f5_md2.jpg"
+  },
+  {
+    "id": "876437234",
+    "price": "",
+    "zipCode": "60108",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/01ca38d5f8a28d6ce20c3a349cc4937408118112_md2.jpg"
+  },
+  {
+    "id": "830716615",
+    "price": "",
+    "zipCode": "60108",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "2243.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cccaa72f83e63fdb74a79dd3c6c5616d8bfe860a_md2.jpg"
+  },
+  {
+    "id": "881217404",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1153.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e1544fcac8dd8fe896ae3deb6e4dbd5e6112f4ed_md2.jpg"
+  },
+  {
+    "id": "823990868",
+    "price": "",
+    "zipCode": "60101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2279.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/48ecba15e719d00aff13a1be21805b47b89c1923_md2.jpg"
+  },
+  {
+    "id": "919487873",
+    "price": "",
+    "zipCode": "504",
+    "type": "60188",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "841.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c738958e9a2fcdd01655d95ff04e3f9650bb1a89_md2.jpg"
+  },
+  {
+    "id": "875376328",
+    "price": "",
+    "zipCode": "60148",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "1170.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dffb69c5a4f61227e1bb55b3120cbed4adcfec86_md2.jpg"
+  },
+  {
+    "id": "890709689",
+    "price": "",
+    "zipCode": "60108",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "4331.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2800b809180f9f57704c1b305be519af9d21adec_md2.jpg"
+  },
+  {
+    "id": "875417309",
+    "price": "",
+    "zipCode": "60188",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "845.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5ddb3b0f80749e264ee67662ca54edbbe5a3772e_md2.jpg"
+  },
+  {
+    "id": "875242420",
+    "price": "",
+    "zipCode": "869",
+    "type": "60188",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "643.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b31ccb56fb315a6c241bf40895b5379ac70321a9_md2.jpg"
+  },
+  {
+    "id": "867011586",
+    "price": "",
+    "zipCode": "60137",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "3034.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f6269c83ec3ef39d8073bb3e9947209bbf7bb136_md2.jpg"
+  },
+  {
+    "id": "917083344",
+    "price": "",
+    "zipCode": "60188",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1499.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b546f80f06768dfd91d93daa234e3f89abeebf6d_md2.jpg"
+  },
+  {
+    "id": "841288597",
+    "price": "",
+    "zipCode": "900",
+    "type": "60188",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1340.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e74f89f8faac837b62728e8293f16de426f3af1d_md2.jpg"
+  },
+  {
+    "id": "913072799",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1772.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2923bb3f5584cf6e2fa0057ad61122bcf6c1839b_md2.jpg"
+  },
+  {
+    "id": "841569789",
+    "price": "",
+    "zipCode": "60101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "4.0",
+    "squareFeet": "1334.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/076adce264c6ca3065cd46ea2e23a1e1442f8092_md2.jpg"
+  },
+  {
+    "id": "903349255",
+    "price": "",
+    "zipCode": "60101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1948.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/022a628e47f4ae4ff9cfb88555a765cd941dc957_md2.jpg"
+  },
+  {
+    "id": "792536684",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1898.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bfd5d2e2c77ff08faaba713cc2db5cac37af389c_md2.jpg"
+  },
+  {
+    "id": "919944273",
+    "price": "",
+    "zipCode": "60188",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1876.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/574d5cac8850f9b8eb2e213dbc4b07010deca252_md2.jpg"
+  },
+  {
+    "id": "813373034",
+    "price": "",
+    "zipCode": "60187",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1175.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d4d75d06b5ac234c8a4f5ea3cec7f1e9fdf3b7fe_md2.jpg"
+  },
+  {
+    "id": "804248723",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1827.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/439f967b37e1e9e7d0143bb08476f89617c038e1_md2.jpg"
+  },
+  {
+    "id": "868764545",
+    "price": "",
+    "zipCode": "60188",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1373.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c9ae654a11a837f813e37fc125c7304d18439c24_md2.jpg"
+  },
+  {
+    "id": "909854827",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1ebe3b50cc4abca9282db5730561b93cd1b45163_md2.jpg"
+  },
+  {
+    "id": "908489909",
+    "price": "",
+    "zipCode": "60188",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1416.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5e094ea2bc752f7e6d797a0ebb67a7c98fa3ea6d_md2.jpg"
+  },
+  {
+    "id": "891132116",
+    "price": "",
+    "zipCode": "60101",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1206.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/242aefd62fb13a0c4fea139373820b70fab0e348_md2.jpg"
+  },
+  {
+    "id": "857912922",
+    "price": "",
+    "zipCode": "60108",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "2119.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/99d88d5236ad4df5c445d67274a0d593708363e4_md2.jpg"
+  }
+]

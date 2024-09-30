@@ -1,0 +1,982 @@
+[
+  {
+    "id": "898103471",
+    "price": "",
+    "zipCode": "48009",
+    "type": "TownhouseOrCondo",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "4049.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cb0cb135497fc2d9e6d6075d807a9988ed8bf8a5_md2.jpg"
+  },
+  {
+    "id": "913215596",
+    "price": "",
+    "zipCode": "48072",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "950.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c0cbbb3bbdf6c27b74a7a7eccb405d079e714517_md2.jpg"
+  },
+  {
+    "id": "792053951",
+    "price": "",
+    "zipCode": "48237",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1061.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/44ec198160e62eab09c728d8d70841e278e8ec90_md2.jpg"
+  },
+  {
+    "id": "862286986",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "969.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1110c6864dc701e4dab1ff53fd3d724f674e968f_md2.jpg"
+  },
+  {
+    "id": "877578475",
+    "price": "",
+    "zipCode": "48071",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/28b6f0f3fb3dd4f144cbedb21324bbc4d2e2b058_md2.jpg"
+  },
+  {
+    "id": "905125880",
+    "price": "",
+    "zipCode": "48072",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1908.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/912a596b66c4761ff143da428b38bf1687d3fcfc_md2.jpg"
+  },
+  {
+    "id": "866652585",
+    "price": "",
+    "zipCode": "48220",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1148.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/12727104c48652eb1639ea3c2602219092d2e747_md2.jpg"
+  },
+  {
+    "id": "916142103",
+    "price": "",
+    "zipCode": "48237",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed0025ed5f54dd5861d4a423be418a7ba86fabc5_md2.jpg"
+  },
+  {
+    "id": "841430600",
+    "price": "",
+    "zipCode": "48009",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1202.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/02393c237768fd3c394cb8065907989699e4a3f6_md2.jpg"
+  },
+  {
+    "id": "841353103",
+    "price": "",
+    "zipCode": "48009",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "2106.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ca9953f99e781776de524395767d2fedbc58bae4_md2.jpg"
+  },
+  {
+    "id": "841308949",
+    "price": "",
+    "zipCode": "48009",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2230.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fe9cf0403be5311c71b95b36b338956228841716_md2.jpg"
+  },
+  {
+    "id": "841586593",
+    "price": "",
+    "zipCode": "48072",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1085.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5d3f350a90d592ee8abfd7d71a1da99c4597f58e_md2.jpg"
+  },
+  {
+    "id": "875333619",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "987.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8862c9d82145f9649e509bbdfe13b0773f059f3d_md2.jpg"
+  },
+  {
+    "id": "888737698",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1175.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3e92af988f654198e5a820bfae834bf8923b871e_md2.jpg"
+  },
+  {
+    "id": "881127894",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1666.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba0a054cadf7da1a5455795851e4624e05c4f7ad_md2.jpg"
+  },
+  {
+    "id": "907572763",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "994.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c676d274883e264f4f2eab6166800a6c4d3ac2d4_md2.jpg"
+  },
+  {
+    "id": "894841776",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1025.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2bc92e9b634ae5db05c644a6343793182747ea87_md2.jpg"
+  },
+  {
+    "id": "853939954",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1624.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/14cda7ff85a9b4fe78c6f3769a5c6f9d00480175_md2.jpg"
+  },
+  {
+    "id": "896027801",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1342.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4e0c814817b11420ac06957ff12c7ec1cded8ac4_md2.jpg"
+  },
+  {
+    "id": "880453927",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "2.0",
+    "squareFeet": "1716.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/58a69aef3233cd43365daf68fb9ba128f506a3dc_md2.jpg"
+  },
+  {
+    "id": "909903505",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "901.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ebd889c1bb0931d48ad684190dd503bc6ed67cfc_md2.jpg"
+  },
+  {
+    "id": "886759930",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1499.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e9e8b4683ab20efddca882892562b56990a259ea_md2.jpg"
+  },
+  {
+    "id": "875913958",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1717.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d586231564bf906d425961dfd746ceb474dc0da_md2.jpg"
+  },
+  {
+    "id": "875964731",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "981.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/077e83909e4397483155ee8d57e81cd090e5a772_md2.jpg"
+  },
+  {
+    "id": "851684379",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "785.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/583340a04ec0d1dcfb0796540d97d9c89244cea3_md2.jpg"
+  },
+  {
+    "id": "857175617",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2055.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fb6b07e5f2b10d685c159ba9aa964f0d5cde0183_md2.jpg"
+  },
+  {
+    "id": "897183719",
+    "price": "",
+    "zipCode": "687",
+    "type": "48017",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "510.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ff6c16a186578df10fee56e0ef697568099f4caf_md2.jpg"
+  },
+  {
+    "id": "885557919",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1818.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/377da57ea27771922b4195c785f42c814fda3014_md2.jpg"
+  },
+  {
+    "id": "875561223",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1150.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5cff582984bd7cd961ae898c9039112f7b4a48ba_md2.jpg"
+  },
+  {
+    "id": "896262276",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1116.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8e1b2996e6cf79a66b8609b0b2301d5f18f5e280_md2.jpg"
+  },
+  {
+    "id": "875487100",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "905.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1bf35d2e05e1b9418a764998f3bf3596c20fc138_md2.jpg"
+  },
+  {
+    "id": "875399856",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "980.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/687846293b424c00af8793279d779e77cf0df434_md2.jpg"
+  },
+  {
+    "id": "887058685",
+    "price": "",
+    "zipCode": "486",
+    "type": "48017",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1108.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5b6cfef7d661ee4e3c891e03b082b38ed61c5971_md2.jpg"
+  },
+  {
+    "id": "907878313",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1026.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/edde4115f763071352264edf6acd0726878a2498_md2.jpg"
+  },
+  {
+    "id": "907824373",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1031.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/de9e94777bf59bd29f0aef2681aea989edb055af_md2.jpg"
+  },
+  {
+    "id": "876002471",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "841.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5009b2856a1eaba6acf39e0254d76a56ccd32be_md2.jpg"
+  },
+  {
+    "id": "875840486",
+    "price": "",
+    "zipCode": "25",
+    "type": "48017",
+    "beds": "2.0",
+    "baths": "3.0",
+    "squareFeet": "1186.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8e3c13f1f51e11cb6ae3d8c31a42b5d1b7a595b4_md2.jpg"
+  },
+  {
+    "id": "883142394",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1122.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6b9e64b58e6e6ad62e3663cc06ed1bb13e22dd18_md2.jpg"
+  },
+  {
+    "id": "913201926",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1466.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5e01cd3c2873002a947a91839243029c94b2290b_md2.jpg"
+  },
+  {
+    "id": "919460503",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1023.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ab6dce6f7eb187d9de2f831451e7895805693603_md2.jpg"
+  },
+  {
+    "id": "907524572",
+    "price": "",
+    "zipCode": "48084",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1162.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/14f225f89234927612e1e7deabeea9ca405db6c6_md2.jpg"
+  },
+  {
+    "id": "911481927",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1013.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/787ae8e15097a1e32c6b6b9bcad0d5353aff1ac0_md2.jpg"
+  },
+  {
+    "id": "875436093",
+    "price": "",
+    "zipCode": "48073",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1376.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7a3f7ba7dadd6895685f5f52b3ff7ab1be736ba2_md2.jpg"
+  },
+  {
+    "id": "875709208",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1540.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ea9f4412f06109988732acdd95ba98ba47d8aff9_md2.jpg"
+  },
+  {
+    "id": "900660266",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1574.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b23173c063aef6bc7106c3df9c60392a83787cca_md2.jpg"
+  },
+  {
+    "id": "897160834",
+    "price": "",
+    "zipCode": "48017",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1018.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bcbe98c1078050008ca0548bc8873b74c5be1755_md2.jpg"
+  },
+  {
+    "id": "885954472",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "2508.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f44ef998d15e6bbc17702e50d1748bb9fbde09ca_md2.jpg"
+  },
+  {
+    "id": "875735555",
+    "price": "",
+    "zipCode": "620",
+    "type": "48073",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "589.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a43531c2ed79fc67a4bf7050ebe8d8493e19a08a_md2.jpg"
+  },
+  {
+    "id": "907007074",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "856.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6fee28384d2c9372a73ea8429319524f71fe2af3_md2.jpg"
+  },
+  {
+    "id": "885914058",
+    "price": "",
+    "zipCode": "48083",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "988.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bbce6e91aea403864ea9fd5fdb2e88b5466bbf7f_md2.jpg"
+  },
+  {
+    "id": "875185081",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "991.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9b8c1c7c176a3f65536c7188ea43c86f584d787b_md2.jpg"
+  },
+  {
+    "id": "875641486",
+    "price": "",
+    "zipCode": "445",
+    "type": "48073",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "775.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0394583bc1504b8d77bf95ec4f1e5af396279e18_md2.jpg"
+  },
+  {
+    "id": "900550432",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "840.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c6730a08fc7dcc51db699e6b69798b8a9224cd84_md2.jpg"
+  },
+  {
+    "id": "903434362",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "946.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8df7f3348ce13f88ea7ba6d5bbbb50e051c5c7eb_md2.jpg"
+  },
+  {
+    "id": "897397527",
+    "price": "",
+    "zipCode": "48083",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1117.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1857df8db8e3449e85d5370d5844c529cc0e3f61_md2.jpg"
+  },
+  {
+    "id": "907718659",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1075.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/407c6506a3be03e0feccb2dcee27cef4a52e4ffa_md2.jpg"
+  },
+  {
+    "id": "907379275",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1142.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c295a0a736cf5eaa7966cd24d2decd75327bc5e6_md2.jpg"
+  },
+  {
+    "id": "900447120",
+    "price": "",
+    "zipCode": "48083",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1252.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1a420e244ef29599a7a4d59bc20372f9922545ca_md2.jpg"
+  },
+  {
+    "id": "856988961",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1146.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/30a98e1157bb87ccf7322b7ba4f3414c217494a6_md2.jpg"
+  },
+  {
+    "id": "892802859",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1143.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cacea842e26d6f413bf4ddaf7433c0a30b1e25df_md2.jpg"
+  },
+  {
+    "id": "856973809",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "914.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d5f0e6b48700796deb6f00cc0816c513cde94bd4_md2.jpg"
+  },
+  {
+    "id": "855836722",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "1.0",
+    "squareFeet": "1402.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4a0e35984b360a25e312ad5ce29b78b3e0f4640a_md2.jpg"
+  },
+  {
+    "id": "875671947",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1263.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6649cf93f9e406d57a0c6962f7f2f180d8159888_md2.jpg"
+  },
+  {
+    "id": "906923517",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "998.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/72ff079f8cb7dbba96fe19ccda19e7a2fca62dc3_md2.jpg"
+  },
+  {
+    "id": "875109414",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "860.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/893d54d7704e34c52bb2b596f152d92748f0a00f_md2.jpg"
+  },
+  {
+    "id": "908505128",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1096.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2deff7877497dbfc32144f3f3f06aaac6ddfc6d8_md2.jpg"
+  },
+  {
+    "id": "875611625",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1854.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/28f5f5f42665b52355ea30320ac86dd76a80b536_md2.jpg"
+  },
+  {
+    "id": "906876449",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1309.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ae4765241e7e4c99d519ca8ceb32c20130b6c623_md2.jpg"
+  },
+  {
+    "id": "907309159",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "934.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bb7695ff41e88756b1e58ecf2d8c595ddf0ff014_md2.jpg"
+  },
+  {
+    "id": "851753435",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "951.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8210d641f2035b408ff18327d94dc5969e851afb_md2.jpg"
+  },
+  {
+    "id": "855574103",
+    "price": "",
+    "zipCode": "48071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1440.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/08e305dbdd5b75fcdd4be6a414bde60dbaee0304_md2.jpg"
+  },
+  {
+    "id": "875602343",
+    "price": "",
+    "zipCode": "357",
+    "type": "48073",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "904.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0b99523b5aef214bb18df8c51b16c3eec038b6f9_md2.jpg"
+  },
+  {
+    "id": "875549224",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1114.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed0eb70dbe6f8373246c5bc8660c0eee39b3de4c_md2.jpg"
+  },
+  {
+    "id": "900456271",
+    "price": "",
+    "zipCode": "48071",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1129.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4b47ba5d0c9ead72f39281f902b0ed2f458ce1a3_md2.jpg"
+  },
+  {
+    "id": "907667765",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1069.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a900fad411c6a48f22e685a4f409e6279a110ba9_md2.jpg"
+  },
+  {
+    "id": "875361613",
+    "price": "",
+    "zipCode": "455",
+    "type": "48084",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "868.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e689f7894d3dcbe8d4643e54046cf64de832deed_md2.jpg"
+  },
+  {
+    "id": "907395270",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1660.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3a2d8191318dd62a53d05262a94c6e35561ba4ab_md2.jpg"
+  },
+  {
+    "id": "875495628",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1390.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7b56915272cbb453f5a273fb092e04340c59318b_md2.jpg"
+  },
+  {
+    "id": "900373781",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1062.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f44943750d497032a802e406a040df6865e29ba5_md2.jpg"
+  },
+  {
+    "id": "875773046",
+    "price": "",
+    "zipCode": "48083",
+    "type": "TownhouseorCondo",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "40461.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c72c4623bc2d7019f29f1f3e881fcf5a2737bfe0_md2.jpg"
+  },
+  {
+    "id": "893505014",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1128.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a6f0a3813e235dee8ada765360a79717d036542b_md2.jpg"
+  },
+  {
+    "id": "895291297",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1329.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/58051ba0e43c4504b446c43f728857b7c48f2d13_md2.jpg"
+  },
+  {
+    "id": "907425151",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1152.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bcf326a65061030d07334bb5bcc0a9582c129631_md2.jpg"
+  },
+  {
+    "id": "875719368",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "872.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cf62f5fd5064150927a051dfb13d4988263880ba_md2.jpg"
+  },
+  {
+    "id": "912765478",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "925.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/06a3d198325c88e1b8c4aaadf3668160d1c3b7d7_md2.jpg"
+  },
+  {
+    "id": "875469138",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1896.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5a116f05ed79d3a3d73d066674e6d3f84e15257a_md2.jpg"
+  },
+  {
+    "id": "912738879",
+    "price": "",
+    "zipCode": "48083",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1392.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/38111ce76e95c24f9b76c69fb5e3d09bb28ee668_md2.jpg"
+  },
+  {
+    "id": "907330476",
+    "price": "",
+    "zipCode": "48009",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1416.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/99c6c15f18d3ad835a3b47bfefc115fb2efce9d9_md2.jpg"
+  },
+  {
+    "id": "916654235",
+    "price": "",
+    "zipCode": "48009",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "6716.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3c3d6cfe84ddc571b534f1b664e8312254cdbd0e_md2.jpg"
+  },
+  {
+    "id": "907374882",
+    "price": "",
+    "zipCode": "48071",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1326.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e12113084c8e4bab236113a8805c18db419895d0_md2.jpg"
+  },
+  {
+    "id": "904004551",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "969.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6fe96eddebf4a7f14ae9b006d018f2345b470182_md2.jpg"
+  },
+  {
+    "id": "851555094",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1044.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d5bdb99b6e2115679dc72c873bc5f61e69bb18ff_md2.jpg"
+  },
+  {
+    "id": "913936238",
+    "price": "",
+    "zipCode": "48009",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1122.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c2b812532881d43e8ac269d22e30f359f3c963da_md2.jpg"
+  },
+  {
+    "id": "907871408",
+    "price": "",
+    "zipCode": "48083",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1403.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/95b3c322d3efc3674772e7b7dc726870c689a835_md2.jpg"
+  },
+  {
+    "id": "875139671",
+    "price": "",
+    "zipCode": "48083",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1179.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/428ce06304100f3a24144edfd22ce1bb98d20024_md2.jpg"
+  },
+  {
+    "id": "912355492",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1894.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f5d22e5dd9eaf18c4c280a073636a77f72950930_md2.jpg"
+  },
+  {
+    "id": "890767352",
+    "price": "",
+    "zipCode": "48073",
+    "type": "SingleFamilyHome",
+    "beds": "7.0",
+    "baths": "5.0",
+    "squareFeet": "4250.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/847ff0dc700973a952059087bc8dcc70767680b4_md2.jpg"
+  },
+  {
+    "id": "897193695",
+    "price": "",
+    "zipCode": "547",
+    "type": "48073",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "916.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/599832290137820dd47c08e298eb1c2aaa8a2702_md2.jpg"
+  }
+]

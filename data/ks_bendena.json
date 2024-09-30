@@ -1,0 +1,942 @@
+[
+  {
+    "id": "887637943",
+    "price": "",
+    "zipCode": "66017",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1350.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a25cbd1c6cdb148814067c150b2f463a5cc9b496_md2.jpg"
+  },
+  {
+    "id": "914337759",
+    "price": "",
+    "zipCode": "66087",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1068.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/10adccf205d6a09cb72537bfe065965e95f5bbc1_md2.jpg"
+  },
+  {
+    "id": "885483989",
+    "price": "",
+    "zipCode": "66087",
+    "type": "TownhouseOrCondo",
+    "beds": "",
+    "baths": "4.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/94e388ba330fdf6f9d44c40e4127c4b8f5ab707d_md2.jpg"
+  },
+  {
+    "id": "920446716",
+    "price": "",
+    "zipCode": "66087",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c4aa55a053731ddb6b1eec6ddb599f8878631576_md2.jpg"
+  },
+  {
+    "id": "919944646",
+    "price": "",
+    "zipCode": "66087",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/42cbc395775f3db90b14ef5daffd11882a9f2946_md2.jpg"
+  },
+  {
+    "id": "914176622",
+    "price": "",
+    "zipCode": "66087",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "4280.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/35b1a7beac2fd4ca404594803ee707299b18b138_md2.jpg"
+  },
+  {
+    "id": "916533875",
+    "price": "",
+    "zipCode": "66087",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1125.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/21c174b430de8974c925994355272505eaaba5ff_md2.jpg"
+  },
+  {
+    "id": "897822945",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3300.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cc32c2ae0115ce2aacfd43d573d8f8ea1eb3bc28_md2.jpg"
+  },
+  {
+    "id": "903555112",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3953.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a1058d4a6c022b29f1254e26a537ab7e2b34fe24_md2.jpg"
+  },
+  {
+    "id": "899132555",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "2701.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/68a05cb168b894e19321255bceab99a2ade16aa2_md2.jpg"
+  },
+  {
+    "id": "918771831",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2612.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b139d77e4b3b3bcb5daf7b0028695c06cb9bb29d_md2.jpg"
+  },
+  {
+    "id": "898021501",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2632.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e914b3fb945a80a6c491d2052dacb520880f3605_md2.jpg"
+  },
+  {
+    "id": "905924980",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3059.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2fb1be0480ad0e46b33155dcad8b882bc704c522_md2.jpg"
+  },
+  {
+    "id": "902158836",
+    "price": "",
+    "zipCode": "66424",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b6093baa9898dcc66e97b36dd8d62ec82fdfc49e_md2.jpg"
+  },
+  {
+    "id": "911046490",
+    "price": "",
+    "zipCode": "66035",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1520.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/108335dd1d30d1e971a225af26ae9d5169c50461_md2.jpg"
+  },
+  {
+    "id": "905038790",
+    "price": "",
+    "zipCode": "66035",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1524.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1d72a8c1fdf5e504bffc6bee9f9f3b60845bb9a6_md2.jpg"
+  },
+  {
+    "id": "917409015",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1132.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/783d9d4fe2519f8088106376d5ca09e0733faa1b_md2.jpg"
+  },
+  {
+    "id": "904543151",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2014.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d691a4e9720c2c0b477a88f4bff3546478d68803_md2.jpg"
+  },
+  {
+    "id": "918330734",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "921.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6a1322417263006b50f5bd6f5f44956c5b1e9ac7_md2.jpg"
+  },
+  {
+    "id": "897896963",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1792.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/828c1d3509957552d2ba801c777a2ffd4d3a138e_md2.jpg"
+  },
+  {
+    "id": "902740417",
+    "price": "",
+    "zipCode": "66035",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d61fb8133dc819825f5a70fd47c7451a8a5c2c78_md2.jpg"
+  },
+  {
+    "id": "919899802",
+    "price": "",
+    "zipCode": "66424",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1560.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ecf7e9c89c935264007f1a5ecd2bce81b39f3755_md2.jpg"
+  },
+  {
+    "id": "911978013",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1408.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/86e437a3ea8de0211789104eacad7d19705ed263_md2.jpg"
+  },
+  {
+    "id": "912213174",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1197.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f0671b44a9355920b0aef3acb32878f5dc51a913_md2.jpg"
+  },
+  {
+    "id": "917520231",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2060.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/279de7474b9cd1e1ec3195223edad28626f0e341_md2.jpg"
+  },
+  {
+    "id": "910664331",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1904.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/61e02959b8faa7cb20f28ed983f6113491cb0386_md2.jpg"
+  },
+  {
+    "id": "918579804",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "980.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6ef085dfdc986a2a220a72f9677907e8d86079f4_md2.jpg"
+  },
+  {
+    "id": "887912832",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1748.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b304013d654f85c97acb7ed5e9a55689dea3c92c_md2.jpg"
+  },
+  {
+    "id": "912158210",
+    "price": "",
+    "zipCode": "66002",
+    "type": "VacantLand",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2100.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/29302431127e7bc93ca88e8b3227b120b31e8759_md2.jpg"
+  },
+  {
+    "id": "894294112",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1628.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/429dcbd3b4e6f90b8fa1ebad5ee6769e1ce8f35b_md2.jpg"
+  },
+  {
+    "id": "889142703",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "2449.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8248df8f8c09a78294abed588e14db7726feab2a_md2.jpg"
+  },
+  {
+    "id": "914612740",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1081.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8342154ee0e8fb644df5f83394769a17bb305a30_md2.jpg"
+  },
+  {
+    "id": "913362988",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1277.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/01b9251858f20199cc627e8d7436f3f61be30e82_md2.jpg"
+  },
+  {
+    "id": "918239703",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1173.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/48b03da5c4fbf61fc9911a1ef923c19e927649b4_md2.jpg"
+  },
+  {
+    "id": "904347442",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1935.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/68ee4ed48d6a55a5335a0575601b92dfa73ec998_md2.jpg"
+  },
+  {
+    "id": "919381274",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "824.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0758742da8bd7847d085aeac5afe1f126fae5df9_md2.jpg"
+  },
+  {
+    "id": "896497637",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "4225.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b21ca4fe30a8b7b2b203cf6e1202d7f4adf339f6_md2.jpg"
+  },
+  {
+    "id": "908096096",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1441.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d633d466dcaeed3ab98a6283505ec58a0ddf7a16_md2.jpg"
+  },
+  {
+    "id": "891408674",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1263.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c039641e4a05693a51b5ba1e8e6bbe392b330b9b_md2.jpg"
+  },
+  {
+    "id": "876839683",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "4164.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b9cf199e72a4c47aca055494d65ee1c15461596_md2.jpg"
+  },
+  {
+    "id": "920833544",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2767.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7e7326e35728045809eae33a58ff88e1cd126c65_md2.jpg"
+  },
+  {
+    "id": "913206881",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1592.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4322a64e8439dda2e78e29e55bbab55c73608b3c_md2.jpg"
+  },
+  {
+    "id": "902923042",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1782.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/12ded612d6e81772aa56c89842123c8ac3fed265_md2.jpg"
+  },
+  {
+    "id": "900686074",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2014.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/049d4f820330bb73a6dd9e8f329806c0131f28d0_md2.jpg"
+  },
+  {
+    "id": "914334968",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "7.0",
+    "baths": "4.0",
+    "squareFeet": "3276.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9663d85c50ef11f7b3fc2129673b8620cbceee12_md2.jpg"
+  },
+  {
+    "id": "913485775",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e92837408be2c7a3992d16ed7f9c558ea0acd164_md2.jpg"
+  },
+  {
+    "id": "871115041",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1620.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6736719326d7131348df0d3e0c6cef09b6ff63ad_md2.jpg"
+  },
+  {
+    "id": "865369698",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1521.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/87425e58df6f99abe1430918fc43fe46eb00c582_md2.jpg"
+  },
+  {
+    "id": "917368698",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "1010.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/183bb0742f4545944d6553ab29ecc23673a27254_md2.jpg"
+  },
+  {
+    "id": "918367523",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "901.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e0d20ab216c7579c6cbe0577e653fc25621842bf_md2.jpg"
+  },
+  {
+    "id": "909174015",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1874.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/eddc719a97c0fa36f1bd00ee5146252f8fc7d2e2_md2.jpg"
+  },
+  {
+    "id": "907542131",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3263.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/99dec68a6a15990580665ce5f616b2f11a54513c_md2.jpg"
+  },
+  {
+    "id": "918874243",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "2106.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/628da4ffba463d4a3043387e4f1a415da7f6e5e6_md2.jpg"
+  },
+  {
+    "id": "919191267",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "4177.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a399483b8beb3664fa37119d13462699f75ee7fd_md2.jpg"
+  },
+  {
+    "id": "884632133",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "552.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/eb101d873255f16a9f6314e208998c9259bdda75_md2.jpg"
+  },
+  {
+    "id": "876383342",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "3158.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8c7b11e9203a83275b58d9d672f97524dc081190_md2.jpg"
+  },
+  {
+    "id": "912684666",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1531.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d74a126eaf8d32780fa5526e0152497c9f50a968_md2.jpg"
+  },
+  {
+    "id": "906388251",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1262.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0580f3996aa4a7820beb5933400e4c93adec3458_md2.jpg"
+  },
+  {
+    "id": "894624441",
+    "price": "",
+    "zipCode": "66035",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3254.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a68fdef5b2c816ee6e1ebed9a8fd735e0242e668_md2.jpg"
+  },
+  {
+    "id": "920674207",
+    "price": "",
+    "zipCode": "66041",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b769ae25e661357aa4ddfd2867e7a56d5863343c_md2.jpg"
+  },
+  {
+    "id": "903432807",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1110.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a1539aaf95bcc0c45d59839de53221b25998511f_md2.jpg"
+  },
+  {
+    "id": "872509083",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "960.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/749cfd8117f40e7571f542d6dfb6cf2b01401870_md2.jpg"
+  },
+  {
+    "id": "904519439",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "720.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/030ddd30fdc95b8c0db7f7ca590a986703976b7b_md2.jpg"
+  },
+  {
+    "id": "898543375",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1394.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a8031562c929030e52c91f8efafa9126138b132c_md2.jpg"
+  },
+  {
+    "id": "908731707",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1275.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2655b9c7206d53123619c67302def33d8d84d6a6_md2.jpg"
+  },
+  {
+    "id": "914681029",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1482.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8f12827e497cf84dc8ed8cfdb27f4d0d8695fd69_md2.jpg"
+  },
+  {
+    "id": "914612711",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "894.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3f516f6b8cd1d520d365393c4fe9cd08d987ede3_md2.jpg"
+  },
+  {
+    "id": "878204619",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1344.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c87f1909eb538e70fefa107b2d2eceb7f99ee419_md2.jpg"
+  },
+  {
+    "id": "913449965",
+    "price": "",
+    "zipCode": "66002",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5b2c2cdea09b1dd15cc3ec6c43bda3b763061136_md2.jpg"
+  },
+  {
+    "id": "882794698",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/09df61be34440319621c0b384ef0a5b689fb9a71_md2.jpg"
+  },
+  {
+    "id": "900457202",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "2575.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/de17fab0da4bb1aad9ab167e1651dd494456fc3d_md2.jpg"
+  },
+  {
+    "id": "904590257",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1328.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d8377e41bbe72451a2f6d74de58ff53f1e28beaa_md2.jpg"
+  },
+  {
+    "id": "901142117",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2184.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1b6f532a643cc82212c2659fd47399e61294df05_md2.jpg"
+  },
+  {
+    "id": "901760526",
+    "price": "",
+    "zipCode": "66090",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1296.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fca015448673413e0503224b82e62b9d4512c631_md2.jpg"
+  },
+  {
+    "id": "908286234",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1067.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5b620e83743ddc0415dd7a2194fdd93abebc33c0_md2.jpg"
+  },
+  {
+    "id": "899920650",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1910.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8702c9eea7197fcef0389e827b58130614f47054_md2.jpg"
+  },
+  {
+    "id": "899922472",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1365.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fadcf6c6db10860eb515dfb82383ec8d0731b33e_md2.jpg"
+  },
+  {
+    "id": "918516895",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "5327.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/914a1152580d339239f6a500a75eb90327343ea2_md2.jpg"
+  },
+  {
+    "id": "916399194",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "796.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/aaa509b8374ee1eb73f48776dfa26e0e1d500d9c_md2.jpg"
+  },
+  {
+    "id": "920134612",
+    "price": "",
+    "zipCode": "66090",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d03563dcbc9e863c2e8dbf0c77d7db797173974_md2.jpg"
+  },
+  {
+    "id": "919655623",
+    "price": "",
+    "zipCode": "66090",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b52aef4132745b6fbbe298349ba3df76894e57f8_md2.jpg"
+  },
+  {
+    "id": "903176548",
+    "price": "",
+    "zipCode": "66090",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/45ffe147541364077943e227a00243f422fdffbc_md2.jpg"
+  },
+  {
+    "id": "854259261",
+    "price": "",
+    "zipCode": "66090",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/76ff76887f45227a2a2908a0be6b6bd1df6fe89b_md2.jpg"
+  },
+  {
+    "id": "910932661",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1107.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/69de2c390d93e88bf0b09622c42460a8ebaefb65_md2.jpg"
+  },
+  {
+    "id": "906502281",
+    "price": "",
+    "zipCode": "66424",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1295.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7d4f6ec95f141ad8825e799e782079cc6c541296_md2.jpg"
+  },
+  {
+    "id": "912451722",
+    "price": "",
+    "zipCode": "66532",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1976.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/87a8a6ebb9a0fbbc8d4a503b8ed1654a3b415a01_md2.jpg"
+  },
+  {
+    "id": "874470902",
+    "price": "",
+    "zipCode": "66532",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1710.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5186b74a61a8d52c3ff472df14910915d74c28a9_md2.jpg"
+  },
+  {
+    "id": "906304017",
+    "price": "",
+    "zipCode": "64504",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2198.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9439fb85f5a0d257b7eebc3a709cb081c7b94ffa_md2.jpg"
+  },
+  {
+    "id": "841733177",
+    "price": "",
+    "zipCode": "64504",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1036.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/189f60bf690a4ddaab4c50ac00eb4cb7e5827e1a_md2.jpg"
+  },
+  {
+    "id": "917327268",
+    "price": "",
+    "zipCode": "64484",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1568.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e80f216e99605177ebdd519e5c3b3011ff2792a4_md2.jpg"
+  },
+  {
+    "id": "861972189",
+    "price": "",
+    "zipCode": "66002",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "2120.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2ac582fb978dafcab1e0a62272da345c840f7392_md2.jpg"
+  },
+  {
+    "id": "911172249",
+    "price": "",
+    "zipCode": "64504",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1040.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d8e35b069e999b21df628fbf3da449c62ed821fd_md2.jpg"
+  },
+  {
+    "id": "877339345",
+    "price": "",
+    "zipCode": "64504",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1176.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/40e46d445afeb4bd96703c89f8b767ae5f79a64f_md2.jpg"
+  },
+  {
+    "id": "908846809",
+    "price": "",
+    "zipCode": "64504",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fb0c0aabe00c1e86278298900f1f78aa5cf91190_md2.jpg"
+  }
+]

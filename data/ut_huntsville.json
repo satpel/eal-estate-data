@@ -1,0 +1,982 @@
+[
+  {
+    "id": "914356562",
+    "price": "",
+    "zipCode": "84317",
+    "type": "TownhouseOrCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1346.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/acaffdffa74d2cd33bbed9a34e2dab72830fd9d3_md2.jpg"
+  },
+  {
+    "id": "915695819",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1144.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a8e93004d184d729b8e7d39f63671f7ac1e900d6_md2.jpg"
+  },
+  {
+    "id": "777451311",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "675.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8851d938c9937ab9de0d67ae0354428edf02f93f_md2.jpg"
+  },
+  {
+    "id": "897123801",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/81a90ea5eb8209e58f345db4e7266c116061a6f3_md2.jpg"
+  },
+  {
+    "id": "891111447",
+    "price": "",
+    "zipCode": "84317",
+    "type": "TownhouseOrCondo",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1775.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ce114f026d1a33cf31eb7cc58a65a35def3fb9d8_md2.jpg"
+  },
+  {
+    "id": "907934117",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1596.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fc6f95a495a4389dffda5ff98509f06eb862f768_md2.jpg"
+  },
+  {
+    "id": "911711109",
+    "price": "",
+    "zipCode": "84310",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1890.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2fb13681bfa63f018c3757528c0c0a552c57b8d5_md2.jpg"
+  },
+  {
+    "id": "868065412",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3437.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cd2ab132a2d97e8c41312fbf21961c66ae656a4e_md2.jpg"
+  },
+  {
+    "id": "915803807",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "5359.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5f5d9b800c7af5b2ea143ab241d7ab8f50abede6_md2.jpg"
+  },
+  {
+    "id": "914808903",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/57a73c1c1108c39fb0acf6eb3c69e95fdd75376b_md2.jpg"
+  },
+  {
+    "id": "914710929",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/20373ade4c22285737f1db4ab9f4fd1a281429e2_md2.jpg"
+  },
+  {
+    "id": "912165684",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/31b3563b8bac36effdb118f055b3658d45e9141f_md2.jpg"
+  },
+  {
+    "id": "904910772",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7aa5d39f4b283bdbf6785b527291e5fb21b4266a_md2.jpg"
+  },
+  {
+    "id": "904409491",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bb6b06be84cecfbdcf47badc42c0092ea551b994_md2.jpg"
+  },
+  {
+    "id": "902036445",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c071a9fd5fd2c9eb7a3334c6469c2851d6c31589_md2.jpg"
+  },
+  {
+    "id": "890694278",
+    "price": "",
+    "zipCode": "500",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7f8e8f02822bf59b07cf5e222d1b0e1390464bac_md2.jpg"
+  },
+  {
+    "id": "914573865",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/653fc0d89ade7c04583d5d7ddb6ac83328745d27_md2.jpg"
+  },
+  {
+    "id": "915531247",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2268.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/de6ad27b29fe0aa91c70e888c2dd12da51626dbf_md2.jpg"
+  },
+  {
+    "id": "795949669",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "1988.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/02e772d118417d0bb42164048b379a0fd4bb02c8_md2.jpg"
+  },
+  {
+    "id": "917755575",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/586ed98d8b55f67dcc4e832ddbb964b6e9f3a336_md2.jpg"
+  },
+  {
+    "id": "915646182",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2227.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2c0302dcbd41fdacb1e0e631a544900e54938557_md2.jpg"
+  },
+  {
+    "id": "915580477",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3298bc0a8858d4a40e39159755bb36671c307132_md2.jpg"
+  },
+  {
+    "id": "916041226",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dda96e30f20abe586324f11bd50eaef634d00231_md2.jpg"
+  },
+  {
+    "id": "917816172",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a8f5befd3a4591940f5c00326ab56567ceb5cae5_md2.jpg"
+  },
+  {
+    "id": "916011447",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/770e10edc4b12a5550bb36ea6207658b64d3ae51_md2.jpg"
+  },
+  {
+    "id": "914676897",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/203e8fe21cd556939bad66a98476e523e42528ce_md2.jpg"
+  },
+  {
+    "id": "901089300",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9742726ea939c623081c55ce14a2e64d44bf1aa2_md2.jpg"
+  },
+  {
+    "id": "914756796",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2860.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8890e3636eb0ff13326aac7148bc8083149b5ff9_md2.jpg"
+  },
+  {
+    "id": "880453090",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "4356.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b1eaf9f10e6d4cb42024e23113c12805703f659f_md2.jpg"
+  },
+  {
+    "id": "873253063",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5cb09fdf9c2214596006efd450a2d4b576af0f4b_md2.jpg"
+  },
+  {
+    "id": "907835349",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "4681.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4c9539f3daf1eb0e655cf832c47d58030bc14936_md2.jpg"
+  },
+  {
+    "id": "881467659",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "1944.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/88e025c847668378697aa52391116e3e1c562aec_md2.jpg"
+  },
+  {
+    "id": "919476218",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2406.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b53d4af82fecef890e2ec40ba7e5b843b67e7139_md2.jpg"
+  },
+  {
+    "id": "908223300",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "3538.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ac2247e9856605c8bcf60b36dc970ba1624b27e5_md2.jpg"
+  },
+  {
+    "id": "914886508",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/22139fb29d5e037f548c0c6bbde1d7dc1e7ef1bd_md2.jpg"
+  },
+  {
+    "id": "914879364",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5aad0637fe71112436a730bbcc97620c08da93b5_md2.jpg"
+  },
+  {
+    "id": "914644763",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8bb7df4e4375db85aa59b27a6a6921b5cd4eea6e_md2.jpg"
+  },
+  {
+    "id": "899847733",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/97ce910edb733dd22a91cc8adb3d56d73ccc2c8d_md2.jpg"
+  },
+  {
+    "id": "914650369",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dbf79036fb04c98a66bf9b9d75fb006423ad7016_md2.jpg"
+  },
+  {
+    "id": "914652077",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/70ea9cd95fb2c8042b6b53152598b2de8411004f_md2.jpg"
+  },
+  {
+    "id": "896889547",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ad08abc137399c0fac466fbaddb9f37b87d7dca0_md2.jpg"
+  },
+  {
+    "id": "914656176",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/22d509f968b551189a6971d4fc8b27ea687aa0bd_md2.jpg"
+  },
+  {
+    "id": "915849240",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ddd81fff41a15478effeaf91d70abde90510d65b_md2.jpg"
+  },
+  {
+    "id": "915814829",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "4207.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/891dcb2930955069e938c478c097c8fba0967b17_md2.jpg"
+  },
+  {
+    "id": "915812905",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "4207.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fd5d5cc9a8ad05d4971e931d7edddb229c0ebbea_md2.jpg"
+  },
+  {
+    "id": "899719985",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "5.0",
+    "baths": "7.0",
+    "squareFeet": "6477.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/069b7f40604832a8b8cacf52916633de1d535bf7_md2.jpg"
+  },
+  {
+    "id": "915845522",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7660f429cc998a515c6226c29066c202e3b267bc_md2.jpg"
+  },
+  {
+    "id": "889915552",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e9d23c8c8d2bb28e7b0575e75acfd580f8a45e5a_md2.jpg"
+  },
+  {
+    "id": "914573943",
+    "price": "",
+    "zipCode": "900",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3d933b288afd25d4c6063478d1662636a0ee09da_md2.jpg"
+  },
+  {
+    "id": "798043558",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "5.0",
+    "squareFeet": "5642.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ce14eb8f63a974f4f47eb339bc1c80bb4415024a_md2.jpg"
+  },
+  {
+    "id": "916027908",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6f81961ba728d2b880dd7aa807c10f34ce60d3e5_md2.jpg"
+  },
+  {
+    "id": "915813739",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "2599.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/123c356c69940c977cf88b40186a11323bf86f50_md2.jpg"
+  },
+  {
+    "id": "882704510",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/47d1f329dea05d78a5e8c35e07a1ae56f1dbb039_md2.jpg"
+  },
+  {
+    "id": "907757140",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/046aab08dfce8495dfa8eda92ad596a78679ea4d_md2.jpg"
+  },
+  {
+    "id": "913166040",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/91561114f3412001c503f23e882fc16d77524f04_md2.jpg"
+  },
+  {
+    "id": "902963315",
+    "price": "",
+    "zipCode": "84310",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "6168.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/988ace5544eeec7ed8a6704bce51ca558d610cf8_md2.jpg"
+  },
+  {
+    "id": "919407534",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "8.0",
+    "baths": "6.0",
+    "squareFeet": "3518.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3a22e75b7a9360b6b5bc7acc435123d340f67409_md2.jpg"
+  },
+  {
+    "id": "909122550",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2381.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e7316c13f81e70c2775eb01638ec5d24a830b3f6_md2.jpg"
+  },
+  {
+    "id": "914639503",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "4738.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5cd4ea64b936b217b682447912f6f128cfecd123_md2.jpg"
+  },
+  {
+    "id": "914838378",
+    "price": "",
+    "zipCode": "84310",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f004377d4b59d21532a5868d4b8955b815536f72_md2.jpg"
+  },
+  {
+    "id": "914773956",
+    "price": "",
+    "zipCode": "84310",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8e8b4ff0c5740a308c2a382a3ccbd91a629797e0_md2.jpg"
+  },
+  {
+    "id": "915812341",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7e2f52dc84c0e56601e9040472c03f996b1ee0b1_md2.jpg"
+  },
+  {
+    "id": "915837082",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "8.0",
+    "squareFeet": "9790.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e72b04216c567fa34d4a3ec85dea378e82e27207_md2.jpg"
+  },
+  {
+    "id": "914698942",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/235077c7fe14b7136962779dc3a06276eb0cbedf_md2.jpg"
+  },
+  {
+    "id": "905510423",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "4378.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d5f31a93bfa062515e65030e2517696c30f0bf21_md2.jpg"
+  },
+  {
+    "id": "885806444",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "3483.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7d89b969e31d98b92216b11afdf2f180ac04e243_md2.jpg"
+  },
+  {
+    "id": "915830787",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c13400dbadf4a68344dd4f6fb011e08a8f0b0940_md2.jpg"
+  },
+  {
+    "id": "915831152",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1fe828dcbdd66e1426d6db54b54cda1e1cabccdc_md2.jpg"
+  },
+  {
+    "id": "915831257",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/063d778ea567b92ad28e032850bfdb0a1245155e_md2.jpg"
+  },
+  {
+    "id": "915831256",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b1e85345d0ca550873ead502a82f59eaf2eea426_md2.jpg"
+  },
+  {
+    "id": "915793370",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/894d66951809b4cebbd74a1a9fa874321a6f4206_md2.jpg"
+  },
+  {
+    "id": "914657145",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "4721.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/52112a99bf3da6ef3106f51b46a1578530492f1c_md2.jpg"
+  },
+  {
+    "id": "915814849",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "4151.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b17f4c7ea588e4e46ae01de625c4825903f6a0ca_md2.jpg"
+  },
+  {
+    "id": "894655072",
+    "price": "",
+    "zipCode": "84310",
+    "type": "VacantLand",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3412.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/11983ab0ec957687bfaf7dfffbb55a687adcbbf2_md2.jpg"
+  },
+  {
+    "id": "915413158",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e56919a0021a5c5335e152d61999a5d2c1c0111_md2.jpg"
+  },
+  {
+    "id": "915817738",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "7.0",
+    "squareFeet": "4207.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/376a5c307cbfcbdf592270462b318d977a4f69fb_md2.jpg"
+  },
+  {
+    "id": "914573864",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b247e7db663d3492d7508d8a066ea33bafd9c35_md2.jpg"
+  },
+  {
+    "id": "915815370",
+    "price": "",
+    "zipCode": "84317",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "5.0",
+    "squareFeet": "4151.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9d4f705fcba7b1be74ae77160e070644d167d7d0_md2.jpg"
+  },
+  {
+    "id": "914589062",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/74f33cfb8db4b8459fa564d861486d05cd5b9ca1_md2.jpg"
+  },
+  {
+    "id": "914573852",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/935b464e0d7600532109a653d346ba8dbf362476_md2.jpg"
+  },
+  {
+    "id": "914573769",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f9c44b1fabb5641956747d86806f606b045f71c4_md2.jpg"
+  },
+  {
+    "id": "891507154",
+    "price": "",
+    "zipCode": "84310",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "4150.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/338c1934fb4589130347a1db6aaeeb7cbb8d3c2e_md2.jpg"
+  },
+  {
+    "id": "915785851",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8071d682cec13ce56b2a261c8818fc47b0626c8b_md2.jpg"
+  },
+  {
+    "id": "915770986",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6055fbd6946b1550b05d1b0ac461bdc2c8e2fe75_md2.jpg"
+  },
+  {
+    "id": "918725803",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/807142ada2c26e6c9e1a240539c34afe804a6f26_md2.jpg"
+  },
+  {
+    "id": "914965565",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ebb22e258603be9f5920f78df269fa790126e33c_md2.jpg"
+  },
+  {
+    "id": "914710930",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2692a2787579b96857ca1235d0a4c6ae85b2cb11_md2.jpg"
+  },
+  {
+    "id": "915760914",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/09bb7937b32ff31991b63189214412523c452ea0_md2.jpg"
+  },
+  {
+    "id": "914715870",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/63360d23495b7d825892b771562b23f514f7d8d9_md2.jpg"
+  },
+  {
+    "id": "874856235",
+    "price": "",
+    "zipCode": "0",
+    "type": "84317",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dde1cfa8870d8a9c3f31dba422033eba558883bc_md2.jpg"
+  },
+  {
+    "id": "880064753",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0ee472825ed0719f8b5a18113cc0a1fcb7b21421_md2.jpg"
+  },
+  {
+    "id": "874854557",
+    "price": "",
+    "zipCode": "84317",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2fc73e6bcafdb67e668d6cc1d6b1fdc82379e2cf_md2.jpg"
+  },
+  {
+    "id": "919341015",
+    "price": "",
+    "zipCode": "84310",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1900.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e3fbf8793968c6cf916e9cfce1e71cf94debaa6c_md2.jpg"
+  },
+  {
+    "id": "916084999",
+    "price": "",
+    "zipCode": "0",
+    "type": "84310",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/106f109483f3aaf3bfb0abf63be8221b724c87b9_md2.jpg"
+  },
+  {
+    "id": "915743469",
+    "price": "",
+    "zipCode": "0",
+    "type": "84310",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dd4e026a4a1f3c1e37d0717e6a74c76639ff776a_md2.jpg"
+  },
+  {
+    "id": "914952434",
+    "price": "",
+    "zipCode": "84310",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d3498b466e54d947aa2f47a0bc00c1170fa77479_md2.jpg"
+  },
+  {
+    "id": "916002136",
+    "price": "",
+    "zipCode": "84310",
+    "type": "SingleFamilyHome",
+    "beds": "7.0",
+    "baths": "9.0",
+    "squareFeet": "9818.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6f428819dca3bcf496783970c7f7e4954af16b54_md2.jpg"
+  },
+  {
+    "id": "914748480",
+    "price": "",
+    "zipCode": "252",
+    "type": "84310",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dcf6804042d1bc112c8b0923465bbee745e727e0_md2.jpg"
+  }
+]

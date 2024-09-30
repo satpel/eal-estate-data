@@ -1,0 +1,942 @@
+[
+  {
+    "id": "788682018",
+    "price": "",
+    "zipCode": "60304",
+    "type": "TownhouseOrCondo",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "800.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b5b082dce090a7093ed9ac7ce9f707b0447abad9_md2.jpg"
+  },
+  {
+    "id": "912961402",
+    "price": "",
+    "zipCode": "60638",
+    "type": "VacantLand",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "759.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c9d24221452a32e770e213776b461e10b5c32a0f_md2.jpg"
+  },
+  {
+    "id": "855767451",
+    "price": "",
+    "zipCode": "60612",
+    "type": "TownhouseOrCondo",
+    "beds": "9.0",
+    "baths": "3.0",
+    "squareFeet": "2832.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9ce2794c6084a53b5b009ac316eed0ab0c7448ff_md2.jpg"
+  },
+  {
+    "id": "889489584",
+    "price": "",
+    "zipCode": "60612",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "1.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ac8f8b87aae1fcdefd127ea4f4bbfea900b5e71d_md2.jpg"
+  },
+  {
+    "id": "900062456",
+    "price": "",
+    "zipCode": "35504",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2094.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a8336aa59a79e463c7d9acd9da30251c16428001_md2.jpg"
+  },
+  {
+    "id": "772668097",
+    "price": "",
+    "zipCode": "60623",
+    "type": "TownhouseOrCondo",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1762.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/99a9619891ad353d2c76a6347644508f58e67747_md2.jpg"
+  },
+  {
+    "id": "777421377",
+    "price": "",
+    "zipCode": "60623",
+    "type": "TownhouseOrCondo",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d9dbd6b2a4945073ca25cf83ed0269a9303daa59_md2.jpg"
+  },
+  {
+    "id": "915560622",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1116.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b8db923356660a40f405f0b41e76446fc899ba1e_md2.jpg"
+  },
+  {
+    "id": "899473450",
+    "price": "",
+    "zipCode": "60624",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6f41b3465e73f3c5ebcfea2e9aa5a0907a1e06a0_md2.jpg"
+  },
+  {
+    "id": "764576239",
+    "price": "",
+    "zipCode": "60623",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8c58ffb1777511e229482d9bbec1d2919d058b1c_md2.jpg"
+  },
+  {
+    "id": "760696816",
+    "price": "",
+    "zipCode": "60612",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/37e5d063ea9063219c80643e116b8a5cfac5ae7e_md2.jpg"
+  },
+  {
+    "id": "760680009",
+    "price": "",
+    "zipCode": "60612",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3f1ebc50c504f33dbabbb5ba28ad98feeb6356ab_md2.jpg"
+  },
+  {
+    "id": "760990356",
+    "price": "",
+    "zipCode": "60624",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b17d1350e27021e4ced7f390d3bff7fbfe3da90_md2.jpg"
+  },
+  {
+    "id": "738435080",
+    "price": "",
+    "zipCode": "60608",
+    "type": "SingleFamilyHome",
+    "beds": "8.0",
+    "baths": "4.0",
+    "squareFeet": "3515.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/18e2a8b25359d0464ea9b0a2efc2da3bed745498_md2.jpg"
+  },
+  {
+    "id": "877605880",
+    "price": "",
+    "zipCode": "60651",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "18724.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/11db525e9b25e8ed84ab8f81b62005779f493f0e_md2.jpg"
+  },
+  {
+    "id": "877559389",
+    "price": "",
+    "zipCode": "0",
+    "type": "60612",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6dc060f1bb650792998fd13f2c7b85396135a386_md2.jpg"
+  },
+  {
+    "id": "755278638",
+    "price": "",
+    "zipCode": "60651",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2161.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b7b8d0243c1a3a9797547379e7484cf9c80f7dd9_md2.jpg"
+  },
+  {
+    "id": "790142193",
+    "price": "",
+    "zipCode": "60632",
+    "type": "TownhouseorCondo",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f340c3539c28f1aedf9d81b2b0b241e1cbbf82c9_md2.jpg"
+  },
+  {
+    "id": "841568140",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "10.0",
+    "baths": "7.0",
+    "squareFeet": "7500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1b73490b2bc0bbb9d379c910c8492ff4dd509944_md2.jpg"
+  },
+  {
+    "id": "904046417",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1656af8c64fc23718ae1c59f7a7557b7c4aeac70_md2.jpg"
+  },
+  {
+    "id": "841799446",
+    "price": "",
+    "zipCode": "60546",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3450.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bda1ce91f9870582e64bf2971a6bbbd5da9ecdcd_md2.jpg"
+  },
+  {
+    "id": "841975331",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1982.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a88ee2e4624ee539ce358532157ad39fb3f33ae9_md2.jpg"
+  },
+  {
+    "id": "885501648",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1224.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e6eadc372c99574bcc1d740a27d657f9a5c12791_md2.jpg"
+  },
+  {
+    "id": "888775647",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1248.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4898d15bfcb8d85a1635f82facdfd723edd9da88_md2.jpg"
+  },
+  {
+    "id": "816884527",
+    "price": "",
+    "zipCode": "454",
+    "type": "60804",
+    "beds": "1.0",
+    "baths": "2.0",
+    "squareFeet": "780.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e7ccfd59eb44e29be2de030ce850bb9d9fc0cbff_md2.jpg"
+  },
+  {
+    "id": "895171659",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1804.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/800b9302ab1d6ad512ec63d8f2f4d47c3d1110e1_md2.jpg"
+  },
+  {
+    "id": "865399013",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1191.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed9f1bf93636cd7253ad2996228292782fe08dbb_md2.jpg"
+  },
+  {
+    "id": "890895620",
+    "price": "",
+    "zipCode": "46",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1538.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c3144ab7a6eb27607c436d05064e346a97b9522b_md2.jpg"
+  },
+  {
+    "id": "919346606",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1143.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0194ffcf6a4a1caf6b627206180799b826178102_md2.jpg"
+  },
+  {
+    "id": "904296671",
+    "price": "",
+    "zipCode": "863",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "938.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cee1a73efe21898c2d1f0ab9c62117cacaf8847f_md2.jpg"
+  },
+  {
+    "id": "906162759",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "926.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c26f641f656abe5136f339f957b30c4d7d530b04_md2.jpg"
+  },
+  {
+    "id": "868726634",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1100.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e910d6e9fcd5db22e0a9916682e14bdc2529476a_md2.jpg"
+  },
+  {
+    "id": "884952375",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1003.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c634be04cc5883f07c1c458bd5f4763fb3d2dd41_md2.jpg"
+  },
+  {
+    "id": "890449283",
+    "price": "",
+    "zipCode": "150",
+    "type": "60804",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2c4b16882f9919c3b8c88fee177e5652d0c39fd5_md2.jpg"
+  },
+  {
+    "id": "816851792",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1619.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/db6dff1c5d7bbe4590bdae331207b6448621ce47_md2.jpg"
+  },
+  {
+    "id": "841954875",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "6.0",
+    "baths": "6.0",
+    "squareFeet": "3738.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ae0a2c0e9f12602d486c1e8e90823f4cfcba154a_md2.jpg"
+  },
+  {
+    "id": "818703813",
+    "price": "",
+    "zipCode": "900",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/53505c7eaa9f2fe1a0e5cdd762fbd738c22e331a_md2.jpg"
+  },
+  {
+    "id": "827211481",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0199a28d5925a5a9ed4d26400f5af5f175517f06_md2.jpg"
+  },
+  {
+    "id": "866616162",
+    "price": "",
+    "zipCode": "656",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1056.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/954657f3fc9603a0e09f675a4ebc28a34536c179_md2.jpg"
+  },
+  {
+    "id": "865436844",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1076.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2f988a2c149289601c242df7a0f47926fd16f1a0_md2.jpg"
+  },
+  {
+    "id": "885441118",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2112.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3e3daa912f7a88eea7deefd7ca705f0b2d433910_md2.jpg"
+  },
+  {
+    "id": "830662948",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1280.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8f9081666f0730b7f323536dba56fc0c87c63ae8_md2.jpg"
+  },
+  {
+    "id": "848917082",
+    "price": "",
+    "zipCode": "500",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1330.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/56c0d08c591cfe348d3fc3e49c2384e3d20cf16c_md2.jpg"
+  },
+  {
+    "id": "879996369",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "6.0",
+    "baths": "3.0",
+    "squareFeet": "1840.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9cd5fa0be5d4afe849a5f8a66b372bb3a5f196a3_md2.jpg"
+  },
+  {
+    "id": "841598017",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "8.0",
+    "baths": "3.0",
+    "squareFeet": "3231.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5bc01ecd8976e6fb47248dd96b8c645f19f1936a_md2.jpg"
+  },
+  {
+    "id": "890427672",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1678.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b508aadbe11ded0803f4f674d04ebaeb507ab226_md2.jpg"
+  },
+  {
+    "id": "865780458",
+    "price": "",
+    "zipCode": "163",
+    "type": "60804",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1418.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5c720404be7df4861aac5ea4fc0e204d44e7142b_md2.jpg"
+  },
+  {
+    "id": "841736798",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1ff0c81f6cb1b92ac2e65385eafcb8955b1636f4_md2.jpg"
+  },
+  {
+    "id": "865543837",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1479.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/df8f9aec149a5dcf377eab793bcc5af93eecf175_md2.jpg"
+  },
+  {
+    "id": "853062671",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "2467.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e8b907fa0e536270e798e9091707e6ecb80b9ce0_md2.jpg"
+  },
+  {
+    "id": "880648612",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1189.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/32e5da2a2eb7319d762bc9d59fd9e879aedd716a_md2.jpg"
+  },
+  {
+    "id": "890562852",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1164.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f231add6c2cf605d65f73254601cc75e41d2eca2_md2.jpg"
+  },
+  {
+    "id": "841736875",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1320.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/31ffb33470b4c85e11c05fd91039f35a1cb9e2c1_md2.jpg"
+  },
+  {
+    "id": "875576498",
+    "price": "",
+    "zipCode": "670",
+    "type": "60804",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1048.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1603ffd3f92ca59762759224b1772b564bda3360_md2.jpg"
+  },
+  {
+    "id": "856883809",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "979.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e30709fdc358a3600659ac8cd05ac191cddb4fc_md2.jpg"
+  },
+  {
+    "id": "865436309",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1267.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cb09f1ee4ddef42078befc23e63f98db37157d52_md2.jpg"
+  },
+  {
+    "id": "878613613",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1270.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cd1381b5af3aa5dea47eb6e3b205a2e9f986c79f_md2.jpg"
+  },
+  {
+    "id": "890688394",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "2154.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6829d7b25e39fa356eda77fc4f816e129428a528_md2.jpg"
+  },
+  {
+    "id": "906454523",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "8.0",
+    "baths": "4.0",
+    "squareFeet": "6720.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a95b1decdd05419c8d47894d53d57af13c368fe0_md2.jpg"
+  },
+  {
+    "id": "870817331",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3143.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f86790a2a9a2baf8e3f7b48a81c14d7ca127c6dd_md2.jpg"
+  },
+  {
+    "id": "857822721",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1059.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a0dfb16523cc5ed4036d631bace283d21bad9e00_md2.jpg"
+  },
+  {
+    "id": "857690245",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3192.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5984f14e27d7e31eaa778c163ed91f430508608b_md2.jpg"
+  },
+  {
+    "id": "861308835",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "1950.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ebb6792b3d059a7f875de7e31ad8c96990fa2449_md2.jpg"
+  },
+  {
+    "id": "831647206",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "2392.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4499378ba33e1d87dbd25de4c6a744f8760793c0_md2.jpg"
+  },
+  {
+    "id": "900369860",
+    "price": "",
+    "zipCode": "123",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "898.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d2fbee02b48d244d5ebdd417b749ebdabe3b54db_md2.jpg"
+  },
+  {
+    "id": "841503884",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2176.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b5461132dd0a5ac15b72f7bcd20259321d25449_md2.jpg"
+  },
+  {
+    "id": "898069051",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "6.0",
+    "baths": "3.0",
+    "squareFeet": "2484.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8e1e2fac8c64620a7676d61ce8657e6ddea830e6_md2.jpg"
+  },
+  {
+    "id": "841569551",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2200.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a0d8bf48f99b39ab55c13b13531e90dcdd74709d_md2.jpg"
+  },
+  {
+    "id": "887294739",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1326.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d2ffaf882fbf4a795f2185f180cf9c1587950e44_md2.jpg"
+  },
+  {
+    "id": "802514556",
+    "price": "",
+    "zipCode": "60402",
+    "type": "TownhouseorCondo",
+    "beds": "6.0",
+    "baths": "3.0",
+    "squareFeet": "2528.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/91f5fc972722da9943cd0599a0ea5d171d980f8f_md2.jpg"
+  },
+  {
+    "id": "890943388",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "6.0",
+    "baths": "5.0",
+    "squareFeet": "3235.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6c2e7e89291f66bd76eba72ba737904ff7f6ddb9_md2.jpg"
+  },
+  {
+    "id": "912301882",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c54fc8ded20cf2af10cb4ce696293e1223b2257e_md2.jpg"
+  },
+  {
+    "id": "865573139",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2176.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0fcbdd622f74f148a0c051691eaf97be2e186a17_md2.jpg"
+  },
+  {
+    "id": "920697446",
+    "price": "",
+    "zipCode": "286",
+    "type": "60402",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "900.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7f2ad41319b693d5cb6cd0e699ac40224b413867_md2.jpg"
+  },
+  {
+    "id": "918187097",
+    "price": "",
+    "zipCode": "994",
+    "type": "60402",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "65340.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/631c1ad58406eda4f0d5298b6d756fa669f6b59f_md2.jpg"
+  },
+  {
+    "id": "802372733",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1802.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9056f4a268584b065b3d9a0336ba7adc65baf1a2_md2.jpg"
+  },
+  {
+    "id": "865213934",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2098.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/93241efd47ca211879b80e18f01f0c92b79b6f1b_md2.jpg"
+  },
+  {
+    "id": "890620617",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "768.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b637231ad8dd1c866f768a1d0e290667a6bcc8ab_md2.jpg"
+  },
+  {
+    "id": "865572620",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1176.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/477b900212d72e609f59f0077f9fe140f1af2882_md2.jpg"
+  },
+  {
+    "id": "885142622",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1103.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/763a1407e10283b5be98292ad624ecbe60821e10_md2.jpg"
+  },
+  {
+    "id": "865381076",
+    "price": "",
+    "zipCode": "325",
+    "type": "60402",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1025.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/13e3c515c9b81e3192eede4b1b27979db5477069_md2.jpg"
+  },
+  {
+    "id": "874327388",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1755.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/289ca3f2d72effd41c12a7afa93ee821fe218e2a_md2.jpg"
+  },
+  {
+    "id": "885085645",
+    "price": "",
+    "zipCode": "0",
+    "type": "60402",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1489.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/99ff8e2e408b684e0e8fbf92281e91138f79ca7c_md2.jpg"
+  },
+  {
+    "id": "906139426",
+    "price": "",
+    "zipCode": "608",
+    "type": "60402",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1668.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/24f058aa653f32043aa91fc82d56ffcb7064d860_md2.jpg"
+  },
+  {
+    "id": "919931953",
+    "price": "",
+    "zipCode": "60804",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1024.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f0d8af35b3d0492343d4f0892c740453e3f3a71e_md2.jpg"
+  },
+  {
+    "id": "881664606",
+    "price": "",
+    "zipCode": "432",
+    "type": "60804",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1875.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/74b6870e3b855bb71f88b8f123fd91b3a904d5f1_md2.jpg"
+  },
+  {
+    "id": "841368728",
+    "price": "",
+    "zipCode": "0",
+    "type": "60804",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "2216.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a2c2c05bfb9a6c4e3de41e2a7d8b27a2890ce65f_md2.jpg"
+  },
+  {
+    "id": "900073150",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "2245.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a66966eeae4af2132ff68f346bd1ff0f917947dd_md2.jpg"
+  },
+  {
+    "id": "871762143",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1333.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/69f10445911a7f50553a70c08193df02f0442ae7_md2.jpg"
+  },
+  {
+    "id": "865543744",
+    "price": "",
+    "zipCode": "60402",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "874.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1f8086cc031f1fc81d500bef6a62940b9f54681c_md2.jpg"
+  },
+  {
+    "id": "816317747",
+    "price": "",
+    "zipCode": "60804",
+    "type": "TownhouseorCondo",
+    "beds": "6.0",
+    "baths": "4.0",
+    "squareFeet": "3294.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b354d56f2437c7b726776d4c4e1bf946e38f16d_md2.jpg"
+  },
+  {
+    "id": "865589018",
+    "price": "",
+    "zipCode": "26",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "940.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2fd9685414e2f2d374f46ba5450bfa51d5a3e938_md2.jpg"
+  },
+  {
+    "id": "878773071",
+    "price": "",
+    "zipCode": "209",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "958.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b0dda9fe3f4bb5e09120ff6172273ff7862d4174_md2.jpg"
+  },
+  {
+    "id": "788329346",
+    "price": "",
+    "zipCode": "759",
+    "type": "60804",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "958.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/461a0ad5590fdc4d8d60cb0877d97bd42dac8be7_md2.jpg"
+  }
+]

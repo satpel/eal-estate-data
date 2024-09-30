@@ -1,0 +1,982 @@
+[
+  {
+    "id": "775306327",
+    "price": "",
+    "zipCode": "87729",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1396.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/98290b2f351aaeef73a1533795bbe6402feb7412_md2.jpg"
+  },
+  {
+    "id": "825636033",
+    "price": "",
+    "zipCode": "87734",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "1.0",
+    "squareFeet": "2520.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/23b7874e19e838d9f007e933b0bbe92bc36b2c15_md2.jpg"
+  },
+  {
+    "id": "882903025",
+    "price": "",
+    "zipCode": "87729",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1638.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fe5767aa4d6f12123f7c8930a86333af0eafa7d6_md2.jpg"
+  },
+  {
+    "id": "782119394",
+    "price": "",
+    "zipCode": "87729",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1583.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7f58da258c1e3a073baa878b38d1d4162eef7f59_md2.jpg"
+  },
+  {
+    "id": "907982835",
+    "price": "",
+    "zipCode": "87701",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/81f38c2c263f59e9b9c9ff45f0a80dd419d41e4f_md2.jpg"
+  },
+  {
+    "id": "918838287",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "849.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/213ecd55bbaf09acb48f6057ecb36f95e19db8ae_md2.jpg"
+  },
+  {
+    "id": "915778391",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1340.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f088808f1f87dbcae1d385555be69fb58bed22d7_md2.jpg"
+  },
+  {
+    "id": "897604211",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "868.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b407fc3fdb79b669300d56bf9f020d9bcdff9175_md2.jpg"
+  },
+  {
+    "id": "897546822",
+    "price": "",
+    "zipCode": "87747",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "980.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7590efbb1a36a1b1d188a908c376cb7408deeaaa_md2.jpg"
+  },
+  {
+    "id": "897295170",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1350.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bc3222572457ab03c6693e0abc059ea4aff39b27_md2.jpg"
+  },
+  {
+    "id": "893857847",
+    "price": "",
+    "zipCode": "87747",
+    "type": "Other",
+    "beds": "1.0",
+    "baths": "",
+    "squareFeet": "7200.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3cd4e5f533ec0bc24ad4bc34affdc81927b5b86e_md2.jpg"
+  },
+  {
+    "id": "876171611",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "2166.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0c4cd16120330cc3b1faa43a5070ae6638cbc7c9_md2.jpg"
+  },
+  {
+    "id": "851250047",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1038.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/82f861bf581d8a4541d310303f19ef76b9f7e62c_md2.jpg"
+  },
+  {
+    "id": "796624221",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1827.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1cb408e24e1fb96dc89bd9334ab10cb9fe6c34c4_md2.jpg"
+  },
+  {
+    "id": "788634130",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "2333.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1912aefd2f580d5ed5e15ed4897ebfc82b0107ed_md2.jpg"
+  },
+  {
+    "id": "770339528",
+    "price": "",
+    "zipCode": "87747",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1660.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/024aeae0b8ee220dec202ac03b102eff14e45a1d_md2.jpg"
+  },
+  {
+    "id": "905053495",
+    "price": "",
+    "zipCode": "87722",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "900.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4cdbf06779478fbdc5ee6db658a8c23c66aa9563_md2.jpg"
+  },
+  {
+    "id": "902724320",
+    "price": "",
+    "zipCode": "87722",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1422.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/10b276204b31399871189cc884529dd4a6ebef3d_md2.jpg"
+  },
+  {
+    "id": "886951733",
+    "price": "",
+    "zipCode": "87722",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/542da038ad686d35ec5ca87c3b9954210eb03a33_md2.jpg"
+  },
+  {
+    "id": "885115953",
+    "price": "",
+    "zipCode": "87722",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2150.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1c7726ecc5638b05d72e9fc942e20b43ad660821_md2.jpg"
+  },
+  {
+    "id": "858460248",
+    "price": "",
+    "zipCode": "87722",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ceeb870f754ffec199774ca511e0ca2358b0a2a3_md2.jpg"
+  },
+  {
+    "id": "830310240",
+    "price": "",
+    "zipCode": "87722",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c68793b7d0b9afe2b439509f2fd5d84ce9d0d04a_md2.jpg"
+  },
+  {
+    "id": "779110674",
+    "price": "",
+    "zipCode": "87722",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "920.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8eedce4b09ce2bad699a9f9ced1029ede5884edb_md2.jpg"
+  },
+  {
+    "id": "903746268",
+    "price": "",
+    "zipCode": "87743",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3483.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b29161875d71dbdc95c06a362363a86ac335d899_md2.jpg"
+  },
+  {
+    "id": "909512711",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/762720586da0a45e60c7a7e880859605a3be949a_md2.jpg"
+  },
+  {
+    "id": "916412674",
+    "price": "",
+    "zipCode": "87732",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4538d6b7184bee2197c67f0de21b750753e6d430_md2.jpg"
+  },
+  {
+    "id": "900834772",
+    "price": "",
+    "zipCode": "87732",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0879fa4eedcfbdb24583fd2e346b1c52439840d8_md2.jpg"
+  },
+  {
+    "id": "900834771",
+    "price": "",
+    "zipCode": "87732",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7614ce36456f56680f4706d50a4db8e8330fbc79_md2.jpg"
+  },
+  {
+    "id": "876957515",
+    "price": "",
+    "zipCode": "87732",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ac5b452d4ca0e23fc1bdd9616210fa3ab6498319_md2.jpg"
+  },
+  {
+    "id": "769599825",
+    "price": "",
+    "zipCode": "87732",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f524bd5666d8e8ea5e7fec8c19150265e5b44408_md2.jpg"
+  },
+  {
+    "id": "890139237",
+    "price": "",
+    "zipCode": "87745",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/11b2573296317f32afc5c3cff1ec08b49727af89_md2.jpg"
+  },
+  {
+    "id": "913451861",
+    "price": "",
+    "zipCode": "87745",
+    "type": "Other",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "2000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/336532e8128e7941b36bf91d2365d5d8d748bb46_md2.jpg"
+  },
+  {
+    "id": "915833169",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/84e763ee03166de9257537a1949c3cf18339ccf5_md2.jpg"
+  },
+  {
+    "id": "910948389",
+    "price": "",
+    "zipCode": "87745",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0fe8390b586bf0680575984970dc1069e0fde175_md2.jpg"
+  },
+  {
+    "id": "792930809",
+    "price": "",
+    "zipCode": "87710",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "7.0",
+    "squareFeet": "10037.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7e8ed71c0dd275591095e512866a2db8ab7fcf2b_md2.jpg"
+  },
+  {
+    "id": "895045006",
+    "price": "",
+    "zipCode": "87710",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "3330.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/996a7c656cdaf802cc1e174de1dfcb0324bbd31a_md2.jpg"
+  },
+  {
+    "id": "903416605",
+    "price": "",
+    "zipCode": "87714",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "921.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2083a3d8bc49d3d540f7f784536ef9cbb50d9505_md2.jpg"
+  },
+  {
+    "id": "788495498",
+    "price": "",
+    "zipCode": "87714",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1056.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7e54ca98418adcf49e27cc524b0f855a2ce2c58f_md2.jpg"
+  },
+  {
+    "id": "916238431",
+    "price": "",
+    "zipCode": "87714",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6ced68de32fee16cc5c820ecc60fc7ac4c46f647_md2.jpg"
+  },
+  {
+    "id": "788385661",
+    "price": "",
+    "zipCode": "87714",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "2166.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f11dce3b9cda384a37a537d9b6ab50ae29e02ba9_md2.jpg"
+  },
+  {
+    "id": "788266451",
+    "price": "",
+    "zipCode": "87714",
+    "type": "MobileorManufacturedHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "2682.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/80ed49dc99d96de2a033ff335d36b00bcd6178f7_md2.jpg"
+  },
+  {
+    "id": "788252242",
+    "price": "",
+    "zipCode": "87714",
+    "type": "MobileorManufacturedHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "442.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/110b6d8b2589b81eacafccdc8928318474079a78_md2.jpg"
+  },
+  {
+    "id": "843189731",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e5a08ce73d056af32a691d3a5f2fc1faebf49bea_md2.jpg"
+  },
+  {
+    "id": "884547616",
+    "price": "",
+    "zipCode": "87701",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0c4b368832146bf14125e56527d1af0900b0ba73_md2.jpg"
+  },
+  {
+    "id": "903886687",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/005e065f356f56b367381113418550a3e6e97886_md2.jpg"
+  },
+  {
+    "id": "884547572",
+    "price": "",
+    "zipCode": "87701",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c945d84b0cb368e9b7c046e835f51cddbe164ac7_md2.jpg"
+  },
+  {
+    "id": "892275615",
+    "price": "",
+    "zipCode": "87701",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/267b8e8139b95dceaf6a97dc0666a84200ca5d8f_md2.jpg"
+  },
+  {
+    "id": "887961034",
+    "price": "",
+    "zipCode": "87728",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1020.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/034802bbdb6a23ef082160a89a66700f6d073d15_md2.jpg"
+  },
+  {
+    "id": "788132605",
+    "price": "",
+    "zipCode": "87728",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "560.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7be1755b8941e86b6d39eb62eb6ac90d60716afb_md2.jpg"
+  },
+  {
+    "id": "900949746",
+    "price": "",
+    "zipCode": "87728",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "3174.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/43c4ea2c90c644fbe80e8d4758ad21d78c0d9f9a_md2.jpg"
+  },
+  {
+    "id": "890113006",
+    "price": "",
+    "zipCode": "87571",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9fa13afc6d409dcd9068e9a8fff1f63d895efd23_md2.jpg"
+  },
+  {
+    "id": "917720149",
+    "price": "",
+    "zipCode": "87701",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a48a3f531b0abade8c4b71971517bbfcf610297f_md2.jpg"
+  },
+  {
+    "id": "916116876",
+    "price": "",
+    "zipCode": "87701",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c9cde23cc1471cbe434252b6bf8a2b4cfd515910_md2.jpg"
+  },
+  {
+    "id": "764096686",
+    "price": "",
+    "zipCode": "87728",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "5947.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e8eeb37947798e08c56532cda96533fd1baf7e3c_md2.jpg"
+  },
+  {
+    "id": "916171083",
+    "price": "",
+    "zipCode": "87723",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e0d6427337d3e39f734e35dc83ec9bae9d909892_md2.jpg"
+  },
+  {
+    "id": "916111516",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b23b15dd0d50b9f16f2469aabbb20d3060746b36_md2.jpg"
+  },
+  {
+    "id": "916117071",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/abe52591eca95eb666470b90e7e2c8be45a39c65_md2.jpg"
+  },
+  {
+    "id": "916119387",
+    "price": "",
+    "zipCode": "87710",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d86bcbae26464a765b90f03a0fdcdd4ad9a7139e_md2.jpg"
+  },
+  {
+    "id": "912955877",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e398b08ddacbf28dd1d4aa04d695c6e7fabc7fa_md2.jpg"
+  },
+  {
+    "id": "898724647",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ddd20267e00f280d52e8b0cf400b4271c10d0733_md2.jpg"
+  },
+  {
+    "id": "891192228",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a35176022fee15c27bf3892673cddf31376906e5_md2.jpg"
+  },
+  {
+    "id": "891192218",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/44ac8ee48fda9a6ca3926d2b3eb1fa86c17e169c_md2.jpg"
+  },
+  {
+    "id": "888265782",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/996623b5b2855c3ee02834fb23ebf34760c88472_md2.jpg"
+  },
+  {
+    "id": "888260000",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/167ce4b1dacda1e6283699c36a4cf67a1826f3d7_md2.jpg"
+  },
+  {
+    "id": "880287549",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/54961704ffcc1495e66300e0d3ce29ac947a6535_md2.jpg"
+  },
+  {
+    "id": "876025237",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f63e00a3f0735f90f2f4f77a5a203f2f58377d6d_md2.jpg"
+  },
+  {
+    "id": "864914503",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a5d9a41fec4e0da7f1f2864875f892ec6ce90676_md2.jpg"
+  },
+  {
+    "id": "853364378",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ace250f732a8e87f431e84e9fa84209a43f4116_md2.jpg"
+  },
+  {
+    "id": "853363977",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fff06006bdbf1eca0f01c3195061007ead235e7a_md2.jpg"
+  },
+  {
+    "id": "850850065",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/aaf15624a3a1ae55ad4c03e1dcdb99f7d58ada30_md2.jpg"
+  },
+  {
+    "id": "830345765",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/636193c01116ee7dc08ce43c128772a34c59758a_md2.jpg"
+  },
+  {
+    "id": "824575675",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a770cc852b47517ed4544fd84e03d45e7b704f31_md2.jpg"
+  },
+  {
+    "id": "805506501",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d44b4b52c70286523b22d77eeed72848d7eef05_md2.jpg"
+  },
+  {
+    "id": "805506499",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2bc74ae5a2e1df15ceda88476bef08530a594c34_md2.jpg"
+  },
+  {
+    "id": "800548313",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/242d4be50815340ed8c36ec9e7cc29426b173c44_md2.jpg"
+  },
+  {
+    "id": "798885109",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dd74e738860fc0bcf753e9fd4ffb5bac06f30c79_md2.jpg"
+  },
+  {
+    "id": "797933477",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c9b403bfd011820498e40ade9d2213cbd25ced9c_md2.jpg"
+  },
+  {
+    "id": "797050733",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4d8162745b8e5380695ee1517bda032d8f4ef79a_md2.jpg"
+  },
+  {
+    "id": "797050729",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d8f64248a2db0581e7cdcc5204ba0e6150fc0a42_md2.jpg"
+  },
+  {
+    "id": "797050696",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/828667c6aa117ce3cc3d926734becc316a475852_md2.jpg"
+  },
+  {
+    "id": "797050645",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cab71494d0b2d188349bbd50a92e283a9ce445e1_md2.jpg"
+  },
+  {
+    "id": "797050641",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2d3016d40af87db873beb718e4ac7b489283ebea_md2.jpg"
+  },
+  {
+    "id": "797050598",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3cfc04846995afff6bbd67da310b423a3ae057ff_md2.jpg"
+  },
+  {
+    "id": "797050597",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6014c018cfbf03185829221f57dd73e85238718f_md2.jpg"
+  },
+  {
+    "id": "797050595",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e4c0d0673750ede4db605711eeb8d2457f184af4_md2.jpg"
+  },
+  {
+    "id": "797050436",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/407bba4b8f78696c3d199651479dd89ed1b51a80_md2.jpg"
+  },
+  {
+    "id": "797050429",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/15fe1c9f47caa1187440e34cdfd8fa6c82bcd9f8_md2.jpg"
+  },
+  {
+    "id": "797050426",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ecdeb88ebe1cf22c04003e5612646770cab08e6e_md2.jpg"
+  },
+  {
+    "id": "797050416",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e9070f826465f4327af35d238017c90630470eb5_md2.jpg"
+  },
+  {
+    "id": "797050310",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/92f69d633346009f78d0c8d610a12953b0a628fd_md2.jpg"
+  },
+  {
+    "id": "797050127",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/be171259e14fe1ae6fbd1aa1f01759815a0fdebd_md2.jpg"
+  },
+  {
+    "id": "797049996",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b07d91a621d3c90217fd694ec4ef162c2338e9b7_md2.jpg"
+  },
+  {
+    "id": "797049995",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ac3e37229705682525c0c755af24d78230a778ae_md2.jpg"
+  },
+  {
+    "id": "797049923",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1d061b32ce3d93c21d5855ea23c75d9e68b4bf7c_md2.jpg"
+  },
+  {
+    "id": "797049897",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bde493afc56bf1e92576d714b8bd5bf85610a9d0_md2.jpg"
+  },
+  {
+    "id": "797049895",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/044a0f9de84a97cc201beb4deec0db0c04827b22_md2.jpg"
+  },
+  {
+    "id": "797049831",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d8522841e73a2cec44b28688b02ba094a67265ee_md2.jpg"
+  },
+  {
+    "id": "770590835",
+    "price": "",
+    "zipCode": "87742",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ea2bb43f25e55228769ef1ec6081878222706571_md2.jpg"
+  }
+]

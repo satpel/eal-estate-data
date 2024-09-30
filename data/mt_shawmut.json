@@ -1,0 +1,982 @@
+[
+  {
+    "id": "880285754",
+    "price": "",
+    "zipCode": "59078",
+    "type": "Other",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6d365ff1dfcce6cffa628d87245dc83d9d6a60c0_md2.jpg"
+  },
+  {
+    "id": "902715779",
+    "price": "",
+    "zipCode": "59078",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "956.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/943d3fa53de8869527021f491c73241c2f02cb38_md2.jpg"
+  },
+  {
+    "id": "881079455",
+    "price": "",
+    "zipCode": "59078",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "768.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d84f9e24d4320454a30f9822826b28b6593981d4_md2.jpg"
+  },
+  {
+    "id": "880051386",
+    "price": "",
+    "zipCode": "59078",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2496.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f0bfb1573256fb9ca717ce4a22db684f68ad12b4_md2.jpg"
+  },
+  {
+    "id": "904294346",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2496.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7b683265b885f57dc8d25662a92fcb83f4763d97_md2.jpg"
+  },
+  {
+    "id": "877219505",
+    "price": "",
+    "zipCode": "59074",
+    "type": "MobileOrManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1560.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/44670e4897570825a16b5c9ac0a9c4d911be9f58_md2.jpg"
+  },
+  {
+    "id": "912194706",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "2176.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3ac9fc72d1c2a2a3aae6508ab5944f6ba8f55069_md2.jpg"
+  },
+  {
+    "id": "899971067",
+    "price": "",
+    "zipCode": "59074",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d4f786dbc11d6e3a3e2acf841bab15c68d049f59_md2.jpg"
+  },
+  {
+    "id": "899916245",
+    "price": "",
+    "zipCode": "59074",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c1ee8f24f77d811d3a3aac46cdbb970a59f168a9_md2.jpg"
+  },
+  {
+    "id": "904206807",
+    "price": "",
+    "zipCode": "59074",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6996c1d523f70197edc07bbd7cf153714d986848_md2.jpg"
+  },
+  {
+    "id": "907522494",
+    "price": "",
+    "zipCode": "59074",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "2366.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba16a0ed65bd2fa446316f88b1e260b2112d8b0a_md2.jpg"
+  },
+  {
+    "id": "875663551",
+    "price": "",
+    "zipCode": "59074",
+    "type": "MobileOrManufacturedHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1620.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c1b6e2d544724c7672c8161dbafed9a98f0c517a_md2.jpg"
+  },
+  {
+    "id": "877688165",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1896.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/07b267209e3569cb7d14c113a544e32e3ff8ef1b_md2.jpg"
+  },
+  {
+    "id": "904105746",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "896.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/48a045542a1d8fe8fa1f33b156912ecc2f7568ae_md2.jpg"
+  },
+  {
+    "id": "907535759",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "896.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d97a8951bcc2ffb586e6a308c55bb89932bea930_md2.jpg"
+  },
+  {
+    "id": "903251774",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1819.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0c8a3f07610d10cee653129d8f640f8fee4deb3e_md2.jpg"
+  },
+  {
+    "id": "897833201",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1569.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dfdb4122778f7afae8fff9417cd569b8129645d5_md2.jpg"
+  },
+  {
+    "id": "841934590",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "1.0",
+    "squareFeet": "1260.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d97d43ae7be92fcaaf9f5ed9a78df637f6ade22d_md2.jpg"
+  },
+  {
+    "id": "915083200",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "11.0",
+    "baths": "7.0",
+    "squareFeet": "7164.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c0b61a3bb9644aed735c133a0f0ab7972c78094e_md2.jpg"
+  },
+  {
+    "id": "904383667",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/58b2f082a39db3c4d9a68729767d295eec0d7bf7_md2.jpg"
+  },
+  {
+    "id": "875151870",
+    "price": "",
+    "zipCode": "59036",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2194.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/171b88a2b2ecbded308758f87c46eed0ad9df26c_md2.jpg"
+  },
+  {
+    "id": "903441695",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1060.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4c04a1f6e180658f8caf8856e67188cc4fe5c344_md2.jpg"
+  },
+  {
+    "id": "903198954",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1178.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/04ffb65469b5421f457c9df6a08b3ee9647f2cf4_md2.jpg"
+  },
+  {
+    "id": "901044423",
+    "price": "",
+    "zipCode": "59036",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1178.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d41c5e113090d9d787db7e728774a7dc14843aab_md2.jpg"
+  },
+  {
+    "id": "896282698",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2604aa964e84c4aea130a3f8d807837e0e235e7e_md2.jpg"
+  },
+  {
+    "id": "904638949",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b9800ebd4fa11f9501c8071cf7807b85aacba33d_md2.jpg"
+  },
+  {
+    "id": "900680381",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1540.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dd594a8c29e82888264b82ba7b74cf4d53893020_md2.jpg"
+  },
+  {
+    "id": "916154618",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1ecaed25f5dda5f7a8d5090b39dce1df95372368_md2.jpg"
+  },
+  {
+    "id": "918436318",
+    "price": "",
+    "zipCode": "59011",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d5ce1f2b7ee057f88ef8593c1719c194b22ea048_md2.jpg"
+  },
+  {
+    "id": "915144944",
+    "price": "",
+    "zipCode": "59067",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7678b85b3bb75604a994d11390a90bd1df57bf0e_md2.jpg"
+  },
+  {
+    "id": "913014440",
+    "price": "",
+    "zipCode": "59067",
+    "type": "VacantLand",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1064.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/877cca9d9e598f6069593407a223bd8aea739348_md2.jpg"
+  },
+  {
+    "id": "908076708",
+    "price": "",
+    "zipCode": "59067",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "3300.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d059ca867d4f72c60ade5e663c706ee805cdebac_md2.jpg"
+  },
+  {
+    "id": "904633851",
+    "price": "",
+    "zipCode": "59067",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7a9e1d2304734f8722736b4bb56faf5bf678a726_md2.jpg"
+  },
+  {
+    "id": "889062571",
+    "price": "",
+    "zipCode": "59067",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6108a9107f76d392021903e512ed76e08bd7f1f3_md2.jpg"
+  },
+  {
+    "id": "871669791",
+    "price": "",
+    "zipCode": "59067",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1560.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2627a0f4bc5e94b0885e6d09438a73f8a0b9a0c8_md2.jpg"
+  },
+  {
+    "id": "862463031",
+    "price": "",
+    "zipCode": "59085",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1160.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/47b8c4380361a5fc3d82b8653f8f51d1ca2a4815_md2.jpg"
+  },
+  {
+    "id": "787648572",
+    "price": "",
+    "zipCode": "59011",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5571cf0fdefc27adb34f5434e3b452179b1c25d2_md2.jpg"
+  },
+  {
+    "id": "878853865",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1108.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f87ed0b54c2f533df08393cba14200f80d492a60_md2.jpg"
+  },
+  {
+    "id": "904090137",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "",
+    "squareFeet": "2000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bcdf1bb63187ab0446b736200aff49782a7c0391_md2.jpg"
+  },
+  {
+    "id": "850933952",
+    "price": "",
+    "zipCode": "59011",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1577379374ae9ee209063dd5a03a84af69583dff_md2.jpg"
+  },
+  {
+    "id": "903812588",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "4.0",
+    "squareFeet": "4864.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/afd295b1a20503a5aa1550f866e08153114a96f6_md2.jpg"
+  },
+  {
+    "id": "903561601",
+    "price": "",
+    "zipCode": "59067",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7918401533e03706daa6745584b05e1e9c6bfb08_md2.jpg"
+  },
+  {
+    "id": "888941371",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1862.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f846e31bc91a284268392030352871dd90bd67fd_md2.jpg"
+  },
+  {
+    "id": "912590297",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "4.0",
+    "squareFeet": "3471.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2f55a5cc01ace63a37b31342a2f4db738973e523_md2.jpg"
+  },
+  {
+    "id": "906153124",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2986.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0e50a6e35c74e00f64335457d6c46889f18f5582_md2.jpg"
+  },
+  {
+    "id": "911232150",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2836.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4168959d509ba93a116ac282fab5dd81d1eb0e90_md2.jpg"
+  },
+  {
+    "id": "912663445",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2353.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b76c3b8a280a4faed89fc8ff48a8f358c3901e1a_md2.jpg"
+  },
+  {
+    "id": "918900666",
+    "price": "",
+    "zipCode": "59011",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5264146f5c0f8957f5a1b20b9ba4999e715dead8_md2.jpg"
+  },
+  {
+    "id": "917828382",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "3464.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/da9b6aa7e34778d5d3641351bc1fd6c4f8845ef3_md2.jpg"
+  },
+  {
+    "id": "911916454",
+    "price": "",
+    "zipCode": "59011",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1692f99acf4d1dc7f7838a0b2276040a52c715bb_md2.jpg"
+  },
+  {
+    "id": "907919592",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1714.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ba919348f2f01dff2ce7a853198f1e4bf7aacd0_md2.jpg"
+  },
+  {
+    "id": "885636741",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1912.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bb4ec72f9476e2728b839637cda2d4d62fd68577_md2.jpg"
+  },
+  {
+    "id": "920775085",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "3382.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d18f36c1159bea8ee1c2aed2108d42a90782979_md2.jpg"
+  },
+  {
+    "id": "920580595",
+    "price": "",
+    "zipCode": "59011",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1448.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/265fb004ab05af12172ddda1c727f83404f04168_md2.jpg"
+  },
+  {
+    "id": "920478211",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1044.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0962d06ec303ceaebcfb02a2c1541d5909d0030d_md2.jpg"
+  },
+  {
+    "id": "912666707",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2975.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a9c2dc34035f366117009647c61efbc5da95d52b_md2.jpg"
+  },
+  {
+    "id": "911070646",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2848.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5631b88ecb046d6c665bd4635444ffa34b2d339c_md2.jpg"
+  },
+  {
+    "id": "903315274",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "960.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9c1506c32b18b0a797b6837225c617d8d7e2730c_md2.jpg"
+  },
+  {
+    "id": "877966171",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "3382.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3375f527bbb510e13df876ffe362628f88feb11f_md2.jpg"
+  },
+  {
+    "id": "858228498",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3001.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/98a0cc10669103f9f12e1efd673410306404f5ca_md2.jpg"
+  },
+  {
+    "id": "919192043",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1044.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1beed458efaed54f511f84b9d1fec509d8356eea_md2.jpg"
+  },
+  {
+    "id": "900597847",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "3617.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/12879686e362f7457760f933bf16fdfe029e686a_md2.jpg"
+  },
+  {
+    "id": "798623163",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1372.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d28193bf330be4568fa97b3b3122ff8fa65b80df_md2.jpg"
+  },
+  {
+    "id": "867570528",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1326.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/edc87227b26866a656071a8a17a3fbd715b6677c_md2.jpg"
+  },
+  {
+    "id": "865141819",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3360.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d38804c5d4b99caea1f76f5960adb83954c5a148_md2.jpg"
+  },
+  {
+    "id": "893978945",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "2722.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dc879ce82053292132e591e2f53667cd515d6670_md2.jpg"
+  },
+  {
+    "id": "884157551",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1990.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c5534c59a5f9ce2e5a48b0ff123924ab4ccee1c7_md2.jpg"
+  },
+  {
+    "id": "834663530",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1111.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9b39769cfebdc28181b9390752aef84064b4de5b_md2.jpg"
+  },
+  {
+    "id": "915224297",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "3080.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9109ab49cd948398ab636aa1b2b786cf818e8249_md2.jpg"
+  },
+  {
+    "id": "915092151",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2914.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/581fe90222ae383fcb695570a970dc46584e2f96_md2.jpg"
+  },
+  {
+    "id": "904376164",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2304.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fb40199fb363903f198c1fce3b3e046fb3e0727d_md2.jpg"
+  },
+  {
+    "id": "877018498",
+    "price": "",
+    "zipCode": "59033",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1493.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f5a422fa657a82bb614fffaaf01823ca8c94dca0_md2.jpg"
+  },
+  {
+    "id": "888398679",
+    "price": "",
+    "zipCode": "59453",
+    "type": "MobileorManufacturedHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "2300.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fc911bc950318ed281b660d6e4cc8adf8241b080_md2.jpg"
+  },
+  {
+    "id": "903425762",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "2176.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4f7cc66fe431efa863f4019cb173e7bc37180cb5_md2.jpg"
+  },
+  {
+    "id": "914001035",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "4.0",
+    "squareFeet": "2700.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/acea7330b940cfc73b45e5678c4798c84d0ebc42_md2.jpg"
+  },
+  {
+    "id": "917257103",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b3d9415f5b8a4d73a6ef60a18135fbc23bd72d7a_md2.jpg"
+  },
+  {
+    "id": "903956700",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "2928.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/39108af86e2cd6bb9c316b4ca2fadfbf517b9289_md2.jpg"
+  },
+  {
+    "id": "902077440",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c4c2d72e2490bb65d7a8a0723a50f480d48a571a_md2.jpg"
+  },
+  {
+    "id": "904109099",
+    "price": "",
+    "zipCode": "59033",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "5.0",
+    "squareFeet": "5111.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3faecd4f038268ed395a052ff0780165a1229856_md2.jpg"
+  },
+  {
+    "id": "905867711",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9727451c4cb2b7515115f67e359b608e16232d78_md2.jpg"
+  },
+  {
+    "id": "917839763",
+    "price": "",
+    "zipCode": "59453",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a9f0bcef7474e4c9ea2833094aece1a24af0926e_md2.jpg"
+  },
+  {
+    "id": "917643525",
+    "price": "",
+    "zipCode": "59453",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1100.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9d7076e117d8ec7967b8b5046e826d2ce7c36a94_md2.jpg"
+  },
+  {
+    "id": "912659568",
+    "price": "",
+    "zipCode": "59453",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3240.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ebc8c5e168f20b772c2fb1d413083f6afc468c9_md2.jpg"
+  },
+  {
+    "id": "892100739",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "3024.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dde8d6536804b68ad23d79ee1599e61adca327a2_md2.jpg"
+  },
+  {
+    "id": "907174009",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "5.0",
+    "squareFeet": "7100.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d14cf35e149c01842e2c36967b740203c74e0717_md2.jpg"
+  },
+  {
+    "id": "919975864",
+    "price": "",
+    "zipCode": "59015",
+    "type": "VacantLand",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1275.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b93fdbc6144e37ddc00ded2ca2d8c707704167b8_md2.jpg"
+  },
+  {
+    "id": "904204800",
+    "price": "",
+    "zipCode": "59069",
+    "type": "MobileorManufacturedHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "1388.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/595761252bd345f0ea0ba0de4bfc56c55f907a49_md2.jpg"
+  },
+  {
+    "id": "903539577",
+    "price": "",
+    "zipCode": "59015",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2240.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/780a0b411055c91c7da029b7d9667e21bc690853_md2.jpg"
+  },
+  {
+    "id": "873175470",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "608.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/83ffb9cce0c4d5978a7ad8dfc357c9486abd3971_md2.jpg"
+  },
+  {
+    "id": "768887125",
+    "price": "",
+    "zipCode": "59069",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1024.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/24e9332c34a82e21b97eca0c79d3a1e2abad045a_md2.jpg"
+  },
+  {
+    "id": "908240746",
+    "price": "",
+    "zipCode": "59015",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1390.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d5010ed273d646eb0363503db7aac63bb0e093a6_md2.jpg"
+  },
+  {
+    "id": "920972973",
+    "price": "",
+    "zipCode": "59011",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8737176a9ce0527a60938aa99c52d5604b8ba05e_md2.jpg"
+  },
+  {
+    "id": "893258813",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1879349f7d08cb5634cd2f86fd0ffb0f39ed2ac0_md2.jpg"
+  },
+  {
+    "id": "913383440",
+    "price": "",
+    "zipCode": "59019",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/291db804e4633664a07c278ef807837dde21f480_md2.jpg"
+  },
+  {
+    "id": "823766991",
+    "price": "",
+    "zipCode": "59046",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "2962.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e679c22ea3a384a888803deaac8008236557cf72_md2.jpg"
+  },
+  {
+    "id": "913435804",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/18ab2fce34c8030c4cb42093adbea0b1839496ae_md2.jpg"
+  },
+  {
+    "id": "876964787",
+    "price": "",
+    "zipCode": "59069",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c13f14e80f4fb276908a86521913d692b93503e8_md2.jpg"
+  },
+  {
+    "id": "815194655",
+    "price": "",
+    "zipCode": "59011",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "3.0",
+    "squareFeet": "3284.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/96c2760f0a71e9a44e74c4f5edf90fedb12e7b29_md2.jpg"
+  }
+]

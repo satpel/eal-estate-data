@@ -1,0 +1,882 @@
+[
+  {
+    "id": "845163317",
+    "price": "",
+    "zipCode": "69166",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b7a4eb27257e79a29b37a2f9afa2d6d7deb86fb8_md2.jpg"
+  },
+  {
+    "id": "866890007",
+    "price": "",
+    "zipCode": "69163",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "1642.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/197baa6ab8c0d87265d30d9965c90e046a133d59_md2.jpg"
+  },
+  {
+    "id": "917077373",
+    "price": "",
+    "zipCode": "69167",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1108.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b62058a10ab0ec7cd69e7d4458c4816c568e8fb_md2.jpg"
+  },
+  {
+    "id": "919205724",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1360.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5ab55c014d15afd4199a54ef2042d0359cb631ee_md2.jpg"
+  },
+  {
+    "id": "862387402",
+    "price": "",
+    "zipCode": "69214",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1638.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8603ed8bd2d70b85956bb2a49148dbe8e3dc4e9a_md2.jpg"
+  },
+  {
+    "id": "878144653",
+    "price": "",
+    "zipCode": "69214",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1a69c1779a0bd6e8030b069d7736a5eb9ec54b7e_md2.jpg"
+  },
+  {
+    "id": "862386402",
+    "price": "",
+    "zipCode": "69214",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3dcc1ee73cd5bc2418921313297ce1794a11a636_md2.jpg"
+  },
+  {
+    "id": "914753541",
+    "price": "",
+    "zipCode": "75090",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a6cedf7032dea150783318dc98cdc693605249e8_md2.jpg"
+  },
+  {
+    "id": "902281895",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1302.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b6cc3467d631045c02c875406d7b973cf269a0d9_md2.jpg"
+  },
+  {
+    "id": "905954047",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "813.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/836619bbec019c60518780be967e9c9f2eaf09a2_md2.jpg"
+  },
+  {
+    "id": "914812010",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1302.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/62a5372adf7ec0f795da2599fdda20683e1d5926_md2.jpg"
+  },
+  {
+    "id": "902153370",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1302.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/860de816ec4c8ff01b454a8bcedcf5587d87c7c5_md2.jpg"
+  },
+  {
+    "id": "905786992",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "813.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ee45163cb8b3f4b11b644cf9bcd2af4bea8da79_md2.jpg"
+  },
+  {
+    "id": "902691711",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1168.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e9ad185cafdd7a10bcfafbebb6d1b2e320835ecb_md2.jpg"
+  },
+  {
+    "id": "910820302",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "828.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1342758360ce35b5ca63a6ccebae90a89045dcfb_md2.jpg"
+  },
+  {
+    "id": "908374510",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1232.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/86d70f0e3750d839b7f5180d145de906c0535d71_md2.jpg"
+  },
+  {
+    "id": "864302260",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1334.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/83a8b2aecbeba9b59f8c8afe7fd64e3aab28ddac_md2.jpg"
+  },
+  {
+    "id": "919236286",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1142.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/365e69ba855502417e80d8d89842542327674e27_md2.jpg"
+  },
+  {
+    "id": "879885304",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "3.0",
+    "squareFeet": "2996.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cd83f41631d9c48279116715d8eec7484429a122_md2.jpg"
+  },
+  {
+    "id": "914811126",
+    "price": "",
+    "zipCode": "69210",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1302.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cd13c3aa28af4a67355f27bdcad9b123bb13f220_md2.jpg"
+  },
+  {
+    "id": "905933481",
+    "price": "",
+    "zipCode": "69210",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1302.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/78b52f9d80585bd7c8566250f2393d820f044084_md2.jpg"
+  },
+  {
+    "id": "905785846",
+    "price": "",
+    "zipCode": "69210",
+    "type": "TownhouseorCondo",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "813.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b8fbe12aedad758b222aa5230fc0ad8eca911d9c_md2.jpg"
+  },
+  {
+    "id": "898098749",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1421.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/973c7718eec77e90fed3ef945a3eb1185fc45743_md2.jpg"
+  },
+  {
+    "id": "878107646",
+    "price": "",
+    "zipCode": "69210",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7ded6891c38e398ea4bb9e170e4e99c69db5973e_md2.jpg"
+  },
+  {
+    "id": "871569242",
+    "price": "",
+    "zipCode": "69210",
+    "type": "TownhouseorCondo",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1302.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6c096d83f86c14655bd2f653a417bcb842daf439_md2.jpg"
+  },
+  {
+    "id": "808947945",
+    "price": "",
+    "zipCode": "69210",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6f5d761e9dbdc8d62781b9bc9d43e8cf61c190ef_md2.jpg"
+  },
+  {
+    "id": "883581223",
+    "price": "",
+    "zipCode": "69210",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1296.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/66e30ada68e50a824b9da758c64636f687c21062_md2.jpg"
+  },
+  {
+    "id": "807187744",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "2433.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/06788fe615b1bb253d43e7910a9845d1bf1c7719_md2.jpg"
+  },
+  {
+    "id": "867393590",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1023.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/28a9c3d0dc346613e316ae90e18fa796d0fd9e7e_md2.jpg"
+  },
+  {
+    "id": "738151865",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1776.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cfd5781d625510e2034551e7fa30b8da3c10e234_md2.jpg"
+  },
+  {
+    "id": "918606777",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2766.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/20e7b4f446ad99fab76ee02047c08a8e950c0ddb_md2.jpg"
+  },
+  {
+    "id": "888691296",
+    "price": "",
+    "zipCode": "68879",
+    "type": "SingleFamilyHome",
+    "beds": "6.0",
+    "baths": "4.0",
+    "squareFeet": "3270.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b483a3dfc1f078a47a5ce34ca915bb616ad6bd57_md2.jpg"
+  },
+  {
+    "id": "911363670",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2293.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/65e4edc54c28dfc37a1414cd9fdae279717459e0_md2.jpg"
+  },
+  {
+    "id": "902693784",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2570.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/eca646ca6b5ab1558a4a8a4cf2a541242cfd5f78_md2.jpg"
+  },
+  {
+    "id": "901621492",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1600.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b016cfe8753e5101989a24b557722ae8601478e6_md2.jpg"
+  },
+  {
+    "id": "913243152",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2064.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/abc2b7a0d5295e5285c52bab17c7965d465a690d_md2.jpg"
+  },
+  {
+    "id": "919554103",
+    "price": "",
+    "zipCode": "69217",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/31e9b7302ee7df25154dcbab26f13dd31860591b_md2.jpg"
+  },
+  {
+    "id": "896329351",
+    "price": "",
+    "zipCode": "69217",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1220.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8f4191c72906e486d43dc33b6f6287a349447fa3_md2.jpg"
+  },
+  {
+    "id": "919554104",
+    "price": "",
+    "zipCode": "69217",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9d1f15234554987c44dba1070d40163e73102e0d_md2.jpg"
+  },
+  {
+    "id": "914574326",
+    "price": "",
+    "zipCode": "69217",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0ba9f9802ca704ba731c3385ed57231727206dc0_md2.jpg"
+  },
+  {
+    "id": "911937270",
+    "price": "",
+    "zipCode": "69217",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b57fbdda98ba590c56d0aa604f7647576d746aca_md2.jpg"
+  },
+  {
+    "id": "900994736",
+    "price": "",
+    "zipCode": "69217",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8b253a35fe28cf93b1a0e47ebc5603f701960a37_md2.jpg"
+  },
+  {
+    "id": "898785607",
+    "price": "",
+    "zipCode": "69217",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "2.0",
+    "squareFeet": "1600.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/122743e76a8eca864d573c30aa4b017a5f0ef2a5_md2.jpg"
+  },
+  {
+    "id": "865471530",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1404.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b44a9060164f4e1a5e492ba00fc6ed7945270934_md2.jpg"
+  },
+  {
+    "id": "903914765",
+    "price": "",
+    "zipCode": "68825",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "1641.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d68a00ab7af444308570fb1f2001fc5ec2d48ba9_md2.jpg"
+  },
+  {
+    "id": "866371758",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1648.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/efeaccac625393d265d7bf8f52f54dd0948f7acc_md2.jpg"
+  },
+  {
+    "id": "886935436",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "512.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5d4c9c0aff1f0c9663ab20d6de8efdb84b9a75a8_md2.jpg"
+  },
+  {
+    "id": "888263618",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1430.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0076aae7c7d4204b7f409d001518b2ca4e13787f_md2.jpg"
+  },
+  {
+    "id": "903480181",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "990.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7f641ecce733069d6ba5daff70abe16a03cc871c_md2.jpg"
+  },
+  {
+    "id": "903475912",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "",
+    "baths": "2.0",
+    "squareFeet": "1140.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/508c995ca940d6abc3382a0cbdef575223a6462d_md2.jpg"
+  },
+  {
+    "id": "864971001",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1485.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/54f569c2e6f6ffa891e976de3bd1b253527a2109_md2.jpg"
+  },
+  {
+    "id": "916961143",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1440.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c99bb516c939a4021f9d3b7b8121e97c926dbf56_md2.jpg"
+  },
+  {
+    "id": "903204354",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "576.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7a9cc283ca39f3fb8cf17e9ce64a0ed040f2511e_md2.jpg"
+  },
+  {
+    "id": "887784537",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "996.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e8d5dc1c522161c850e60916d9e2ec9f9cb21b35_md2.jpg"
+  },
+  {
+    "id": "911716456",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1807.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/320b7ac0adaec808a73734059099cdd42de68705_md2.jpg"
+  },
+  {
+    "id": "917159890",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "640.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/546d956c2aaeb4ec188293e95544508738ffe1e9_md2.jpg"
+  },
+  {
+    "id": "920680930",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "744.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6dfad62a2bc6b469934a276104f88d45b0ee6715_md2.jpg"
+  },
+  {
+    "id": "917041922",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "928.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4fd3c4fe5273d36f1b0847ab52db8c05444fb927_md2.jpg"
+  },
+  {
+    "id": "903485632",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1dc4a32b35f587d4fc2802d7490bba15f60e8bad_md2.jpg"
+  },
+  {
+    "id": "908739307",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1092.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/31a9018379638dace6da35dcce10f1a00c256901_md2.jpg"
+  },
+  {
+    "id": "917212181",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1818.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/75602dea31aea1a8a3fbe878c0ad1af8e92db837_md2.jpg"
+  },
+  {
+    "id": "893034031",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "860.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2dcb380138f6eff01d480a37149a1765b2b64251_md2.jpg"
+  },
+  {
+    "id": "865022693",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "916.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/00c02dc055377c57ad96817bbb300afe0c8d20a8_md2.jpg"
+  },
+  {
+    "id": "907121656",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "964.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/85c2cbbec938da0d97e6e95a52bf351db9fad4a6_md2.jpg"
+  },
+  {
+    "id": "802336306",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "864.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d812353cdd751b581bc4bb646afe1959ea2bb5e_md2.jpg"
+  },
+  {
+    "id": "913495236",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "912.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a4b5b9ddfc32ae7d775b318617c4500479f11eb6_md2.jpg"
+  },
+  {
+    "id": "890193844",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1342.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6960c04d6c82f962862ef68eafb3278b0ba931b0_md2.jpg"
+  },
+  {
+    "id": "890128821",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "1116.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1227be3359d54b014bc58f906933027ec938c47b_md2.jpg"
+  },
+  {
+    "id": "897305541",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1334.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c468e5d16263599744d30b783228318356c123df_md2.jpg"
+  },
+  {
+    "id": "920473415",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1388.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/c78f3cb9665540d7499d7c5e1cdc34826286288a_md2.jpg"
+  },
+  {
+    "id": "916583092",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "736.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/52aff810a2db268266ddcc755081ff8db4c3a058_md2.jpg"
+  },
+  {
+    "id": "918907610",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1708.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d07521cdd2e1869bc44fab86ab15cac8374cf872_md2.jpg"
+  },
+  {
+    "id": "886743803",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1198.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/394d2a7b996a671ae5b33838fbf1d63fcc1afbff_md2.jpg"
+  },
+  {
+    "id": "919021950",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1216.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9878d7de1ad55c9594a19a44fb3ca5ffde76d72f_md2.jpg"
+  },
+  {
+    "id": "912743759",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "896.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2dd20195b91c263eaad9008c998aa4ab46395081_md2.jpg"
+  },
+  {
+    "id": "906201464",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1524.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9ced519d130118e0d9a5b4e98575fd0c8b07be39_md2.jpg"
+  },
+  {
+    "id": "909161800",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "3660.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b73e391db780f9e95f1eaa9dc0c112c92ff6f09d_md2.jpg"
+  },
+  {
+    "id": "798003450",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1920.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ccbe1ef35792573cd6e1178b9d9bc172cce4d8bf_md2.jpg"
+  },
+  {
+    "id": "919053758",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "968.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/07f8b5dfbe39913fcf4435cb73b4a67a908c5837_md2.jpg"
+  },
+  {
+    "id": "920078460",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1040.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4091ddee5f7f259116964864ebd6529961e00e28_md2.jpg"
+  },
+  {
+    "id": "912498386",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1236.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3e11378c8af6575c03ce4d0ca2285824f12a4633_md2.jpg"
+  },
+  {
+    "id": "914677204",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1542.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f281c3b36d43289f6e0106e427a1a36e3c95afa5_md2.jpg"
+  },
+  {
+    "id": "916063798",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1710.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4e1c9dbbd2d5b1160f24209800251a2faad241d6_md2.jpg"
+  },
+  {
+    "id": "918847864",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1579.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/aefcfae74b5485cf549e27041be4808db76f8da5_md2.jpg"
+  },
+  {
+    "id": "918901837",
+    "price": "",
+    "zipCode": "69101",
+    "type": "MobileorManufacturedHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1232.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a451f83d27e53ea9612b4fca5c3fc8daf7a7fbe3_md2.jpg"
+  },
+  {
+    "id": "911549295",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "867.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/67572c132255fca91c2e96f407945e73cdd2a2b5_md2.jpg"
+  },
+  {
+    "id": "906481237",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "2153.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5bdf948dc2eaad006aa9747fe62d6f619236debc_md2.jpg"
+  },
+  {
+    "id": "865767901",
+    "price": "",
+    "zipCode": "69101",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1510.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8f4db4f470d744390690aa86a773d9dfc19aae1f_md2.jpg"
+  }
+]

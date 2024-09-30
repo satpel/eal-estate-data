@@ -1,0 +1,952 @@
+[
+  {
+    "id": "875143101",
+    "price": "",
+    "zipCode": "62422",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "1.0",
+    "squareFeet": "800.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/113e043ca950ef9e191424e09b4a511e78c86a74_md2.jpg"
+  },
+  {
+    "id": "915823597",
+    "price": "",
+    "zipCode": "62438",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "768.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9b0a14ca058ccba1124c21df36d82ed870247859_md2.jpg"
+  },
+  {
+    "id": "915903967",
+    "price": "",
+    "zipCode": "62438",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1108.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/270476e721f53476d55c2678883ff97a9305f00f_md2.jpg"
+  },
+  {
+    "id": "919370660",
+    "price": "",
+    "zipCode": "62571",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "840.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0390a499b2890885e5ded1474d643f10927040e1_md2.jpg"
+  },
+  {
+    "id": "891746920",
+    "price": "",
+    "zipCode": "62414",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "",
+    "squareFeet": "1200.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/cefaf90fff13d068b0e81ba58236dc74af6a9ed5_md2.jpg"
+  },
+  {
+    "id": "863370237",
+    "price": "",
+    "zipCode": "62414",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "",
+    "squareFeet": "1077.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fba346d3755c43c2b741611fc8eefb51dd8fa60c_md2.jpg"
+  },
+  {
+    "id": "915029974",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "4.0",
+    "squareFeet": "3600.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2bdc223c6f86d7072d03643c86446c7f0f038a62_md2.jpg"
+  },
+  {
+    "id": "788261072",
+    "price": "",
+    "zipCode": "62414",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "",
+    "squareFeet": "2432.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0a8c0a70574d00c6e8f8641cca5466e65968463e_md2.jpg"
+  },
+  {
+    "id": "879820281",
+    "price": "",
+    "zipCode": "62431",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1340.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ef94134c2ffdbc802ea47ca47bb055ce4ad00a8f_md2.jpg"
+  },
+  {
+    "id": "903444571",
+    "price": "",
+    "zipCode": "62438",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1120.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/062a276b64ec41308818a1bc0db69f0c55d71cca_md2.jpg"
+  },
+  {
+    "id": "915080930",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1d9aea14e2afdc9a4ea5257729b225d8e9d34486_md2.jpg"
+  },
+  {
+    "id": "915081269",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3b354b4ba43a5c80ce3c443d02e0601d5f71f48c_md2.jpg"
+  },
+  {
+    "id": "915080564",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5c703b754a1bf91b57e299869f25e80595bf2420_md2.jpg"
+  },
+  {
+    "id": "916095730",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ba5ff17157962be80ed437d21f8867f7188c6229_md2.jpg"
+  },
+  {
+    "id": "894384224",
+    "price": "",
+    "zipCode": "62571",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1378.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f2d4d1fdbe9df953f5824a57768d7e67e3ea5cbe_md2.jpg"
+  },
+  {
+    "id": "797810875",
+    "price": "",
+    "zipCode": "62571",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "960.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/6865b08b383562c6a27dbee6e15386fa353a9c7b_md2.jpg"
+  },
+  {
+    "id": "914997843",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/43acef5894b339818ee9393a6f06a93d05ac2c3f_md2.jpg"
+  },
+  {
+    "id": "903544098",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "910.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7e313ba10660bfa9f83c2b1f44247e6c5b3a637c_md2.jpg"
+  },
+  {
+    "id": "916120219",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b7acfcc84519f9f6bbd5e052cd585d903c6bcb20_md2.jpg"
+  },
+  {
+    "id": "916118656",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/708b51cfbda044e14481b8d4665165aebf3b9df8_md2.jpg"
+  },
+  {
+    "id": "916116355",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fa2f5037ef5acb7fd40a02e962517a48e7215ef8_md2.jpg"
+  },
+  {
+    "id": "916117620",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/eefb731bad4d5a9cf460c656facfbb24aa0221fd_md2.jpg"
+  },
+  {
+    "id": "916114724",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ee53507f6bcf8fa3638705df1b562dd7201ab932_md2.jpg"
+  },
+  {
+    "id": "914735429",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/02b183c1d327ed5178d5f5f757a0860fbd02f3fb_md2.jpg"
+  },
+  {
+    "id": "916108183",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0d570aef6d3c2035b2ba9439d2b4b56fe9b5705e_md2.jpg"
+  },
+  {
+    "id": "875335604",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1680.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/faa2c8e661b4397d71e72617c5e1974501a2f1ad_md2.jpg"
+  },
+  {
+    "id": "914789625",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "2162.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/8aa19e71ee6557fdbf046726e0a7b110db3dfc1b_md2.jpg"
+  },
+  {
+    "id": "913208141",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1018.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1261393362a218aaf955f82cf814c15ab178cb7a_md2.jpg"
+  },
+  {
+    "id": "916108329",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/79448cffff713ec594e038acc2b349c5b73f8904_md2.jpg"
+  },
+  {
+    "id": "880522234",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "952.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0689c9886fb0ca14bbaa4dd908fc86d73eb2b730_md2.jpg"
+  },
+  {
+    "id": "915961638",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1500.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/29fa599a61bc3e08cabfe8a3d533ac6d587d7e9d_md2.jpg"
+  },
+  {
+    "id": "916340687",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1226.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bc5138a751ab7e97bcb1f0a3657905f140fc5109_md2.jpg"
+  },
+  {
+    "id": "915539978",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1292.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7d53519c9effb7233fc754775790124a333e14c6_md2.jpg"
+  },
+  {
+    "id": "909040782",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/862884794c2ce2050ddb0e85907164a53f92c80c_md2.jpg"
+  },
+  {
+    "id": "910350575",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1850.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7d2667548e440b55351ba827752b90c3aabf1e73_md2.jpg"
+  },
+  {
+    "id": "904845381",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "4.0",
+    "squareFeet": "3995.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/43e438d3eae58a50350310f3c4162b00383635bc_md2.jpg"
+  },
+  {
+    "id": "897313517",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "3.0",
+    "squareFeet": "1889.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e30520d465b037b390078165bad91de75d91f2b5_md2.jpg"
+  },
+  {
+    "id": "901186727",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1200.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d466ab37c2bfaac257091cafd6eb3838061cc962_md2.jpg"
+  },
+  {
+    "id": "914803653",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1403.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed9ca26ac7f2e474578ca466472a439f967a4f14_md2.jpg"
+  },
+  {
+    "id": "916119051",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/44bc980c05456b8cadf7f36c26210479f21ae403_md2.jpg"
+  },
+  {
+    "id": "916118078",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9ccf694499969ce15008f5dacef94ce5441c3094_md2.jpg"
+  },
+  {
+    "id": "916116844",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4658c7b0c1143aacca32c6fcaac302054189ddb3_md2.jpg"
+  },
+  {
+    "id": "831115810",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1263.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a93bf2da11214e70c6209ed9a83cde11e7c7d703_md2.jpg"
+  },
+  {
+    "id": "915866430",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1786.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f61166b02e68caad3a3323da7c3990878e67e451_md2.jpg"
+  },
+  {
+    "id": "839575010",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "1552.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0c20a572f3e37f45effe94877f87016f5f612c06_md2.jpg"
+  },
+  {
+    "id": "915088649",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "3026.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b3ca8098dca7f32f56a0736a5d71f55a599e1596_md2.jpg"
+  },
+  {
+    "id": "914899840",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "928.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/aa1d9b6e809820c4d5b0ee0fcba6b76585f4caa6_md2.jpg"
+  },
+  {
+    "id": "914018828",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1056.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/787c64ba1b0b53400928afaa323b9a07de7339d2_md2.jpg"
+  },
+  {
+    "id": "891993831",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1700.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/86c4d1d7ecb09634dc3bce33e46c51c11a537530_md2.jpg"
+  },
+  {
+    "id": "916039356",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1400.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7b24cd0a708bc52540480faddc693c531026df8f_md2.jpg"
+  },
+  {
+    "id": "914782961",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/84f1c7f987b9ecd123159568c8eb289b1d3308f7_md2.jpg"
+  },
+  {
+    "id": "916127309",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4acb892d9bc1ff70fbc641a341f0f2ed28d7ca07_md2.jpg"
+  },
+  {
+    "id": "918098152",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "780.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/0460b3f314500b920eced2e4ab111a1242a6ca5f_md2.jpg"
+  },
+  {
+    "id": "915880342",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f67493b7268b4f0b7608caf3eec35ffa029823c8_md2.jpg"
+  },
+  {
+    "id": "886919298",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "520.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7dedde1e2f7b6884dcacdeabec2029fe1b27f688_md2.jpg"
+  },
+  {
+    "id": "915677171",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "1.0",
+    "squareFeet": "880.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/363356fb4e1baae8cc6095cccd905dc5ebedf830_md2.jpg"
+  },
+  {
+    "id": "915785046",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "5.0",
+    "baths": "2.0",
+    "squareFeet": "1772.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/754314cd788002f0f30ebc05682fc29feb884166_md2.jpg"
+  },
+  {
+    "id": "901972765",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1850.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/dc0d26a9f867e141be03d6ccdf81b3f483d98e7f_md2.jpg"
+  },
+  {
+    "id": "915876350",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1696.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/95d93a59b83bad65a35e4f8dc41f4bb701dec9b4_md2.jpg"
+  },
+  {
+    "id": "914449929",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2227.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/fc5d50c0becbc87f965036235f544d416f7a1947_md2.jpg"
+  },
+  {
+    "id": "915864116",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5e34b539af1d9fb954ef7a63e854b6c17b49204c_md2.jpg"
+  },
+  {
+    "id": "915768133",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "3000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/d82a36e3498c71f3e689cd12b80ef82142d041a5_md2.jpg"
+  },
+  {
+    "id": "914541096",
+    "price": "",
+    "zipCode": "62571",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1456.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/bbe2e515ac98d43802b3ea18c4859a2fbd88c6db_md2.jpg"
+  },
+  {
+    "id": "912202254",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1488.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/7d6cbd0bac3b50503f5fb47a7283b1536fec2c99_md2.jpg"
+  },
+  {
+    "id": "915134176",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/114b5736cfdc7aef57992f766e48c47be5a1d1ac_md2.jpg"
+  },
+  {
+    "id": "915328717",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/a5887cddef51fdcefe4713ac5c19114fa47c839e_md2.jpg"
+  },
+  {
+    "id": "913216679",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "3.0",
+    "squareFeet": "1968.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/83ead997ec051be2c1625270c240b4cc262cdbea_md2.jpg"
+  },
+  {
+    "id": "914687526",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1472.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/42b7e2efa69b6f105bb1e042ea890ba3b00f5f37_md2.jpg"
+  },
+  {
+    "id": "914686572",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "1.0",
+    "squareFeet": "1314.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/224dc5175ccd8e718eab8c531e878e9114480672_md2.jpg"
+  },
+  {
+    "id": "914692323",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f6cc77066746769c30ff83ddae89334702b676a8_md2.jpg"
+  },
+  {
+    "id": "916109056",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/b66adaac69f79f536bb0323701d49a3296f724fe_md2.jpg"
+  },
+  {
+    "id": "915601793",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/4b006ca21c2df1869f5f5ef75bbed85d4217beae_md2.jpg"
+  },
+  {
+    "id": "914914805",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/69ee7b86a3d777a17f376261b4c01ad7bb20bb31_md2.jpg"
+  },
+  {
+    "id": "914754516",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1d2ae8254d980422c485a71cd1e9f4d67d57ec8e_md2.jpg"
+  },
+  {
+    "id": "914921562",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/25547187e462df75905e463a1601721009afbff4_md2.jpg"
+  },
+  {
+    "id": "874752825",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/59f3c860c85a985564701c4875ae329e129c68f7_md2.jpg"
+  },
+  {
+    "id": "874751139",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/81a2822df0b71eaad0b893ac973037de88aa630f_md2.jpg"
+  },
+  {
+    "id": "914924443",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/80e09877bfc37fe888cb1e5f5e3dccc608118556_md2.jpg"
+  },
+  {
+    "id": "914991449",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/48b52257bfe5830f15e4d4181af404041f073d41_md2.jpg"
+  },
+  {
+    "id": "874752090",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/62c0c5caeb1911f90af10c60a8a82dc593c798fe_md2.jpg"
+  },
+  {
+    "id": "874749955",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/3aa7587e1c366feda4b035226edb55b6fe57d128_md2.jpg"
+  },
+  {
+    "id": "914996406",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/f201610ac23ea99d8d2eb56393b687d5d634dbf0_md2.jpg"
+  },
+  {
+    "id": "915000643",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ffc45e673782cdcb64ca08569ca6dc06a6465d47_md2.jpg"
+  },
+  {
+    "id": "914934208",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "2.0",
+    "baths": "2.0",
+    "squareFeet": "2112.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1842f0af939b362ba51815771f87be3198fd2562_md2.jpg"
+  },
+  {
+    "id": "915763645",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1860.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/959706ef236b12212a8bbd3033257289b962a33c_md2.jpg"
+  },
+  {
+    "id": "915268036",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "2.0",
+    "squareFeet": "1875.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9b95f5f9f4f8987690b3ce593fa41cb3fe978ed7_md2.jpg"
+  },
+  {
+    "id": "915269029",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/059e8c9a854e93b4ad4742a40f2dff0bbd90ff90_md2.jpg"
+  },
+  {
+    "id": "918988858",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "",
+    "baths": "3.0",
+    "squareFeet": "1000.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9abe3054c2e6bb547e7d4a91f60779c860cf0ba5_md2.jpg"
+  },
+  {
+    "id": "915618233",
+    "price": "",
+    "zipCode": "62557",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/97110a955d7c41dbdeda676080cc5a949ab984d3_md2.jpg"
+  },
+  {
+    "id": "913530971",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "1.0",
+    "squareFeet": "623.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/2f8f1612b100e9d35c259b427e50241d86063c6c_md2.jpg"
+  },
+  {
+    "id": "897159268",
+    "price": "",
+    "zipCode": "62557",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "2304.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/5fd6c154f91334ef26e4e6aa4aa54d5964addb82_md2.jpg"
+  },
+  {
+    "id": "914786199",
+    "price": "",
+    "zipCode": "62565",
+    "type": "SingleFamilyHome",
+    "beds": "3.0",
+    "baths": "2.0",
+    "squareFeet": "1936.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/ed9ee1d46903b02ca9a96115f79cfe6aa50bce22_md2.jpg"
+  },
+  {
+    "id": "918702318",
+    "price": "",
+    "zipCode": "62401",
+    "type": "SingleFamilyHome",
+    "beds": "1.0",
+    "baths": "",
+    "squareFeet": "2590.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/1b93ffe9bdcaf803296b508716d91fa9ae97da1b_md2.jpg"
+  },
+  {
+    "id": "875413551",
+    "price": "",
+    "zipCode": "62553",
+    "type": "SingleFamilyHome",
+    "beds": "4.0",
+    "baths": "1.0",
+    "squareFeet": "1385.0",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/e55a8b7309f6e2e961b80ca9ccbf16181915d45b_md2.jpg"
+  },
+  {
+    "id": "916109095",
+    "price": "",
+    "zipCode": "62565",
+    "type": "VacantLand",
+    "beds": "",
+    "baths": "",
+    "squareFeet": "",
+    "imageUrl": "https://dal6rfqhhpk45.cloudfront.net/9cc290c58b376ef34915351f6fd4d856ebc52092_md2.jpg"
+  }
+]
