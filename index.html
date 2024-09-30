@@ -28,13 +28,15 @@
 
     <script>
         function generatePrice(beds) {
+            if (beds === undefined || beds === null || beds === '') {
+                return "Price is hidden";
+            }
             if (beds == 1) return "$600";
             if (beds == 2) return "$700";
             return "$900";
         }
 
         function createPropertyCard(property) {
-            const price = generatePrice(property.beds);
             return `
                 <div class="col-sm-6 col-md-4 tile-list">
                     <div class="thumbnail">
@@ -43,7 +45,7 @@
                                 <div class="col-sm-4 col-xs-10 col-sm-push-8">
                                     <p class="text-right">
                                         <a href="#" class="listing-price">
-                                            <strong>${price}</strong>
+                                            <strong>${generatePrice(property.beds)}</strong>
                                         </a>
                                     </p>
                                 </div>
