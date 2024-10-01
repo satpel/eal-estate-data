@@ -13,13 +13,33 @@
         .caption h3 { margin-top: 0; }
         .listing-price { font-size: 18px; }
         .prop-features h4 { margin-top: 0; }
+        #autocomplete-list {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            z-index: 99;
+            top: 100%;
+            left: 0;
+            right: 0;
+            max-height: 150px;
+            overflow-y: auto;
+            display: none;
+        }
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #fff;
+        }
+        .autocomplete-item:hover {
+            background-color: #e9e9e9;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" style="position: relative;">
                 <input type="text" id="search-input" class="form-control" placeholder="Enter city, state, or ZIP code">
+                <div id="autocomplete-list"></div>
                 <button id="search-button" class="btn btn-primary">Search</button>
             </div>
         </div>
@@ -27,6 +47,38 @@
     </div>
 
     <script>
+        let cityData = {};
+        let zipData = {};
+        const locationDataUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
+        const propertyDataUrl = 'https://satpel.github.io/eal-estate-data/data/';
+
+        // Load location data
+        Promise.all([
+            fetch(locationDataUrl + 'city_index.json').then(response => response.json()),
+            fetch(locationDataUrl + 'zip_index.json').then(response => response.json())
+        ])
+        .then(([cityIndex, zipIndex]) => {
+            return Promise.all([
+                ...cityIndex.map(file => fetch(locationDataUrl + file).then(response => response.json())),
+                ...zipIndex.map(file => fetch(locationDataUrl + file).then(response => response.json()))
+            ]);
+        })
+        .then(allData => {
+            allData.forEach(data => {
+                if (Object.values(data)[0].hasOwnProperty('population')) {
+                    Object.assign(cityData, data);
+                } else {
+                    Object.assign(zipData, data);
+                }
+            });
+            console.log('Location data loaded');
+            document.getElementById('search-button').disabled = false;
+        })
+        .catch(error => {
+            console.error('Error loading data:', error);
+            document.getElementById('search-input').placeholder = 'Error loading data. Please try again later.';
+        });
+
         function formatPrice(bedrooms) {
             if (bedrooms == 1) return "$600";
             if (bedrooms == 2) return "$700";
@@ -82,13 +134,51 @@
             `;
         }
 
+        function autocomplete(input) {
+            const autocompleteList = document.getElementById('autocomplete-list');
+            autocompleteList.innerHTML = '';
+            autocompleteList.style.display = 'none';
+
+            if (input.length < 3) return;
+
+            const cityMatches = Object.keys(cityData)
+                .filter(key => key.toUpperCase().startsWith(input))
+                .slice(0, 5);
+
+            const zipMatches = Object.keys(zipData)
+                .filter(zip => zip.startsWith(input))
+                .map(zip => `${zip} (${zipData[zip]})`);
+
+            const matches = [...cityMatches, ...zipMatches].slice(0, 5);
+
+            if (matches.length > 0) {
+                autocompleteList.style.display = 'block';
+                matches.forEach(match => {
+                    const div = document.createElement('div');
+                    div.textContent = match;
+                    div.className = 'autocomplete-item';
+                    div.onclick = function() {
+                        document.getElementById('search-input').value = match.split(' (')[0];
+                        autocompleteList.style.display = 'none';
+                        searchProperties();
+                    };
+                    autocompleteList.appendChild(div);
+                });
+            }
+        }
+
         async function searchProperties() {
             const input = document.getElementById('search-input').value.trim().toUpperCase();
             const grid = document.getElementById('property-grid');
             grid.innerHTML = 'Loading...';
 
+            let searchLocation = input;
+            if (zipData[input]) {
+                searchLocation = zipData[input];
+            }
+
             try {
-                const response = await fetch(`https://satpel.github.io/eal-estate-data/data/${input.replace(', ', '_').toLowerCase()}.json`);
+                const response = await fetch(`${propertyDataUrl}${searchLocation.replace(', ', '_').toLowerCase()}.json`);
                 const properties = await response.json();
 
                 // Sort properties based on status
@@ -103,11 +193,25 @@
 
                 grid.innerHTML = sortedProperties.map(createPropertyCard).join('');
             } catch (error) {
+                console.error('Error:', error);
                 grid.innerHTML = "No properties found or error loading data.";
             }
         }
 
+        let debounceTimer;
+        document.getElementById('search-input').addEventListener('input', function() {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => autocomplete(this.value.toUpperCase()), 300);
+        });
+
         document.getElementById('search-button').addEventListener('click', searchProperties);
+
+        // Close autocomplete list when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('#search-input')) {
+                document.getElementById('autocomplete-list').style.display = 'none';
+            }
+        });
     </script>
 </body>
 </html>
