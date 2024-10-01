@@ -7,41 +7,30 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        .thumbnail { position: relative; }
-        .thumbnail-container { height: 200px; overflow: hidden; }
-        .thumbnail-container img { width: 100%; height: 100%; object-fit: cover; }
-        .caption h3 { margin-top: 0; }
-        .listing-price { font-size: 18px; }
-        .prop-features h4 { margin-top: 0; }
-        #autocomplete-list {
-            position: absolute;
-            border: 1px solid #d4d4d4;
-            z-index: 99;
-            top: 100%;
-            left: 0;
-            right: 0;
-            max-height: 150px;
-            overflow-y: auto;
-            display: none;
-        }
-        .autocomplete-item {
-            padding: 10px;
-            cursor: pointer;
-            background-color: #fff;
-        }
-        .autocomplete-item:hover {
-            background-color: #e9e9e9;
-        }
+        #location-search { max-width: 300px; margin: 20px auto; font-family: Arial, sans-serif; }
+        #search-input { width: 100%; padding: 10px; margin-bottom: 10px; box-sizing: border-box; }
+        #search-button { width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        #search-button:disabled { background-color: #cccccc; cursor: not-allowed; }
+        #autocomplete-list { border: 1px solid #d4d4d4; max-height: 150px; overflow-y: auto; display: none; }
+        .autocomplete-item { padding: 10px; cursor: pointer; background-color: #fff; }
+        .autocomplete-item:hover { background-color: #e9e9e9; }
+        #result { margin-top: 20px; font-weight: bold; }
+        #loading { text-align: center; margin-top: 20px; }
+        
+        /* Additional styles for property display */
+        #property-grid { margin-top: 20px; }
+        .property-card { border: 1px solid #ddd; margin-bottom: 20px; padding: 10px; }
+        .property-image { max-width: 100%; height: auto; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="position: relative;">
-                <input type="text" id="search-input" class="form-control" placeholder="Enter city, state, or ZIP code">
-                <div id="autocomplete-list"></div>
-                <button id="search-button" class="btn btn-primary">Search</button>
-            </div>
+        <div id="location-search">
+            <input type="text" id="search-input" placeholder="Enter city, state, or ZIP code">
+            <button id="search-button" disabled>Search</button>
+            <div id="autocomplete-list"></div>
+            <div id="result"></div>
+            <div id="loading">Loading data...</div>
         </div>
         <div id="property-grid" class="row"></div>
     </div>
@@ -49,18 +38,18 @@
     <script>
         let cityData = {};
         let zipData = {};
-        const locationDataUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
+        const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
         const propertyDataUrl = 'https://satpel.github.io/eal-estate-data/data/';
 
-        // Load location data
+        // Load city and zip index files
         Promise.all([
-            fetch(locationDataUrl + 'city_index.json').then(response => response.json()),
-            fetch(locationDataUrl + 'zip_index.json').then(response => response.json())
+            fetch(baseUrl + 'city_index.json').then(response => response.json()),
+            fetch(baseUrl + 'zip_index.json').then(response => response.json())
         ])
         .then(([cityIndex, zipIndex]) => {
             return Promise.all([
-                ...cityIndex.map(file => fetch(locationDataUrl + file).then(response => response.json())),
-                ...zipIndex.map(file => fetch(locationDataUrl + file).then(response => response.json()))
+                ...cityIndex.map(file => fetch(baseUrl + file).then(response => response.json())),
+                ...zipIndex.map(file => fetch(baseUrl + file).then(response => response.json()))
             ]);
         })
         .then(allData => {
@@ -71,12 +60,12 @@
                     Object.assign(zipData, data);
                 }
             });
-            console.log('Location data loaded');
+            document.getElementById('loading').style.display = 'none';
             document.getElementById('search-button').disabled = false;
         })
         .catch(error => {
             console.error('Error loading data:', error);
-            document.getElementById('search-input').placeholder = 'Error loading data. Please try again later.';
+            document.getElementById('loading').textContent = 'Error loading data. Please try again later.';
         });
 
         function formatPrice(bedrooms) {
@@ -87,51 +76,44 @@
 
         function createPropertyCard(property) {
             return `
-                <div class="col-sm-6 col-md-4 tile-list">
-                    <div class="thumbnail">
-                        <div class="caption">
-                            <div class="row">
-                                <div class="col-sm-4 col-xs-10 col-sm-push-8">
-                                    <p class="text-right">
-                                        <a href="#" class="listing-price">
-                                            <strong>${formatPrice(property.beds)}</strong>
-                                        </a>
-                                    </p>
-                                </div>
-                                <div class="col-sm-8 col-xs-10 col-sm-pull-4">
-                                    <h3 class="hidden-xs"><a href="#">${property.type}</a></h3>
-                                    <p><a href="#"><span>${property.city}, ${property.state}</span> <span class="visible-xs-inline">${property.zipCode}</span></a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="thumbnail-container">
-                            <img class="prop-image property-gallery img-horizontal" src="${property.imageUrl}" alt="Property Image">
-                        </div>
-                        <div class="caption">
-                            <div class="row">
-                                <div class="col-sm-7 col-xs-10 prop-features">
-                                    <a href="#">
-                                        <h4>${property.type}</h4>
-                                        <p class="hidden-xs">
-                                            ${property.beds} Beds |
-                                            ${property.baths} Baths |
-                                            ${property.squareFeet} sqft
-                                        </p>
-                                        <p class="visible-xs">
-                                            ${property.beds} br |
-                                            ${property.baths} ba |
-                                            ${property.squareFeet} sqft
-                                        </p>
-                                    </a>
-                                </div>
-                                <div class="col-xs-5">
-                                    <a href="#" class="btn btn-primary btn-block btn-sm" role="button">Get Details</a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="property-card">
+                        <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                        <h3>${property.type}</h3>
+                        <p>Price: ${formatPrice(property.beds)}</p>
+                        <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                        <p>${property.city}, ${property.state} ${property.zipCode}</p>
                     </div>
                 </div>
             `;
+        }
+
+        async function searchProperties() {
+            const input = document.getElementById('search-input').value.trim().toUpperCase();
+            const resultDiv = document.getElementById('result');
+            const grid = document.getElementById('property-grid');
+            
+            let locationName = input;
+            if (zipData[input]) {
+                locationName = zipData[input];
+            }
+
+            try {
+                const response = await fetch(`${propertyDataUrl}${locationName.replace(', ', '_').toLowerCase()}.json`);
+                const properties = await response.json();
+
+                const sortedProperties = properties.sort((a, b) => {
+                    const order = { 'TownhouseOrCondo': 0, 'SingleFamilyHome': 0, 'VacantLand': 2 };
+                    return (order[a.type] || 1) - (order[b.type] || 1);
+                });
+
+                grid.innerHTML = sortedProperties.map(createPropertyCard).join('');
+                resultDiv.innerHTML = `Showing properties in ${locationName}`;
+            } catch (error) {
+                console.error('Error:', error);
+                grid.innerHTML = "";
+                resultDiv.innerHTML = "No properties found or error loading data.";
+            }
         }
 
         function autocomplete(input) {
@@ -142,7 +124,7 @@
             if (input.length < 3) return;
 
             const cityMatches = Object.keys(cityData)
-                .filter(key => key.toUpperCase().startsWith(input))
+                .filter(key => key.startsWith(input))
                 .slice(0, 5);
 
             const zipMatches = Object.keys(zipData)
@@ -167,37 +149,6 @@
             }
         }
 
-        async function searchProperties() {
-            const input = document.getElementById('search-input').value.trim().toUpperCase();
-            const grid = document.getElementById('property-grid');
-            grid.innerHTML = 'Loading...';
-
-            let searchLocation = input;
-            if (zipData[input]) {
-                searchLocation = zipData[input];
-            }
-
-            try {
-                const response = await fetch(`${propertyDataUrl}${searchLocation.replace(', ', '_').toLowerCase()}.json`);
-                const properties = await response.json();
-
-                // Sort properties based on status
-                const sortedProperties = properties.sort((a, b) => {
-                    const order = {
-                        'TownhouseOrCondo': 0,
-                        'SingleFamilyHome': 0,
-                        'VacantLand': 2
-                    };
-                    return (order[a.type] || 1) - (order[b.type] || 1);
-                });
-
-                grid.innerHTML = sortedProperties.map(createPropertyCard).join('');
-            } catch (error) {
-                console.error('Error:', error);
-                grid.innerHTML = "No properties found or error loading data.";
-            }
-        }
-
         let debounceTimer;
         document.getElementById('search-input').addEventListener('input', function() {
             clearTimeout(debounceTimer);
@@ -208,7 +159,7 @@
 
         // Close autocomplete list when clicking outside
         document.addEventListener('click', function(e) {
-            if (!e.target.closest('#search-input')) {
+            if (!e.target.closest('#location-search')) {
                 document.getElementById('autocomplete-list').style.display = 'none';
             }
         });
