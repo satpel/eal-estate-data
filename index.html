@@ -99,7 +99,15 @@
             }
 
             try {
-                const response = await fetch(`${propertyDataUrl}${locationName.replace(', ', '_').toLowerCase()}.json`);
+                // Split the location name into state and city
+                const [city, state] = locationName.split(', ');
+                // Construct the correct filename
+                const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
+                
+                const response = await fetch(`${propertyDataUrl}${filename}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const properties = await response.json();
 
                 const sortedProperties = properties.sort((a, b) => {
