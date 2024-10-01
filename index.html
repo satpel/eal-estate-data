@@ -103,18 +103,11 @@
 
                 grid.innerHTML = sortedProperties.map(createPropertyCard).join('');
             } catch (error) {
-                console.error('Error:', error);
                 grid.innerHTML = "No properties found or error loading data.";
             }
         }
 
         document.getElementById('search-button').addEventListener('click', searchProperties);
-
-        // Add this to make sure the script runs after the page is fully loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Page loaded, script running');
-            // You can add any initialization code here if needed
-        });
     </script>
 </body>
 </html>
