@@ -1,10 +1,18 @@
-    <script>
+document.addEventListener('DOMContentLoaded', function() {
         let cityData = {};
         let zipData = {};
         const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
         const propertyDataUrl = 'https://satpel.github.io/eal-estate-data/data/';
         let currentPage = 1;
         const propertiesPerPage = 15; // 5 rows of 3 tiles
+		
+	    const searchInput = document.getElementById('search-input');
+	    const searchButton = document.getElementById('search-button');
+	    const autocompleteList = document.getElementById('autocomplete-list');
+	    const resultsControls = document.getElementById('results-controls');
+	    const propertyGrid = document.getElementById('property-grid');
+	    const modal = document.getElementById("myModal");
+	    const span = modal.getElementsByClassName("close")[0];
 
         // Load city and zip index files
         Promise.all([
