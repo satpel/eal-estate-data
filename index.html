@@ -8,6 +8,29 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         body { background-color: #f0f0f0; }
+	.container {
+	    width: 100% !important;
+	    max-width: 100% !important;
+	    margin: 0 auto;
+	}
+	
+	#real-estate-search-embed {
+	    width: 100% !important;
+	}
+	
+	@media (max-width: 768px) {
+	    .col-sm-4 {
+	        flex: 0 0 100% !important;
+	        max-width: 100% !important;
+	    }
+	}
+	
+	@media (max-width: 1200px) {
+	    .col-sm-4 {
+	        flex: 0 0 50% !important;
+	        max-width: 50% !important;
+	    }
+	}
         .container {
             max-width: 1200px;
             margin: 0 auto;
