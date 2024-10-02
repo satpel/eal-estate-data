@@ -7,32 +7,315 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        #location-search { max-width: 300px; margin: 20px auto; font-family: Arial, sans-serif; }
-        #search-input { width: 100%; padding: 10px; margin-bottom: 10px; box-sizing: border-box; }
-        #search-button { width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
-        #search-button:disabled { background-color: #cccccc; cursor: not-allowed; }
-        #autocomplete-list { border: 1px solid #d4d4d4; max-height: 150px; overflow-y: auto; display: none; }
+        body { background-color: #f0f0f0; }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .search-container { 
+            max-width: 600px;
+            margin: 20px auto; 
+            display: flex; 
+            justify-content: space-between;
+            position: relative;
+        }
+        #search-input { 
+            flex-grow: 1; 
+            padding: 10px; 
+            font-size: 18px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        #search-button { 
+            padding: 10px 20px; 
+            background-color: #337ab7; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+        #search-button:hover {
+            background-color: #286090;
+        }
+        .sort-view-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1105px;
+            margin: 20px auto;
+            padding: 10px 0;
+            background-color: #f8f8f8;
+            border-top: 1px solid #e7e7e7;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        .sort-container {
+            display: flex;
+            align-items: center;
+        }
+        .sort-container label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .sort-dropdown {
+            width: 200px;
+        }
+        .view-options {
+            display: flex;
+            align-items: center;
+        }
+        .view-options button {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 6px 12px;
+            margin-left: 5px;
+            border-radius: 4px;
+        }
+        .view-options button.active {
+            background-color: #337ab7;
+            color: white;
+            border-color: #2e6da4;
+        }
+        #property-grid { 
+            width: 100%;
+            margin: 20px auto; 
+        }
+        .property-card {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 10px;
+            position: relative;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .pagination span {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .pagination button {
+            margin: 0 5px;
+            padding: 5px 10px;
+            background-color: white;
+            color: black;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .pagination button.active {
+            background-color: #337ab7;
+            color: white;
+            border: 1px solid #2e6da4;
+        }
+        #autocomplete-list { 
+            border: 1px solid #d4d4d4; 
+            max-height: 150px; 
+            overflow-y: auto; 
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 110px;
+            background-color: white;
+            z-index: 1000;
+        }
         .autocomplete-item { padding: 10px; cursor: pointer; background-color: #fff; }
         .autocomplete-item:hover { background-color: #e9e9e9; }
-        #result { margin-top: 20px; font-weight: bold; }
         #loading { text-align: center; margin-top: 20px; }
-        
-        /* Additional styles for property display */
-        #property-grid { margin-top: 20px; }
-        .property-card { border: 1px solid #ddd; margin-bottom: 20px; padding: 10px; }
-        .property-image { max-width: 100%; height: auto; }
+        .property-card h3 {
+            margin-top: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .property-card .price {
+            float: right;
+        }
+        .property-location {
+            font-size: 14px;
+            margin: 5px 0 10px 0;
+        }
+        .property-image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .property-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .property-details {
+            margin-bottom: 10px;
+        }
+        .property-details h5 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+        .get-details-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+        .get-details-btn:hover {
+            background-color: #286090;
+            border-color: #204d74;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modal-content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .modal-content p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .modal-content input {
+            margin-bottom: 15px;
+        }
+        .terms-text {
+            font-size: 12px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .bbb-container {
+            display: flex;
+            align-items: center;
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .bbb-logo {
+            width: 100px;
+            margin-right: 15px;
+        }
+        .hidden {
+            display: none;
+        }
+        .col-sm-6 {
+            width: 50%;
+            float: left;
+            padding: 0 15px;
+        }
+        @media (min-width: 992px) {
+            .col-md-4 {
+                width: 33.33333333%;
+                float: left;
+                padding: 0 15px;
+            }
+        }
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="location-search">
+        <div class="search-container">
             <input type="text" id="search-input" placeholder="Enter city, state, or ZIP code">
-            <button id="search-button" disabled>Search</button>
+            <button id="search-button">Search</button>
             <div id="autocomplete-list"></div>
-            <div id="result"></div>
-            <div id="loading">Loading data...</div>
         </div>
-        <div id="property-grid" class="row"></div>
+        
+        <div id="results-controls" class="hidden">
+            <div class="sort-view-container">
+                <div class="sort-container">
+                    <label for="sort-select">Sort By</label>
+                    <select class="form-control sort-dropdown" id="sort-select" onchange="openModal()">
+                        <option value="Default">Type of Sale</option>
+                        <option value="City">City</option>
+                        <option value="Photos">Photos</option>
+                        <option value="Price (low to high)">Price (low to high)</option>
+                        <option value="Price (high to low)">Price (high to low)</option>
+                        <option value="Sq. Feet (low to high)">Sq. Feet (low to high)</option>
+                        <option value="Sq. Feet (high to low)">Sq. Feet (high to low)</option>
+                        <option value="Most Recent">Most Recent</option>
+                        <option value="Property Type">Property Type</option>
+                        <option value="Status">Status</option>
+                    </select>
+                </div>
+                <div class="view-options">
+                    <button onclick="openModal()">List</button>
+                    <button class="active">Tile</button>
+                    <button onclick="openModal()">Map</button>
+                    <button onclick="openModal()">Save Your Search</button>
+                </div>
+            </div>
+
+            <div id="property-grid" class="row"></div>
+
+            <div class="pagination">
+                <span>Page 1 of 7</span>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>Next »</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Get Access Now!</h2>
+            <p>Property Details are available for REGISTERED MEMBERS ONLY.</p>
+            <input type="text" placeholder="Full Name" class="form-control">
+            <input type="email" placeholder="Email" class="form-control">
+            <input type="tel" placeholder="Phone Number" class="form-control">
+            <button class="btn btn-primary btn-block" style="background-color: #337ab7; border-color: #2e6da4;">Register Now</button>
+            <p class="terms-text">By clicking the button, I agree to the <a href="#">Terms and Conditions</a> and consent to receive recurring automated and prerecorded informational and marketing messages (like property alerts) at the number I provided above via email, call and text from and on behalf of RentBeforeOwning.com, Get Rent To Own, Affordable Rent to Own, National Debt Relief, Resource Match, TRA and its affiliates. I understand that consent is not required for purchase and can call (800) 553-0410 to proceed without consent.</p>
+            <div class="bbb-container">
+                <img src="path_to_bbb_logo.png" alt="BBB Accredited Business" class="bbb-logo">
+                <p>Registering for our Trial Membership gives you access to our full listings, including rent to own, owner financing and more.</p>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -40,6 +323,8 @@
         let zipData = {};
         const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
         const propertyDataUrl = 'https://satpel.github.io/eal-estate-data/data/';
+        let currentPage = 1;
+        const propertiesPerPage = 15; // 5 rows of 3 tiles
 
         // Load city and zip index files
         Promise.all([
@@ -74,15 +359,45 @@
             return "$900";
         }
 
-        function createPropertyCard(property) {
+        function formatNumber(num) {
+            if (Number.isInteger(parseFloat(num))) {
+                return Math.floor(num);
+            }
+            return parseFloat(num).toFixed(1);
+        }
+
+        function toTitleCase(str) {
+            return str.split(' ').map(word => 
+                word.length <= 2 ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+            ).join(' ');
+        }
+
+        function formatPropertyType(type) {
+            if (/^\d+$/.test(type) || type === 'VacantLand' || type === 'Other') {
+                return 'Single Family Home';
+            }
+            return type.replace(/([A-Z])/g, ' $1').trim()
+                       .replace(/\s*\(\s*/g, ' (')
+                       .replace(/\s*\)\s*/g, ') ')
+                       .replace(/(\d+)ormoreunits/, '$1 or more units')
+                       .replace(/(\d+)-(\d+)units/, '$1-$2 units');
+        }
+
+        function createPropertyCard(property, location) {
+            const [city, state] = location.split(', ').map(toTitleCase);
             return `
                 <div class="col-sm-6 col-md-4">
-                    <div class="property-card">
-                        <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
-                        <h3>${property.type}</h3>
-                        <p>Price: ${formatPrice(property.beds)}</p>
-                        <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
-                        <p>${property.city}, ${property.state} ${property.zipCode}</p>
+                    <div class="property-card" onclick="openModal()">
+                        <h3>Lease Option / Rent To Own <span class="price">${formatPrice(property.beds)}</span></h3>
+                        <p class="property-location">${city}, ${state}</p>
+                        <div class="property-image-container">
+                            <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                        </div>
+                        <div class="property-details">
+                            <h5>${formatPropertyType(property.type)}</h5>
+                            <p>${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
+                        </div>
+												<button class="btn btn-primary get-details-btn" onclick="event.stopPropagation(); openModal();">Get Details</button>
                     </div>
                 </div>
             `;
@@ -90,8 +405,8 @@
 
         async function searchProperties() {
             const input = document.getElementById('search-input').value.trim().toUpperCase();
-            const resultDiv = document.getElementById('result');
             const grid = document.getElementById('property-grid');
+            const resultsControls = document.getElementById('results-controls');
             
             let locationName = input;
             if (zipData[input]) {
@@ -99,9 +414,7 @@
             }
 
             try {
-                // Split the location name into state and city
                 const [city, state] = locationName.split(', ');
-                // Construct the correct filename
                 const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
                 
                 const response = await fetch(`${propertyDataUrl}${filename}`);
@@ -115,13 +428,46 @@
                     return (order[a.type] || 1) - (order[b.type] || 1);
                 });
 
-                grid.innerHTML = sortedProperties.map(createPropertyCard).join('');
-                resultDiv.innerHTML = `Showing properties in ${locationName}`;
+                const startIndex = (currentPage - 1) * propertiesPerPage;
+                const endIndex = startIndex + propertiesPerPage;
+                const paginatedProperties = sortedProperties.slice(startIndex, endIndex);
+
+                grid.innerHTML = paginatedProperties.map(property => createPropertyCard(property, locationName)).join('');
+                
+                updatePagination(sortedProperties.length);
+
+                // Show results controls after search
+                resultsControls.classList.remove('hidden');
             } catch (error) {
                 console.error('Error:', error);
-                grid.innerHTML = "";
-                resultDiv.innerHTML = "No properties found or error loading data.";
+                grid.innerHTML = "No properties found or error loading data.";
+                resultsControls.classList.add('hidden');
             }
+        }
+
+        function updatePagination(totalProperties) {
+            const totalPages = Math.ceil(totalProperties / propertiesPerPage);
+            const paginationContainer = document.querySelector('.pagination');
+            let paginationHTML = `<span>Page ${currentPage} of ${totalPages}</span>`;
+            
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === currentPage) {
+                    paginationHTML += `<button class="active">${i}</button>`;
+                } else {
+                    paginationHTML += `<button onclick="goToPage(${i})">${i}</button>`;
+                }
+            }
+            
+            if (currentPage < totalPages) {
+                paginationHTML += `<button onclick="goToPage(${currentPage + 1})">Next »</button>`;
+            }
+            
+            paginationContainer.innerHTML = paginationHTML;
+        }
+
+        function goToPage(page) {
+            currentPage = page;
+            searchProperties();
         }
 
         function autocomplete(input) {
@@ -165,12 +511,29 @@
 
         document.getElementById('search-button').addEventListener('click', searchProperties);
 
-        // Close autocomplete list when clicking outside
         document.addEventListener('click', function(e) {
-            if (!e.target.closest('#location-search')) {
+            if (!e.target.closest('#search-input')) {
                 document.getElementById('autocomplete-list').style.display = 'none';
             }
         });
+
+        // Modal functionality
+        var modal = document.getElementById("myModal");
+        var span = document.getElementsByClassName("close")[0];
+
+        function openModal() {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
     </script>
 </body>
 </html>
