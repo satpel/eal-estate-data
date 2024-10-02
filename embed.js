@@ -44,7 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="close">&times;</span>
                 <h2>Get Access Now!</h2>
                 <p>Property Details are available for REGISTERED MEMBERS ONLY.</p>
-                <button>Register Now</button>
+                <input type="text" placeholder="Full Name" class="form-control">
+                <input type="email" placeholder="Email" class="form-control">
+                <input type="tel" placeholder="Phone Number" class="form-control">
+                <button class="btn btn-primary btn-block" style="background-color: #337ab7; border-color: #2e6da4;">Register Now</button>
                 <p class="terms-text">By clicking the button, I agree to the <a href="#">Terms and Conditions</a> and consent to receive recurring automated and prerecorded informational and marketing messages (like property alerts) at the number I provided above via email, call and text from and on behalf of RentBeforeOwning.com, Get Rent To Own, Affordable Rent to Own, National Debt Relief, Resource Match, TRA and its affiliates. I understand that consent is not required for purchase and can call (800) 553-0410 to proceed without consent.</p>
                 <div class="bbb-container">
                     <img src="path_to_bbb_logo.png" alt="BBB Accredited Business" class="bbb-logo">
@@ -61,6 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const propertyGrid = document.getElementById('property-grid');
     const modal = document.getElementById("myModal");
     const span = modal.getElementsByClassName("close")[0];
+    const sortSelect = document.getElementById('sort-select');
+    const viewOptions = document.querySelectorAll('.view-options button');
 
     // Load city and zip index files
     Promise.all([
@@ -121,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const [city, state] = location.split(', ').map(toTitleCase);
         return `
             <div class="col-sm-4">
-                <div class="property-card">
+                <div class="property-card" onclick="openModal('${property.imageUrl}', '${formatPropertyType(property.type)}', '${formatNumber(property.beds)}', '${formatNumber(property.baths)}', '${property.squareFeet}', '${city}, ${state}')">
                     <h3>
                         Lease Option / Rent To Own
                         <span class="price">${formatPrice(property.beds)}</span>
@@ -133,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="property-details">
                         <p class="property-type">${formatPropertyType(property.type)}</p>
                         <p class="property-specs">${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
-                        <button class="get-details-btn" onclick="openModal()">Get Details</button>
+                        <button class="get-details-btn" onclick="event.stopPropagation(); openModal('${property.imageUrl}', '${formatPropertyType(property.type)}', '${formatNumber(property.beds)}', '${formatNumber(property.baths)}', '${property.squareFeet}', '${city}, ${state}')">Get Details</button>
                     </div>
                 </div>
             </div>
@@ -235,6 +240,40 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function openModal(imageUrl, type, beds, baths, sqft, location) {
+        const modal = document.getElementById("myModal");
+        const modalContent = modal.querySelector('.modal-content');
+        modalContent.innerHTML = `
+            <span class="close">&times;</span>
+            <h2>Get Access Now!</h2>
+            <p>Property Details are available for REGISTERED MEMBERS ONLY.</p>
+            <img src="${imageUrl}" alt="${type}" style="max-width: 100%; height: auto; margin-bottom: 10px;">
+            <p>${type} in ${location}</p>
+            <p>${beds} Beds | ${baths} Baths | ${Number(sqft).toLocaleString()} sqft</p>
+            <input type="text" placeholder="Full Name" class="form-control">
+            <input type="email" placeholder="Email" class="form-control">
+            <input type="tel" placeholder="Phone Number" class="form-control">
+            <button class="btn btn-primary btn-block" style="background-color: #337ab7; border-color: #2e6da4;">Register Now</button>
+            <p class="terms-text">By clicking the button, I agree to the <a href="#">Terms and Conditions</a> and consent to receive recurring automated and prerecorded informational and marketing messages (like property alerts) at the number I provided above via email, call and text from and on behalf of RentBeforeOwning.com, Get Rent To Own, Affordable Rent to Own, National Debt Relief, Resource Match, TRA and its affiliates. I understand that consent is not required for purchase and can call (800) 553-0410 to proceed without consent.</p>
+            <div class="bbb-container">
+                <img src="path_to_bbb_logo.png" alt="BBB Accredited Business" class="bbb-logo">
+                <p>Registering for our Trial Membership gives you access to our full listings, including rent to own, owner financing and more.</p>
+            </div>
+        `;
+        modal.style.display = "block";
+
+        const span = modal.querySelector('.close');
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    }
+
     let debounceTimer;
     searchInput.addEventListener('input', function() {
         clearTimeout(debounceTimer);
@@ -249,19 +288,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    function openModal() {
-        modal.style.display = "block";
-    }
+    sortSelect.addEventListener('change', function() {
+        openModal('', 'Sorting Option', '', '', '', '');
+    });
 
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+    viewOptions.forEach(button => {
+        button.addEventListener('click', function() {
+            if (!this.classList.contains('active')) {
+                openModal('', 'View Option', '', '', '', '');
+            }
+        });
+    });
 
     window.openModal = openModal;
     window.goToPage = goToPage;
