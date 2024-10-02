@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('real-estate-search-embed');
     container.innerHTML = `
         <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search">
+            <input type="text" id="search-input" placeholder="Enter city, state, or ZIP code">
             <button id="search-button">Search</button>
             <div id="autocomplete-list"></div>
         </div>
@@ -38,17 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
             <div id="property-grid" class="row"></div>
-            <div class="pagination">
-                <span>Page 1 of 7</span>
-                <button class="active">1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>Next »</button>
-            </div>
+            <div class="pagination"></div>
         </div>
         <div id="myModal" class="modal">
             <div class="modal-content">
@@ -132,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const [city, state] = location.split(', ').map(toTitleCase);
         return `
             <div class="col-sm-6 col-md-4">
-                <div class="property-card" onclick="openModal()">
+                <div class="property-card">
                     <h3>Lease Option / Rent To Own <span class="price">${formatPrice(property.beds)}</span></h3>
                     <p class="property-location">${city}, ${state}</p>
                     <div class="property-image-container">
@@ -142,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h5>${formatPropertyType(property.type)}</h5>
                         <p>${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
                     </div>
-                    <button class="btn btn-primary get-details-btn" onclick="event.stopPropagation(); openModal();">Get Details</button>
+                    <button class="get-details-btn" onclick="openModal()">Get Details</button>
                 </div>
             </div>
         `;
