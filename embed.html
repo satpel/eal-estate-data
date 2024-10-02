@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Search Embed</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://satpel.github.io/eal-estate-data/embed.css" rel="stylesheet">
+</head>
+<body>
+    <div id="real-estate-search-embed">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Enter city, state, or ZIP code">
+            <button id="search-button">Search</button>
+            <div id="autocomplete-list"></div>
+        </div>
+        
+        <div id="results-controls" class="hidden">
+            <div class="sort-view-container">
+                <div class="sort-container">
+                    <label for="sort-select">Sort By</label>
+                    <select class="form-control sort-dropdown" id="sort-select" onchange="openModal()">
+                        <option value="Default">Type of Sale</option>
+                        <option value="City">City</option>
+                        <option value="Photos">Photos</option>
+                        <option value="Price (low to high)">Price (low to high)</option>
+                        <option value="Price (high to low)">Price (high to low)</option>
+                        <option value="Sq. Feet (low to high)">Sq. Feet (low to high)</option>
+                        <option value="Sq. Feet (high to low)">Sq. Feet (high to low)</option>
+                        <option value="Most Recent">Most Recent</option>
+                        <option value="Property Type">Property Type</option>
+                        <option value="Status">Status</option>
+                    </select>
+                </div>
+                <div class="view-options">
+                    <button onclick="openModal()">List</button>
+                    <button class="active">Tile</button>
+                    <button onclick="openModal()">Map</button>
+                    <button onclick="openModal()">Save Your Search</button>
+                </div>
+            </div>
+            <div id="property-grid" class="row"></div>
+            <div class="pagination">
+                <span>Page 1 of 7</span>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>Next »</button>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <!-- Modal content here -->
+        </div>
+    </div>
+    <script src="https://satpel.github.io/eal-estate-data/embed.js"></script>
+</body>
+</html>
