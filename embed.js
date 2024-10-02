@@ -11,13 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Enter city, state, or ZIP code">
             <button id="search-button">Search</button>
-            <div id="autocomplete-list"></div>
         </div>
         <div id="results-controls" class="hidden">
             <div class="sort-view-container">
                 <div class="sort-container">
                     <label for="sort-select">Sort By</label>
-                    <select id="sort-select" class="form-control sort-dropdown">
+                    <select id="sort-select" class="sort-dropdown">
                         <option value="Default">Type of Sale</option>
                         <option value="City">City</option>
                         <option value="Photos">Photos</option>
@@ -121,18 +120,19 @@ document.addEventListener('DOMContentLoaded', function() {
     function createPropertyCard(property, location) {
         const [city, state] = location.split(', ').map(toTitleCase);
         return `
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-4">
                 <div class="property-card">
-                    <h3>Lease Option / Rent To Own <span class="price">${formatPrice(property.beds)}</span></h3>
+                    <h3>
+                        Lease Option / Rent To Own
+                        <span class="price">${formatPrice(property.beds)}</span>
+                    </h3>
                     <p class="property-location">${city}, ${state}</p>
-                    <div class="property-image-container">
-                        <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
-                    </div>
+                    <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
                     <div class="property-details">
-                        <h5>${formatPropertyType(property.type)}</h5>
-                        <p>${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
+                        <p class="property-type">${formatPropertyType(property.type)}</p>
+                        <p class="property-specs">${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
+                        <button class="get-details-btn" onclick="openModal()">Get Details</button>
                     </div>
-                    <button class="get-details-btn" onclick="openModal()">Get Details</button>
                 </div>
             </div>
         `;
