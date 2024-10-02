@@ -127,7 +127,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <span class="price">${formatPrice(property.beds)}</span>
                     </h3>
                     <p class="property-location">${city}, ${state}</p>
-                    <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                    <div class="property-image-container">
+                        <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                    </div>
                     <div class="property-details">
                         <p class="property-type">${formatPropertyType(property.type)}</p>
                         <p class="property-specs">${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
