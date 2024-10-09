@@ -31,6 +31,33 @@
 	        max-width: 50% !important;
 	    }
 	}
+	/* Mobile adjustments */
+	@media (max-width: 768px) {
+			/* Make the search bar narrower for mobile */
+			.search-container {
+					flex-direction: column;
+					max-width: 100%;
+			}
+			#search-input {
+					width: 100%;
+					margin-right: 0;
+					margin-bottom: 10px;
+			}
+			#search-button {
+					width: 100%;
+			}
+
+			/* Hide the sorting controls on mobile */
+			.sort-view-container {
+					display: none;
+			}
+
+			/* Force a single column layout for property cards */
+			.col-sm-6, .col-md-4 {
+					flex: 0 0 100% !important;
+					max-width: 100% !important;
+			}
+	}
         .container {
             max-width: 1200px;
             margin: 0 auto;
