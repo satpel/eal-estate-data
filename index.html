@@ -74,6 +74,17 @@
 	        padding-left: 0 !important;
 	        padding-right: 0 !important;
 	    }
+	    /* Adjust the pagination to remove 'Page 1 of 7' and 'Next' */
+	    .pagination span,  /* Hide 'Page 1 of 7' text */
+	    .pagination button:last-child { /* Hide the 'Next' button */
+	        display: none !important;
+	    }
+	
+	    /* Optional: If you want to adjust the spacing between the page number buttons */
+	    .pagination button {
+	        margin-left: 5px !important;
+	        margin-right: 5px !important;
+	    }
 	}
         .container {
             max-width: 1200px;
