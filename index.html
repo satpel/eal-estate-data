@@ -33,7 +33,7 @@
 	}
 	/* Mobile adjustments */
 	@media (max-width: 768px) {
-	    /* Make the search bar narrower for mobile (already done) */
+	    /* Ensure the search bar is optimized (already done) */
 	    .search-container {
 	        flex-direction: column;
 	        max-width: 100%;
@@ -47,28 +47,32 @@
 	        width: 100%;
 	    }
 	
-	    /* Hide the sorting controls on mobile */
+	    /* Hide the sorting controls on mobile (already done) */
 	    .sort-view-container {
 	        display: none !important;
 	    }
 	
 	    /* Force a single column layout for property cards */
+	    .property-card {
+	        width: 100% !important;
+	        margin: 10px 0 !important;
+	    }
+	
 	    .col-sm-6, .col-md-4 {
-	        flex: 0 0 100% !important;
+	        width: 100% !important;
 	        max-width: 100% !important;
+	        flex: 0 0 100% !important;
 	    }
 	
 	    /* Ensure images take full width */
 	    .property-image-container {
 	        width: 100%;
 	    }
-	
-	    /* Reduce font size for price and headers for better readability on smaller screens */
-	    .property-card h3 {
-	        font-size: 16px;
-	    }
-	    .property-card .price {
-	        font-size: 14px;
+	    
+	    /* Fix padding issues to ensure proper spacing */
+	    .col-sm-6, .col-md-4 {
+	        padding-left: 0 !important;
+	        padding-right: 0 !important;
 	    }
 	}
         .container {
