@@ -458,67 +458,85 @@
                        .replace(/(\d+)-(\d+)units/, '$1-$2 units');
         }
 
-        function createPropertyCard(property, location) {
-            const [city, state] = location.split(', ').map(toTitleCase);
-            return `
-                <div class="col-sm-6 col-md-4">
-                    <div class="property-card" onclick="openModal()">
-                        <h3>Lease Option / Rent To Own <span class="price">${formatPrice(property.beds)}</span></h3>
-                        <p class="property-location">${city}, ${state}</p>
-                        <div class="property-image-container">
-                            <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
-                        </div>
-                        <div class="property-details">
-                            <h5>${formatPropertyType(property.type)}</h5>
-                            <p>${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
-                        </div>
-												<button class="btn btn-primary get-details-btn" onclick="event.stopPropagation(); openModal();">Get Details</button>
-                    </div>
-                </div>
-            `;
-        }
+	function createPropertyCard(property, location) {
+	    // Проверяем, является ли объект новым форматом по наличию поля address и priority
+	    const isNewFormat = property.hasOwnProperty('address') && property.hasOwnProperty('priority');
+	
+	    // Определяем отображаемую информацию на основе формата
+	    const price = isNewFormat ? `$${property.price}` : formatPrice(property.beds);
+	    const address = isNewFormat ? property.address : `${toTitleCase(location.split(', ')[0])}, ${location.split(', ')[1]}`;
+	    const beds = isNewFormat ? property.beds : formatNumber(property.beds);
+	    const baths = isNewFormat ? property.baths : formatNumber(property.baths);
+	    const squareFeet = isNewFormat ? property.squareFeet : Number(property.squareFeet).toLocaleString();
+	    const imageUrl = isNewFormat ? property.imageUrl : property.imageUrl;
+	    const type = isNewFormat ? property.type : formatPropertyType(property.type);
+	
+	    return `
+		<div class="col-sm-6 col-md-4">
+		    <div class="property-card" onclick="openModal()">
+			<h3>${type} <span class="price">${price}</span></h3>
+			<p class="property-location">${address}</p>
+			<div class="property-image-container">
+			    <img src="${imageUrl}" alt="${type}" class="property-image">
+			</div>
+			<div class="property-details">
+			    <h5>${type}</h5>
+			    <p>${beds} Beds | ${baths} Baths | ${squareFeet} sqft</p>
+			</div>
+			<button class="btn btn-primary get-details-btn" onclick="event.stopPropagation(); openModal();">Get Details</button>
+		    </div>
+		</div>
+	    `;
+	}
 
-        async function searchProperties() {
-            const input = document.getElementById('search-input').value.trim().toUpperCase();
-            const grid = document.getElementById('property-grid');
-            const resultsControls = document.getElementById('results-controls');
-            
-            let locationName = input;
-            if (zipData[input]) {
-                locationName = zipData[input];
-            }
 
-            try {
-                const [city, state] = locationName.split(', ');
-                const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
-                
-                const response = await fetch(`${propertyDataUrl}${filename}`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const properties = await response.json();
-
-                const sortedProperties = properties.sort((a, b) => {
-                    const order = { 'TownhouseOrCondo': 0, 'SingleFamilyHome': 0, 'VacantLand': 2 };
-                    return (order[a.type] || 1) - (order[b.type] || 1);
-                });
-
-                const startIndex = (currentPage - 1) * propertiesPerPage;
-                const endIndex = startIndex + propertiesPerPage;
-                const paginatedProperties = sortedProperties.slice(startIndex, endIndex);
-
-                grid.innerHTML = paginatedProperties.map(property => createPropertyCard(property, locationName)).join('');
-                
-                updatePagination(sortedProperties.length);
-
-                // Show results controls after search
-                resultsControls.classList.remove('hidden');
-            } catch (error) {
-                console.error('Error:', error);
-                grid.innerHTML = "No properties found or error loading data.";
-                resultsControls.classList.add('hidden');
-            }
-        }
+	async function searchProperties() {
+	    const input = document.getElementById('search-input').value.trim().toUpperCase();
+	    const grid = document.getElementById('property-grid');
+	    const resultsControls = document.getElementById('results-controls');
+	    
+	    let locationName = input;
+	    if (zipData[input]) {
+	        locationName = zipData[input];
+	    }
+	
+	    try {
+	        const [city, state] = locationName.split(', ');
+	        const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
+	        
+	        const response = await fetch(`${propertyDataUrl}${filename}`);
+	        if (!response.ok) {
+	            throw new Error(`HTTP error! status: ${response.status}`);
+	        }
+	        const properties = await response.json();
+	
+	        // Разделяем новые и старые форматы и сортируем
+	        const newProperties = properties.filter(p => p.hasOwnProperty('priority'));
+	        const oldProperties = properties.filter(p => !p.hasOwnProperty('priority'));
+	
+	        // Сортируем новые дома по приоритету, если это нужно
+	        newProperties.sort((a, b) => b.priority - a.priority);
+	
+	        // Объединяем новые и старые дома
+	        const allProperties = [...newProperties, ...oldProperties];
+	
+	        // Разбиваем на страницы
+	        const startIndex = (currentPage - 1) * propertiesPerPage;
+	        const endIndex = startIndex + propertiesPerPage;
+	        const paginatedProperties = allProperties.slice(startIndex, endIndex);
+	
+	        grid.innerHTML = paginatedProperties.map(property => createPropertyCard(property, locationName)).join('');
+	        
+	        updatePagination(allProperties.length);
+	
+	        // Показываем результаты
+	        resultsControls.classList.remove('hidden');
+	    } catch (error) {
+	        console.error('Error:', error);
+	        grid.innerHTML = "No properties found or error loading data.";
+	        resultsControls.classList.add('hidden');
+	    }
+	}
 
         function updatePagination(totalProperties) {
             const totalPages = Math.ceil(totalProperties / propertiesPerPage);
