@@ -8,8 +8,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         body { 
-            background-color: #f0f0f0; 
+            background-color: #f5f7fa; 
             padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         }
         .container {
             max-width: 1200px;
@@ -17,15 +18,21 @@
         }
         .search-container { 
             max-width: 600px;
-            margin: 20px auto;
+            margin: 20px auto 40px;
             position: relative;
         }
         #search-input { 
             width: 100%;
-            padding: 10px; 
+            padding: 15px 20px; 
             font-size: 18px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
+            border: 2px solid #e1e5eb;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        #search-input:focus {
+            outline: none;
+            border-color: #337ab7;
+            box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.1);
         }
         #autocomplete-list {
             position: absolute;
@@ -33,61 +40,119 @@
             max-height: 200px;
             overflow-y: auto;
             background: white;
-            border: 1px solid #ddd;
-            border-top: none;
+            border: 1px solid #e1e5eb;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             z-index: 1000;
             display: none;
         }
         .autocomplete-item {
-            padding: 10px;
+            padding: 12px 20px;
             cursor: pointer;
+            transition: background-color 0.2s ease;
         }
         .autocomplete-item:hover {
-            background-color: #f5f5f5;
+            background-color: #f8f9fa;
         }
-        .property-card {
-            border: 1px solid #ddd;
-            background-color: #fff;
+        .featured-section {
+            margin-bottom: 40px;
+        }
+        .featured-header {
             margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            cursor: pointer;
-            position: relative;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e1e5eb;
+        }
+        .featured-header h2 {
+            color: #2c3e50;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0;
+        }
+        .featured-header p {
+            color: #337ab7;
+            font-size: 16px;
+            margin: 5px 0 0;
         }
         .featured-property {
-            margin-bottom: 30px;
             background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .carousel {
+            background-color: #000;
         }
         .carousel-inner img {
             width: 100%;
-            height: 400px;
+            height: 500px;
             object-fit: cover;
-            border-radius: 8px;
         }
-        .property-info h3 {
-            margin-top: 15px;
-            font-size: 24px;
-            color: #333;
+        .featured-content {
+            padding: 24px;
+        }
+        .featured-price {
+            font-size: 28px;
+            color: #337ab7;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .featured-address {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 16px;
+        }
+        .featured-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .property-specs {
+            color: #6c757d;
+            font-size: 16px;
+        }
+        .property-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            overflow: hidden;
+            margin-bottom: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .property-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
         }
         .property-image-container img {
             width: 100%;
-            height: 200px;
+            height: 220px;
             object-fit: cover;
-            border-radius: 4px;
-            margin-bottom: 10px;
+        }
+        .property-content {
+            padding: 20px;
+        }
+        .property-price {
+            font-size: 22px;
+            color: #337ab7;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .property-address {
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-size: 16px;
         }
         .get-details-btn {
             background-color: #337ab7;
             color: white;
             border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
             cursor: pointer;
-            margin-top: 10px;
+            transition: background-color 0.2s ease;
+            width: auto;
         }
         .get-details-btn:hover {
             background-color: #286090;
@@ -101,38 +166,58 @@
             width: 100%;
             height: 100%;
             background-color: rgba(0,0,0,0.5);
+            animation: fadeIn 0.3s ease;
         }
         .modal-content {
-            background-color: #fefefe;
-            margin: 15% auto;
-            padding: 20px;
-            border: 1px solid #888;
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 30px;
+            border: none;
             width: 90%;
             max-width: 500px;
-            border-radius: 8px;
+            border-radius: 12px;
             position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            animation: slideIn 0.3s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
         .close {
             position: absolute;
             right: 20px;
-            top: 10px;
+            top: 15px;
             font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            color: #666;
+            font-weight: 400;
+            color: #94a3b8;
+            transition: color 0.2s ease;
         }
         .close:hover {
-            color: #000;
-        }
-        .hidden {
-            display: none;
+            color: #475569;
         }
         .carousel-control {
             background-image: none !important;
+            opacity: 0.8;
+            width: 10%;
         }
-        .price {
-            color: #337ab7;
-            font-weight: bold;
+        .carousel-control .glyphicon {
+            color: #fff;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+        }
+        .carousel-indicators {
+            bottom: 20px;
+        }
+        .carousel-indicators li {
+            border-color: #fff;
+            background-color: transparent;
+        }
+        .carousel-indicators .active {
+            background-color: #fff;
         }
     </style>
 </head>
@@ -144,7 +229,13 @@
         </div>
 
         <div id="results-controls" class="hidden">
-            <div id="featured-property"></div>
+            <div class="featured-section">
+                <div class="featured-header">
+                    <h2>Featured Properties</h2>
+                    <p>Rent to own option available</p>
+                </div>
+                <div id="featured-property"></div>
+            </div>
             <div id="property-grid" class="row"></div>
         </div>
     </div>
@@ -154,18 +245,20 @@
             <span class="close">&times;</span>
             <h2>Get Access Now!</h2>
             <p>Property Details are available for REGISTERED MEMBERS ONLY.</p>
-            <button class="get-details-btn" style="width: 100%">Apply Now</button>
-            <p style="margin-top: 20px; font-size: 12px;">
+            <button class="get-details-btn" style="width: 100%; margin-top: 20px;">Apply Now</button>
+            <p style="margin-top: 20px; font-size: 12px; color: #64748b;">
                 By clicking the button, I agree to the Terms and Conditions and consent to receive recurring automated 
                 and prerecorded informational and marketing messages at the number I provided above via email, 
                 call and text from and on behalf of QualityHousing.org and its affiliates.
             </p>
-            <div style="text-align: center; margin-top: 20px;">
+            <div style="text-align: center; margin-top: 30px;">
                 <img src="https://logowik.com/content/uploads/images/better-business-bureau9847.jpg" 
                      alt="BBB Accredited Business" 
                      style="max-width: 150px;">
-                <p>Registering for our Membership gives you access to our full listings, including rent to own, 
-                   owner financing and more.</p>
+                <p style="margin-top: 15px; color: #475569;">
+                    Registering for our Membership gives you access to our full listings, including rent to own, 
+                    owner financing and more.
+                </p>
             </div>
         </div>
     </div>
@@ -201,6 +294,11 @@
             return `
                 <div class="featured-property">
                     <div id="carousel-${property.id}" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-${property.id}" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-${property.id}" data-slide-to="1"></li>
+                            <li data-target="#carousel-${property.id}" data-slide-to="2"></li>
+                        </ol>
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img src="${property.imageUrl}" alt="Property Image 1">
@@ -219,11 +317,15 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
                     </div>
-                    <div class="property-info">
-                        <h3>${property.type} ${property.price ? `<span class="price">$${property.price}</span>` : ''}</h3>
-                        <p>${property.address}</p>
-                        <p>${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}</p>
-                        <button class="get-details-btn" onclick="openModal()">Get Details</button>
+                    <div class="featured-content">
+                        <div class="featured-price">${property.price ? `$${property.price.toLocaleString()}` : 'Contact for Price'}</div>
+                        <div class="featured-address">${property.address}</div>
+                        <div class="featured-details">
+                            <div class="property-specs">
+                                ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
+                            </div>
+                            <button class="get-details-btn" onclick="openModal()">Get Details</button>
+                        </div>
                     </div>
                 </div>
             `;
@@ -236,10 +338,12 @@
                         <div class="property-image-container">
                             <img src="${property.imageUrl}" alt="${property.type}">
                         </div>
-                        <div class="property-info">
-                            <h3>${property.type} ${property.price ? `<span class="price">$${property.price}</span>` : ''}</h3>
-                            <p>${property.address || `ZIP: ${property.zipCode}`}</p>
-                            <p>${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}</p>
+                        <div class="property-content">
+                            <div class="property-price">${property.price ? `$${property.price.toLocaleString()}` : 'Contact for Price'}</div>
+                            <div class="property-address">${property.address || `ZIP: ${property.zipCode}`}</div>
+                            <div class="property-specs" style="margin-bottom: 15px;">
+                                ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
+                            </div>
                             <button class="get-details-btn">Get Details</button>
                         </div>
                     </div>
@@ -252,6 +356,7 @@
             const featuredProperty = document.getElementById('featured-property');
             const grid = document.getElementById('property-grid');
             const resultsControls = document.getElementById('results-controls');
+            const featuredSection = document.querySelector('.featured-section');
             
             let locationName = input;
             if (zipData[input]) {
@@ -271,6 +376,9 @@
                 const featured = properties.find(p => p.imageUrl2 && p.imageUrl3);
                 const regular = properties.filter(p => !p.imageUrl2 || !p.imageUrl3);
 
+                // Show/hide featured section based on existence of featured properties
+                featuredSection.style.display = featured ? 'block' : 'none';
+                
                 // Display featured property if exists
                 featuredProperty.innerHTML = featured ? createFeaturedPropertyCard(featured) : '';
                 
@@ -280,6 +388,7 @@
                 resultsControls.classList.remove('hidden');
             } catch (error) {
                 console.error('Error:', error);
+                featuredSection.style.display = 'none';
                 featuredProperty.innerHTML = '';
                 grid.innerHTML = "No properties found or error loading data.";
                 resultsControls.classList.add('hidden');
@@ -325,17 +434,27 @@
             }
         });
 
+        // Close autocomplete when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.matches('#search-input')) {
+                document.getElementById('autocomplete-list').style.display = 'none';
+            }
+        });
+
         function openModal() {
             document.getElementById("myModal").style.display = "block";
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
         }
 
         document.querySelector(".close").onclick = function() {
             document.getElementById("myModal").style.display = "none";
+            document.body.style.overflow = ''; // Restore scrolling
         };
 
         window.onclick = function(event) {
             if (event.target == document.getElementById("myModal")) {
                 document.getElementById("myModal").style.display = "none";
+                document.body.style.overflow = ''; // Restore scrolling
             }
         };
 
