@@ -3,626 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Listings</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Real Estate Search</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        .new-properties-container {
-            margin-bottom: 2rem;
-            width: 100%;
-        }
-        .new-property-card {
-            display: flex;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-            width: 100%;
-        }
-        .image-gallery {
-            flex: 0 0 60%;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 300px 150px;
-            gap: 4px;
-            padding: 4px;
-            background: #f8f9fa;
-        }
-        .gallery-main {
-            grid-column: 1 / -1;
-            grid-row: 1;
-            position: relative;
-        }
-        .gallery-thumb {
-            height: 100%;
-            width: 100%;
-            position: relative;
-            cursor: pointer;
-            transition: opacity 0.2s;
-        }
-        .gallery-thumb:hover {
-            opacity: 0.9;
-        }
-        .gallery-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 4px;
-        }
-        .property-info {
-            flex: 0 0 40%;
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-        }
-        .property-price {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 1rem;
-        }
-        .property-address {
-            font-size: 1.2rem;
-            color: #34495e;
-            margin-bottom: 1rem;
-            line-height: 1.4;
-        }
-        .property-details {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-        .property-detail-item {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: #666;
-        }
-        .detail-icon {
-            font-size: 1.2rem;
-        }
-        .property-type {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background: #e9ecef;
-            border-radius: 4px;
-            margin-bottom: 1.5rem;
-            color: #495057;
-            font-weight: 500;
-        }
-        .contact-btn {
-            margin-top: auto;
-            padding: 1rem;
-            background: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-weight: 500;
-        }
-        .contact-btn:hover {
-            background: #0056b3;
-            transform: translateY(-1px);
-        }
-        .old-properties-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-        .old-property-card {
-            flex: 0 0 calc(33.333% - 1rem);
-            margin-bottom: 1rem;
-        }
-        .old-property-card .card {
-            height: 100%;
-            transition: transform 0.2s;
-        }
-        .old-property-card .card:hover {
-            transform: translateY(-2px);
-        }
-        .old-property-card .card-img-top {
-            height: 200px;
-            object-fit: cover;
-        }
-        .search-container {
-            position: relative;
-            margin: 20px 0;
-        }
-        #searchInput {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        #autocomplete-list {
-            position: absolute;
-            width: 100%;
-            max-height: 300px;
-            overflow-y: auto;
-            background: white;
-            border: 1px solid #ddd;
-            border-top: none;
-            z-index: 1000;
-            display: none;
-            border-radius: 0 0 4px 4px;
-        }
-        .autocomplete-item {
-            padding: 10px 15px;
-            cursor: pointer;
-            border-bottom: 1px solid #eee;
-        }
-        .autocomplete-item:last-child {
-            border-bottom: none;
-        }
-        .autocomplete-item:hover {
-            background-color: #f8f9fa;
-        }
-        .sort-view-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: #f8f9fa;
-            border-radius: 8px;
-        }
-        .view-options {
-            display: flex;
-            gap: 0.5rem;
-        }
-        @media (max-width: 768px) {
-            .new-property-card {
-                flex-direction: column;
-            }
-            .image-gallery {
-                grid-template-rows: 200px 100px;
-            }
-            .property-info {
-                flex: none;
-            }
-            .property-details {
-                grid-template-columns: 1fr;
-            }
-            .old-property-card {
-                flex: 0 0 100%;
-            }
-            .sort-view-container {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            .view-options {
-                width: 100%;
-                justify-content: center;
-            }
-        }
+        body { background-color: #f0f0f0; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .search-container { max-width: 600px; margin: 20px auto; display: flex; justify-content: space-between; position: relative; }
+        #search-input { flex-grow: 1; padding: 10px; font-size: 18px; border: 1px solid #ddd; border-radius: 4px; margin-right: 10px; }
+        #search-button { padding: 10px 20px; background-color: #337ab7; color: white; border: none; cursor: pointer; font-size: 18px; border-radius: 4px; }
+        #search-button:hover { background-color: #286090; }
+        .sort-view-container { display: flex; justify-content: space-between; align-items: center; max-width: 1105px; margin: 20px auto; padding: 10px 0; background-color: #f8f8f8; border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; }
+        .sort-container { display: flex; align-items: center; }
+        .sort-container label { font-weight: bold; margin-right: 10px; }
+        .sort-dropdown { width: 200px; }
+        .view-options { display: flex; align-items: center; }
+        .view-options button { background-color: #fff; border: 1px solid #ddd; padding: 6px 12px; margin-left: 5px; border-radius: 4px; }
+        .view-options button.active { background-color: #337ab7; color: white; border-color: #2e6da4; }
+        #property-grid { width: 100%; margin: 20px auto; }
+        .property-card { border: 1px solid #ddd; margin-bottom: 20px; padding: 10px; position: relative; background-color: #fff; cursor: pointer; }
+        .property-card.expanded { width: 100%; }
+        .property-location { font-size: 14px; margin: 5px 0 10px 0; }
+        .property-image-container { width: 100%; height: 200px; overflow: hidden; margin-bottom: 10px; }
+        .property-image { width: 100%; height: 100%; object-fit: cover; }
+        .property-details { margin-bottom: 10px; }
+        .property-details h5 { margin-top: 0; font-size: 16px; }
+        .get-details-btn { position: absolute; bottom: 10px; right: 10px; background-color: #337ab7; border-color: #2e6da4; }
+        .pagination { display: flex; justify-content: center; align-items: center; margin-top: 20px; background-color: #f0f0f0; padding: 10px; }
+        .pagination span { margin-right: 10px; font-weight: bold; }
+        .pagination button { margin: 0 5px; padding: 5px 10px; background-color: white; color: black; border: 1px solid #ddd; cursor: pointer; }
+        .pagination button.active { background-color: #337ab7; color: white; border: 1px solid #2e6da4; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="search-container my-4">
-            <input type="text" id="searchInput" class="form-control" placeholder="Search by address, ZIP code, or type...">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Enter city, state, or ZIP code">
+            <button id="search-button">Search</button>
             <div id="autocomplete-list"></div>
         </div>
 
-        <div id="results-controls">
+        <div id="results-controls" class="hidden">
             <div class="sort-view-container">
                 <div class="sort-container">
-                    <select id="sortSelect" class="form-select">
-                        <option value="">Sort By...</option>
-                        <option value="price-low">Price (Low to High)</option>
-                        <option value="price-high">Price (High to Low)</option>
-                        <option value="sqft-low">Sq. Feet (Low to High)</option>
-                        <option value="sqft-high">Sq. Feet (High to Low)</option>
-                        <option value="recent">Most Recent</option>
+                    <label for="sort-select">Sort By</label>
+                    <select class="form-control sort-dropdown" id="sort-select">
+                        <option value="Default">Type of Sale</option>
+                        <option value="City">City</option>
+                        <option value="Photos">Photos</option>
+                        <option value="Price (low to high)">Price (low to high)</option>
+                        <option value="Price (high to low)">Price (high to low)</option>
+                        <option value="Sq. Feet (low to high)">Sq. Feet (low to high)</option>
+                        <option value="Sq. Feet (high to low)">Sq. Feet (high to low)</option>
+                        <option value="Most Recent">Most Recent</option>
+                        <option value="Property Type">Property Type</option>
+                        <option value="Status">Status</option>
                     </select>
                 </div>
                 <div class="view-options">
-                    <button class="btn btn-outline-primary active" data-view="list">List</button>
-                    <button class="btn btn-outline-primary" data-view="tile">Tile</button>
-                    <button class="btn btn-primary" id="saveSearch">Save Search</button>
+                    <button>List</button>
+                    <button class="active">Tile</button>
+                    <button>Map</button>
+                    <button>Save Your Search</button>
                 </div>
             </div>
-            <div id="property-grid"></div>
-            <div id="pagination" class="my-4"></div>
-        </div>
-    </div>
 
-    <div class="modal fade" id="myModal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Get Access Now!</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <p class="mb-4">Property Details are available for REGISTERED MEMBERS ONLY.</p>
-                    <button class="btn btn-primary w-100 mb-3">Apply Now</button>
-                    <p class="small text-muted">By clicking the button, I agree to the Terms and Conditions...</p>
-                    <div class="bbb-container mt-4">
-                        <img src="bbb-logo.jpg" alt="BBB Accredited Business" class="bbb-logo mb-2">
-                        <p class="small">Registering for our Membership gives you access to our full listings...</p>
-                    </div>
-                </div>
+            <div id="property-grid" class="row"></div>
+
+            <div class="pagination">
+                <span>Page 1 of 7</span>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>Next »</button>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const app = {
-            properties: [],
-            currentPage: 1,
-            itemsPerPage: 9,
-            currentView: 'list',
-            
-            async init() {
-                await this.loadProperties();
-                this.setupEventListeners();
-                this.displayProperties();
-                this.setupPagination();
-            },
-            
-            async loadProperties() {
-                try {
-                    const response = await fetch('https://api.github.com/repos/satpel/eal-estate-data/contents/data');
-                    const files = await response.json();
-                    
-                    for (const file of files) {
-                        if (file.name.endsWith('.json')) {
-                            const dataResponse = await fetch(file.download_url);
-                            const propertyData = await dataResponse.json();
-                            this.properties = [...this.properties, ...propertyData];
-                        }
-                    }
-                    
-                    this.properties.sort((a, b) => (b.priority || 0) - (a.priority || 0));
-                } catch (error) {
-                    console.error('Error loading properties:', error);
-                }
-            },
-            
-            setupEventListeners() {
-                const searchInput = document.getElementById('searchInput');
-                if (searchInput) {
-                    searchInput.addEventListener('input', (e) => {
-                        const query = e.target.value;
-                        if (query) {
-                            this.showAutocompleteResults(query);
-                        } else {
-                            this.clearAutocomplete();
-                            this.displayProperties();
-                        }
-                    });
+        let cityData = {};
+        let zipData = {};
+        const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
+        const propertyDataUrl = 'https://satpel.github.io/real-estate-data/data/';
+        let currentPage = 1;
+        const propertiesPerPage = 15;
 
-                    searchInput.addEventListener('focus', (e) => {
-                        if (e.target.value) {
-                            this.showAutocompleteResults(e.target.value);
-                        }
-                    });
-                }
-                
-                document.addEventListener('click', (e) => {
-                    if (!e.target.closest('.search-container')) {
-                        this.clearAutocomplete();
-                    }
-                });
-            
-                const sortSelect = document.getElementById('sortSelect');
-                if (sortSelect) {
-                    sortSelect.addEventListener('change', (e) => {
-                        this.handleSort(e.target.value);
-                    });
-                }
-                
-                document.querySelectorAll('[data-view]').forEach(button => {
-                    button.addEventListener('click', (e) => {
-                        this.changeView(e.target.dataset.view);
-                    });
-                });
-                
-                document.addEventListener('click', (e) => {
-                    if (e.target.closest('.gallery-thumb')) {
-                        const thumb = e.target.closest('.gallery-thumb');
-                        const gallery = thumb.closest('.image-gallery');
-                        const mainImage = gallery.querySelector('.gallery-main img');
-                        const thumbImage = thumb.querySelector('img');
-                        [mainImage.src, thumbImage.src] = [thumbImage.src, mainImage.src];
-                    }
-                });
-            },
-            
-            showAutocompleteResults(query) {
-                const autocompleteList = document.getElementById('autocomplete-list');
-                autocompleteList.innerHTML = '';
+        function formatPrice(bedrooms) {
+            if (bedrooms == 1) return "$600";
+            if (bedrooms == 2) return "$700";
+            return "$900";
+        }
 
-                query = query.toLowerCase();
-                const results = new Set();
-
-                this.properties.forEach(property => {
-                    if (property.address && property.address.toLowerCase().includes(query)) {
-                        results.add(property.address);
-                    }
-                    if (property.zipCode && property.zipCode.toString().includes(query)) {
-                        results.add(`ZIP: ${property.zipCode}`);
-                    }
-                    if (property.type && property.type.toLowerCase().includes(query)) {
-                        results.add(property.type);
-                    }
-                });
-
-                if (results.size > 0) {
-                    results.forEach(result => {
-                        const div = document.createElement('div');
-                        div.className = 'autocomplete-item';
-                        div.textContent = result;
-                        div.addEventListener('click', () => {
-                            document.getElementById('searchInput').value = result;
-                            this.handleSearch(result);
-                            this.clearAutocomplete();
-                        });
-                        autocompleteList.appendChild(div);
-                    });
-                    
-                    autocompleteList.style.display = 'block';
-                } else {
-                    this.clearAutocomplete();
-                }
-            },
-            
-            clearAutocomplete() {
-                const autocompleteList = document.getElementById('autocomplete-list');
-                if (autocompleteList) {
-                    autocompleteList.innerHTML = '';
-                    autocompleteList.style.display = 'none';
-                }
-            },
-            
-            handleSearch(query) {
-                if (!query) {
-                    this.displayProperties();
-                    return;
-                }
-
-                query = query.toLowerCase();
-                const filteredProperties = this.properties.filter(property => {
-                    const searchString = `${property.address || ''} ${property.zipCode || ''} ${property.type || ''}`.toLowerCase();
-                    return searchString.includes(query);
-                });
-                
-                this.currentPage = 1;
-                this.displayProperties(filteredProperties);
-            },
-            handleSort(sortBy) {
-                const sorted = [...this.properties];
-                
-                switch(sortBy) {
-                    case 'price-low':
-                        sorted.sort((a, b) => (parseFloat(a.price) || 0) - (parseFloat(b.price) || 0));
-                        break;
-                    case 'price-high':
-                        sorted.sort((a, b) => (parseFloat(b.price) || 0) - (parseFloat(a.price) || 0));
-                        break;
-                    case 'sqft-low':
-                        sorted.sort((a, b) => (parseFloat(a.squareFeet) || 0) - (parseFloat(b.squareFeet) || 0));
-                        break;
-                    case 'sqft-high':
-                        sorted.sort((a, b) => (parseFloat(b.squareFeet) || 0) - (parseFloat(a.squareFeet) || 0));
-                        break;
-                    case 'recent':
-                        sorted.sort((a, b) => (b.priority || 0) - (a.priority || 0));
-                        break;
-                }
-                
-                this.properties = sorted;
-                this.displayProperties();
-            },
-            
-            displayProperties(propertiesToShow = this.properties) {
-                const propertyGrid = document.getElementById('property-grid');
-                if (!propertyGrid) return;
-                
-                propertyGrid.innerHTML = '';
-                
-                const newProperties = propertiesToShow.filter(prop => prop.id.startsWith('prop_'));
-                const oldProperties = propertiesToShow.filter(prop => !prop.id.startsWith('prop_'));
-                
-                if (newProperties.length > 0) {
-                    const newPropertiesContainer = document.createElement('div');
-                    newPropertiesContainer.className = 'new-properties-container';
-                    
-                    newProperties.forEach(property => {
-                        newPropertiesContainer.appendChild(this.createNewPropertyCard(property));
-                    });
-                    
-                    propertyGrid.appendChild(newPropertiesContainer);
-                }
-                
-                if (oldProperties.length > 0) {
-                    const startIndex = (this.currentPage - 1) * this.itemsPerPage;
-                    const endIndex = startIndex + this.itemsPerPage;
-                    const paginatedProperties = oldProperties.slice(startIndex, endIndex);
-                    
-                    const oldPropertiesContainer = document.createElement('div');
-                    oldPropertiesContainer.className = 'old-properties-container row';
-                    
-                    paginatedProperties.forEach(property => {
-                        oldPropertiesContainer.appendChild(this.createOldPropertyCard(property));
-                    });
-                    
-                    propertyGrid.appendChild(oldPropertiesContainer);
-                }
-                
-                this.setupPagination(oldProperties.length);
-            },
-            
-            createNewPropertyCard(property) {
-                const card = document.createElement('div');
-                card.className = 'new-property-card';
-                
-                const gallery = document.createElement('div');
-                gallery.className = 'image-gallery';
-                
-                const images = [property.imageUrl, property.imageUrl2, property.imageUrl3].filter(Boolean);
-                
-                const mainImageContainer = document.createElement('div');
-                mainImageContainer.className = 'gallery-main';
-                mainImageContainer.innerHTML = `
-                    <img src="${images[0]}" alt="Main Property View" class="gallery-image">
-                `;
-                gallery.appendChild(mainImageContainer);
-                
-                images.slice(1).forEach((imgUrl, index) => {
-                    const thumbContainer = document.createElement('div');
-                    thumbContainer.className = 'gallery-thumb';
-                    thumbContainer.innerHTML = `
-                        <img src="${imgUrl}" alt="Property View ${index + 2}" class="gallery-image">
-                    `;
-                    gallery.appendChild(thumbContainer);
-                });
-                
-                const info = document.createElement('div');
-                info.className = 'property-info';
-                info.innerHTML = `
-                    <div class="property-price">$${property.price ? property.price.toLocaleString() : 'Contact for Price'}</div>
-                    <div class="property-address">${property.address}</div>
-                    <div class="property-details">
-                        <div class="property-detail-item">
-                            <span class="detail-icon">🛏️</span>
-                            <span>${property.beds} Beds</span>
-                        </div>
-                        <div class="property-detail-item">
-                            <span class="detail-icon">🚿</span>
-                            <span>${property.baths} Baths</span>
-                        </div>
-                        ${property.squareFeet ? `
-                            <div class="property-detail-item">
-                                <span class="detail-icon">📏</span>
-                                <span>${property.squareFeet} sqft</span>
-                            </div>
-                        ` : ''}
-                        <div class="property-detail-item">
-                            <span class="detail-icon">📍</span>
-                            <span>${property.zipCode}</span>
-                        </div>
-                    </div>
-                    <div class="property-type">${property.type}</div>
-                    <button class="contact-btn" onclick="app.showModal('${property.id}')">Contact Agent</button>
-                `;
-                
-                card.appendChild(gallery);
-                card.appendChild(info);
-                
-                return card;
-            },
-            
-            createOldPropertyCard(property) {
-                const card = document.createElement('div');
-                card.className = 'col-md-4 old-property-card';
-                
-                card.innerHTML = `
-                    <div class="card">
-                        <img src="${property.imageUrl}" class="card-img-top" alt="Property Image" 
-                             onerror="this.src='placeholder-image.jpg'">
-                        <div class="card-body">
-                            <h5 class="card-title">ZIP: ${property.zipCode}</h5>
-                            <div class="card-text">
-                                <div class="mb-2">${property.beds} Beds, ${property.baths} Baths</div>
-                                ${property.squareFeet ? `<div class="mb-2">${property.squareFeet} sqft</div>` : ''}
-                                ${property.price ? `<div class="fw-bold mb-2">$${property.price.toLocaleString()}</div>` : ''}
-                                <div class="small text-muted">${property.type}</div>
-                            </div>
-                            <button class="btn btn-primary w-100 mt-3" onclick="app.showModal('${property.id}')">
-                                View Details
-                            </button>
-                        </div>
-                    </div>
-                `;
-                
-                return card;
-            },
-            setupPagination(totalItems) {
-                const paginationContainer = document.getElementById('pagination');
-                if (!paginationContainer) return;
-                
-                paginationContainer.innerHTML = '';
-                
-                const totalPages = Math.ceil(totalItems / this.itemsPerPage);
-                if (totalPages <= 1) return;
-                
-                const ul = document.createElement('ul');
-                ul.className = 'pagination justify-content-center';
-                
-                const prevLi = document.createElement('li');
-                prevLi.className = `page-item ${this.currentPage === 1 ? 'disabled' : ''}`;
-                prevLi.innerHTML = `
-                    <button class="page-link" ${this.currentPage === 1 ? 'disabled' : ''} data-page="${this.currentPage - 1}">
-                        Previous
-                    </button>
-                `;
-                ul.appendChild(prevLi);
-                
-                for (let i = 1; i <= totalPages; i++) {
-                    if (i === 1 || i === totalPages || (i >= this.currentPage - 2 && i <= this.currentPage + 2)) {
-                        const li = document.createElement('li');
-                        li.className = `page-item ${i === this.currentPage ? 'active' : ''}`;
-                        li.innerHTML = `
-                            <button class="page-link" data-page="${i}">${i}</button>
-                        `;
-                        ul.appendChild(li);
-                    } else if (i === this.currentPage - 3 || i === this.currentPage + 3) {
-                        const li = document.createElement('li');
-                        li.className = 'page-item disabled';
-                        li.innerHTML = '<span class="page-link">...</span>';
-                        ul.appendChild(li);
-                    }
-                }
-                
-                const nextLi = document.createElement('li');
-                nextLi.className = `page-item ${this.currentPage === totalPages ? 'disabled' : ''}`;
-                nextLi.innerHTML = `
-                    <button class="page-link" ${this.currentPage === totalPages ? 'disabled' : ''} data-page="${this.currentPage + 1}">
-                        Next
-                    </button>
-                `;
-                ul.appendChild(nextLi);
-                
-                ul.addEventListener('click', (e) => {
-                    const pageButton = e.target.closest('button[data-page]');
-                    if (pageButton) {
-                        this.currentPage = parseInt(pageButton.dataset.page);
-                        this.displayProperties();
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }
-                });
-                
-                paginationContainer.appendChild(ul);
-            },
-            
-            showModal(propertyId) {
-                const modal = new bootstrap.Modal(document.getElementById('myModal'));
-                modal.show();
-            },
-            
-            changeView(viewType) {
-                this.currentView = viewType;
-                
-                document.querySelectorAll('[data-view]').forEach(button => {
-                    button.classList.toggle('active', button.dataset.view === viewType);
-                });
-                
-                const propertyGrid = document.getElementById('property-grid');
-                propertyGrid.className = viewType === 'tile' ? 'row g-4' : 'row';
-                
-                this.displayProperties();
+        function formatNumber(num) {
+            if (Number.isInteger(parseFloat(num))) {
+                return Math.floor(num);
             }
-        };
+            return parseFloat(num).toFixed(1);
+        }
 
-        document.addEventListener('DOMContentLoaded', () => {
-            app.init();
-        });
+        function toTitleCase(str) {
+            return str.split(' ').map(word => 
+                word.length <= 2 ? word.toUpperCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+            ).join(' ');
+        }
+
+        function formatPropertyType(type) {
+            if (/^\d+$/.test(type) || type === 'VacantLand' || type === 'Other') {
+                return 'Single Family Home';
+            }
+            return type.replace(/([A-Z])/g, ' $1').trim();
+        }
+
+        function createPropertyCard(property, location) {
+            const [city, state] = location.split(', ').map(toTitleCase);
+            return `
+                <div class="col-sm-6 col-md-4">
+                    <div class="property-card">
+                        <h3>${property.type} <span class="price">${formatPrice(property.beds)}</span></h3>
+                        <p class="property-location">${city}, ${state}</p>
+                        <div class="property-image-container">
+                            <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                        </div>
+                        <div class="property-details">
+                            <h5>${formatPropertyType(property.type)}</h5>
+                            <p>${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createExpandedPropertyCard(property, location) {
+            const [city, state] = location.split(', ').map(toTitleCase);
+            return `
+                <div class="col-sm-12">
+                    <div class="property-card expanded">
+                        <h3>${property.type} <span class="price">${property.price ? `$${property.price}` : 'N/A'}</span></h3>
+                        <p class="property-location">${city}, ${state}</p>
+                        <div class="property-image-container">
+                            <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                            ${property.imageUrl2 ? `<img src="${property.imageUrl2}" class="property-image">` : ""}
+                            ${property.imageUrl3 ? `<img src="${property.imageUrl3}" class="property-image">` : ""}
+                        </div>
+                        <div class="property-details">
+                            <h5>${formatPropertyType(property.type)}</h5>
+                            <p>${formatNumber(property.beds)} Beds | ${formatNumber(property.baths)} Baths | ${Number(property.squareFeet).toLocaleString()} sqft</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function searchProperties() {
+            const input = document.getElementById('search-input').value.trim().toUpperCase();
+            const grid = document.getElementById('property-grid');
+            const resultsControls = document.getElementById('results-controls');
+            
+            let locationName = input;
+            if (zipData[input]) {
+                locationName = zipData[input];
+            }
+
+            try {
+                const [city, state] = locationName.split(', ');
+                const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
+                
+                const response = await fetch(`${propertyDataUrl}${filename}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const properties = await response.json();
+
+                const newFormatProperties = properties.filter(property => property.imageUrl2 || property.imageUrl3);
+                const oldFormatProperties = properties.filter(property => !property.imageUrl2 && !property.imageUrl3);
+
+                grid.innerHTML = newFormatProperties.map(property => createExpandedPropertyCard(property, locationName)).join('');
+                grid.innerHTML += oldFormatProperties.map(property => createPropertyCard(property, locationName)).join('');
+                
+                resultsControls.classList.remove('hidden');
+            } catch (error) {
+                console.error('Error:', error);
+                grid.innerHTML = "No properties found or error loading data.";
+                resultsControls.classList.add('hidden');
+            }
+        }
+
+        document.getElementById('search-button').addEventListener('click', searchProperties);
     </script>
 </body>
 </html>
