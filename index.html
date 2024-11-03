@@ -340,7 +340,7 @@
                         [mainImage.src, thumbImage.src] = [thumbImage.src, mainImage.src];
                     }
                 });
-            }
+            },
             
             handleSearch(query) {
                 if (!query) {
@@ -580,7 +580,7 @@
                 propertyGrid.className = viewType === 'tile' ? 'row g-4' : 'row';
                 
                 this.displayProperties();
-            }
+            },
             showAutocompleteResults(query) {
                 const autocompleteList = document.getElementById('autocomplete-list');
                 autocompleteList.innerHTML = '';
