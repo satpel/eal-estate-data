@@ -128,17 +128,37 @@
         }
         .search-container {
             position: relative;
+            margin: 20px 0;
         }
-        .autocomplete-list {
+        #searchInput {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #autocomplete-list {
             position: absolute;
             width: 100%;
+            max-height: 300px;
+            overflow-y: auto;
             background: white;
             border: 1px solid #ddd;
             border-top: none;
-            max-height: 300px;
-            overflow-y: auto;
             z-index: 1000;
+            display: none;
             border-radius: 0 0 4px 4px;
+        }
+        .autocomplete-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+        .autocomplete-item:last-child {
+            border-bottom: none;
+        }
+        .autocomplete-item:hover {
+            background-color: #f8f9fa;
         }
         .sort-view-container {
             display: flex;
@@ -178,45 +198,13 @@
                 justify-content: center;
             }
         }
-        .search-container {
-            position: relative;
-            margin: 20px 0;
-        }
-        
-        #searchInput {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        
-        #autocomplete-list {
-            position: absolute;
-            width: 100%;
-            max-height: 300px;
-            overflow-y: auto;
-            background: white;
-            border: 1px solid #ddd;
-            border-top: none;
-            z-index: 1000;
-        }
-        
-        .autocomplete-item {
-            padding: 10px;
-            cursor: pointer;
-        }
-        
-        .autocomplete-item:hover {
-            background-color: #f8f9fa;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="search-container my-4">
             <input type="text" id="searchInput" class="form-control" placeholder="Search by address, ZIP code, or type...">
-            <div id="autocomplete-list" class="autocomplete-list"></div>
+            <div id="autocomplete-list"></div>
         </div>
 
         <div id="results-controls">
@@ -299,12 +287,22 @@
             setupEventListeners() {
                 const searchInput = document.getElementById('searchInput');
                 if (searchInput) {
+                    // Обработчик ввода для поиска и автокомплита
                     searchInput.addEventListener('input', (e) => {
-                        const query = e.target.value.toLowerCase();
+                        const query = e.target.value;
                         if (query) {
                             this.showAutocompleteResults(query);
+                            this.handleSearch(query);
                         } else {
                             this.clearAutocomplete();
+                            this.displayProperties();
+                        }
+                    });
+
+                    // Обработчик фокуса для показа последних результатов
+                    searchInput.addEventListener('focus', (e) => {
+                        if (e.target.value) {
+                            this.showAutocompleteResults(e.target.value);
                         }
                     });
                 }
@@ -316,7 +314,6 @@
                     }
                 });
             
-                // Остальные обработчики событий оставляем как есть
                 const sortSelect = document.getElementById('sortSelect');
                 if (sortSelect) {
                     sortSelect.addEventListener('change', (e) => {
@@ -336,10 +333,63 @@
                         const gallery = thumb.closest('.image-gallery');
                         const mainImage = gallery.querySelector('.gallery-main img');
                         const thumbImage = thumb.querySelector('img');
-                        
                         [mainImage.src, thumbImage.src] = [thumbImage.src, mainImage.src];
                     }
                 });
+            },
+            
+            showAutocompleteResults(query) {
+                const autocompleteList = document.getElementById('autocomplete-list');
+                autocompleteList.innerHTML = '';
+                
+                query = query.toLowerCase();
+                const results = new Set();
+                
+                // Собираем уникальные результаты
+                this.properties.forEach(property => {
+                    // Поиск по адресу
+                    if (property.address && property.address.toLowerCase().includes(query)) {
+                        results.add(property.address);
+                    }
+                    
+                    // Поиск по ZIP-коду
+                    if (property.zipCode && property.zipCode.toString().includes(query)) {
+                        results.add(`ZIP: ${property.zipCode}`);
+                    }
+                    
+                    // Поиск по типу недвижимости
+                    if (property.type && property.type.toLowerCase().includes(query)) {
+                        results.add(property.type);
+                    }
+                });
+                
+                if (results.size > 0) {
+                    // Создаем и добавляем элементы автокомплита
+                    results.forEach(result => {
+                        const div = document.createElement('div');
+                        div.className = 'autocomplete-item';
+                        div.textContent = result;
+                        div.addEventListener('click', () => {
+                            document.getElementById('searchInput').value = result;
+                            this.handleSearch(result);
+                            this.clearAutocomplete();
+                        });
+                        autocompleteList.appendChild(div);
+                    });
+                    
+                    // Показываем список
+                    autocompleteList.style.display = 'block';
+                } else {
+                    this.clearAutocomplete();
+                }
+            },
+            
+            clearAutocomplete() {
+                const autocompleteList = document.getElementById('autocomplete-list');
+                if (autocompleteList) {
+                    autocompleteList.innerHTML = '';
+                    autocompleteList.style.display = 'none';
+                }
             },
             
             handleSearch(query) {
@@ -348,15 +398,15 @@
                     return;
                 }
 
+                query = query.toLowerCase();
                 const filteredProperties = this.properties.filter(property => {
                     const searchString = `${property.address || ''} ${property.zipCode || ''} ${property.type || ''}`.toLowerCase();
-                    return searchString.includes(query.toLowerCase());
+                    return searchString.includes(query);
                 });
                 
                 this.currentPage = 1;
                 this.displayProperties(filteredProperties);
             },
-            
             handleSort(sortBy) {
                 const sorted = [...this.properties];
                 
@@ -388,9 +438,11 @@
                 
                 propertyGrid.innerHTML = '';
                 
+                // Разделяем свойства на новые и старые
                 const newProperties = propertiesToShow.filter(prop => prop.id.startsWith('prop_'));
                 const oldProperties = propertiesToShow.filter(prop => !prop.id.startsWith('prop_'));
                 
+                // Отображаем новые свойства
                 if (newProperties.length > 0) {
                     const newPropertiesContainer = document.createElement('div');
                     newPropertiesContainer.className = 'new-properties-container';
@@ -402,6 +454,7 @@
                     propertyGrid.appendChild(newPropertiesContainer);
                 }
                 
+                // Отображаем старые свойства с пагинацией
                 if (oldProperties.length > 0) {
                     const startIndex = (this.currentPage - 1) * this.itemsPerPage;
                     const endIndex = startIndex + this.itemsPerPage;
@@ -505,7 +558,6 @@
                 
                 return card;
             },
-            
             setupPagination(totalItems) {
                 const paginationContainer = document.getElementById('pagination');
                 if (!paginationContainer) return;
@@ -518,6 +570,7 @@
                 const ul = document.createElement('ul');
                 ul.className = 'pagination justify-content-center';
                 
+                // Previous button
                 const prevLi = document.createElement('li');
                 prevLi.className = `page-item ${this.currentPage === 1 ? 'disabled' : ''}`;
                 prevLi.innerHTML = `
@@ -527,6 +580,7 @@
                 `;
                 ul.appendChild(prevLi);
                 
+                // Page numbers
                 for (let i = 1; i <= totalPages; i++) {
                     if (i === 1 || i === totalPages || (i >= this.currentPage - 2 && i <= this.currentPage + 2)) {
                         const li = document.createElement('li');
@@ -543,6 +597,7 @@
                     }
                 }
                 
+                // Next button
                 const nextLi = document.createElement('li');
                 nextLi.className = `page-item ${this.currentPage === totalPages ? 'disabled' : ''}`;
                 nextLi.innerHTML = `
@@ -552,6 +607,7 @@
                 `;
                 ul.appendChild(nextLi);
                 
+                // Add click event listeners
                 ul.addEventListener('click', (e) => {
                     const pageButton = e.target.closest('button[data-page]');
                     if (pageButton) {
@@ -580,49 +636,24 @@
                 propertyGrid.className = viewType === 'tile' ? 'row g-4' : 'row';
                 
                 this.displayProperties();
-            },
-            showAutocompleteResults(query) {
-                const autocompleteList = document.getElementById('autocomplete-list');
-                autocompleteList.innerHTML = '';
-            
-                // Собираем уникальные адреса, города и штаты
-                const results = new Set();
-                this.properties.forEach(property => {
-                    if (property.address && property.address.toLowerCase().includes(query)) {
-                        results.add(property.address);
-                    }
-                    if (property.type && property.type.toLowerCase().includes(query)) {
-                        results.add(property.type);
-                    }
-                    if (property.zipCode && property.zipCode.toString().includes(query)) {
-                        results.add(`ZIP: ${property.zipCode}`);
-                    }
-                });
-            
-                // Создаем и добавляем результаты
-                results.forEach(result => {
-                    const div = document.createElement('div');
-                    div.className = 'autocomplete-item';
-                    div.textContent = result;
-                    div.addEventListener('click', () => {
-                        document.getElementById('searchInput').value = result;
-                        this.handleSearch(result);
-                        this.clearAutocomplete();
-                    });
-                    autocompleteList.appendChild(div);
-                });
-            },
-
-            clearAutocomplete() {
-                const autocompleteList = document.getElementById('autocomplete-list');
-                autocompleteList.innerHTML = '';
             }
         };
 
         // Initialize the app when the document is ready
         document.addEventListener('DOMContentLoaded', () => {
             app.init();
+            
+            // Log для отладки
+            console.log('App initialized');
+            
+            // Debug-функции для проверки работы автокомплита
+            window.debugApp = {
+                showProperties: () => console.log(app.properties),
+                testAutocomplete: (query) => app.showAutocompleteResults(query),
+                testSearch: (query) => app.handleSearch(query)
+            };
         });
     </script>
 </body>
 </html>
+
