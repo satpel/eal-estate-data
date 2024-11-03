@@ -272,7 +272,6 @@ const styles = `
     }
 }
 `;
-
 // app.js
 const app = {
     properties: [],
@@ -303,6 +302,9 @@ const app = {
             
             // Сортируем по priority
             this.properties.sort((a, b) => (b.priority || 0) - (a.priority || 0));
+            
+            // Показываем контролы после загрузки данных
+            document.getElementById('results-controls').classList.remove('hidden');
         } catch (error) {
             console.error('Error loading properties:', error);
         }
@@ -310,14 +312,20 @@ const app = {
     
     setupEventListeners() {
         // Search
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            this.handleSearch(e.target.value);
-        });
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                this.handleSearch(e.target.value);
+            });
+        }
         
         // Sort
-        document.getElementById('sortSelect').addEventListener('change', (e) => {
-            this.handleSort(e.target.value);
-        });
+        const sortSelect = document.getElementById('sortSelect');
+        if (sortSelect) {
+            sortSelect.addEventListener('change', (e) => {
+                this.handleSort(e.target.value);
+            });
+        }
         
         // View options
         document.querySelectorAll('[data-view]').forEach(button => {
@@ -326,18 +334,28 @@ const app = {
             });
         });
         
-        // Pagination
-        document.getElementById('pagination').addEventListener('click', (e) => {
-            if (e.target.dataset.page) {
-                this.currentPage = parseInt(e.target.dataset.page);
-                this.displayProperties();
+        // Image gallery navigation for new properties
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.gallery-thumb')) {
+                const thumb = e.target.closest('.gallery-thumb');
+                const gallery = thumb.closest('.image-gallery');
+                const mainImage = gallery.querySelector('.gallery-main img');
+                const thumbImage = thumb.querySelector('img');
+                
+                // Swap images
+                [mainImage.src, thumbImage.src] = [thumbImage.src, mainImage.src];
             }
         });
     },
     
     handleSearch(query) {
+        if (!query) {
+            this.displayProperties();
+            return;
+        }
+
         const filteredProperties = this.properties.filter(property => {
-            const searchString = `${property.address} ${property.zipCode} ${property.type}`.toLowerCase();
+            const searchString = `${property.address || ''} ${property.zipCode || ''} ${property.type || ''}`.toLowerCase();
             return searchString.includes(query.toLowerCase());
         });
         
@@ -350,10 +368,10 @@ const app = {
         
         switch(sortBy) {
             case 'price-low':
-                sorted.sort((a, b) => (a.price || 0) - (b.price || 0));
+                sorted.sort((a, b) => (parseFloat(a.price) || 0) - (parseFloat(b.price) || 0));
                 break;
             case 'price-high':
-                sorted.sort((a, b) => (b.price || 0) - (a.price || 0));
+                sorted.sort((a, b) => (parseFloat(b.price) || 0) - (parseFloat(a.price) || 0));
                 break;
             case 'sqft-low':
                 sorted.sort((a, b) => (parseFloat(a.squareFeet) || 0) - (parseFloat(b.squareFeet) || 0));
@@ -372,6 +390,8 @@ const app = {
     
     displayProperties(propertiesToShow = this.properties) {
         const propertyGrid = document.getElementById('property-grid');
+        if (!propertyGrid) return;
+        
         propertyGrid.innerHTML = '';
         
         // Разделяем свойства на новые и старые
@@ -408,248 +428,197 @@ const app = {
         
         this.setupPagination(oldProperties.length);
     },
-    
-		// Обновляем функцию создания карточки нового дома
-		function createNewPropertyCard(property) {
-		    const card = document.createElement('div');
-		    card.className = 'new-property-card';
-		    
-		    // Создаем галерею изображений
-		    const gallery = document.createElement('div');
-		    gallery.className = 'image-gallery';
-		    
-		    const images = [property.imageUrl, property.imageUrl2, property.imageUrl3].filter(Boolean);
-		    
-		    // Главное изображение
-		    const mainImageContainer = document.createElement('div');
-		    mainImageContainer.className = 'gallery-main';
-		    mainImageContainer.innerHTML = `
-		        <img src="${images[0]}" alt="Main Property View" class="gallery-image">
-		    `;
-		    gallery.appendChild(mainImageContainer);
-		    
-		    // Дополнительные изображения
-		    images.slice(1).forEach((imgUrl, index) => {
-		        const thumbContainer = document.createElement('div');
-		        thumbContainer.className = 'gallery-thumb';
-		        thumbContainer.innerHTML = `
-		            <img src="${imgUrl}" alt="Property View ${index + 2}" class="gallery-image">
-		        `;
-		        gallery.appendChild(thumbContainer);
-		    });
-		    
-		    // Информация о собственности
-		    const info = document.createElement('div');
-		    info.className = 'property-info';
-		    info.innerHTML = `
-		        <div class="property-price">$${property.price ? property.price.toLocaleString() : 'Contact for Price'}</div>
-		        <div class="property-address">${property.address}</div>
-		        <div class="property-details">
-		            <div class="property-detail-item">
-		                <span class="detail-icon">🛏️</span>
-		                <span>${property.beds} Beds</span>
-		            </div>
-		            <div class="property-detail-item">
-		                <span class="detail-icon">🚿</span>
-		                <span>${property.baths} Baths</span>
-		            </div>
-		            ${property.squareFeet ? `
-		                <div class="property-detail-item">
-		                    <span class="detail-icon">📏</span>
-		                    <span>${property.squareFeet} sqft</span>
-		                </div>
-		            ` : ''}
-		            <div class="property-detail-item">
-		                <span class="detail-icon">📍</span>
-		                <span>${property.zipCode}</span>
-		            </div>
-		        </div>
-		        <div class="property-type">${property.type}</div>
-		        <button class="contact-btn" onclick="app.showModal('${property.id}')">Contact Agent</button>
-		    `;
-		    
-		    card.appendChild(gallery);
-		    card.appendChild(info);
-		    
-		    return card;
-		}
-    
-    getPropertyImages(property) {
-        const images = [];
-        if (property.imageUrl) images.push(property.imageUrl);
-        if (property.imageUrl2) images.push(property.imageUrl2);
-        if (property.imageUrl3) images.push(property.imageUrl3);
-        return images;
-    },
-    
-    createImageSlider(images) {
-        const slider = document.createElement('div');
-        slider.className = 'property-image-slider';
+
+    createNewPropertyCard(property) {
+        const card = document.createElement('div');
+        card.className = 'new-property-card';
         
-        images.forEach((imgUrl, index) => {
-            const imgContainer = document.createElement('div');
-            imgContainer.className = 'slider-image';
-            
-            const img = document.createElement('img');
-            img.src = imgUrl;
-            img.alt = `Property Image ${index + 1}`;
-            
-            imgContainer.appendChild(img);
-            slider.appendChild(imgContainer);
+        // Создаем галерею изображений
+        const gallery = document.createElement('div');
+        gallery.className = 'image-gallery';
+        
+        // Собираем все доступные изображения
+        const images = [property.imageUrl, property.imageUrl2, property.imageUrl3].filter(Boolean);
+        
+        // Главное изображение
+        const mainImageContainer = document.createElement('div');
+        mainImageContainer.className = 'gallery-main';
+        mainImageContainer.innerHTML = `
+            <img src="${images[0]}" alt="Main Property View" class="gallery-image">
+        `;
+        gallery.appendChild(mainImageContainer);
+        
+        // Дополнительные изображения
+        images.slice(1).forEach((imgUrl, index) => {
+            const thumbContainer = document.createElement('div');
+            thumbContainer.className = 'gallery-thumb';
+            thumbContainer.innerHTML = `
+                <img src="${imgUrl}" alt="Property View ${index + 2}" class="gallery-image">
+            `;
+            gallery.appendChild(thumbContainer);
         });
         
-        if (images.length > 1) {
-            this.addSliderNavigation(slider, images.length);
-        }
-        
-        return slider;
-    },
-    
-    addSliderNavigation(slider, imageCount) {
-        const nav = document.createElement('div');
-        nav.className = 'slider-nav';
-        
-        for (let i = 0; i < imageCount; i++) {
-            const dot = document.createElement('div');
-            dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
-            dot.addEventListener('click', () => {
-                slider.scrollTo({
-                    left: slider.offsetWidth * i,
-                    behavior: 'smooth'
-                });
-            });
-            nav.appendChild(dot);
-        }
-        
-        slider.appendChild(nav);
-    },
-    
-		createPropertyInfo(property) {
+        // Информация о собственности
         const info = document.createElement('div');
         info.className = 'property-info';
-        
         info.innerHTML = `
-            <h2 class="property-price">$${property.price ? property.price.toLocaleString() : 'Contact for Price'}</h2>
-            <p class="property-address">${property.address}</p>
+            <div class="property-price">$${property.price ? property.price.toLocaleString() : 'Contact for Price'}</div>
+            <div class="property-address">${property.address}</div>
             <div class="property-details">
-                <span class="beds">${property.beds} Beds</span>
-                <span class="baths">${property.baths} Baths</span>
-                ${property.squareFeet ? `<span class="sqft">${property.squareFeet} sqft</span>` : ''}
+                <div class="property-detail-item">
+                    <span class="detail-icon">🛏️</span>
+                    <span>${property.beds} Beds</span>
+                </div>
+                <div class="property-detail-item">
+                    <span class="detail-icon">🚿</span>
+                    <span>${property.baths} Baths</span>
+                </div>
+                ${property.squareFeet ? `
+                    <div class="property-detail-item">
+                        <span class="detail-icon">📏</span>
+                        <span>${property.squareFeet} sqft</span>
+                    </div>
+                ` : ''}
+                <div class="property-detail-item">
+                    <span class="detail-icon">📍</span>
+                    <span>${property.zipCode}</span>
+                </div>
             </div>
             <div class="property-type">${property.type}</div>
             <button class="contact-btn" onclick="app.showModal('${property.id}')">Contact Agent</button>
         `;
         
-        return info;
-    },
-    
-    createOldPropertyCard(property) {
-        const card = document.createElement('div');
-        card.className = 'col-md-4 old-property-card';
-        
-        card.innerHTML = `
-            <div class="card">
-                <img src="${property.imageUrl}" class="card-img-top" alt="Property Image" 
-                     onerror="this.src='placeholder-image.jpg'">
-                <div class="card-body">
-                    <h5 class="card-title">ZIP: ${property.zipCode}</h5>
-                    <p class="card-text">
-                        ${property.beds} Beds, ${property.baths} Baths
-                        ${property.squareFeet ? `<br>${property.squareFeet} sqft` : ''}
-                    </p>
-                    <button class="btn btn-primary w-100" onclick="app.showModal('${property.id}')">View Details</button>
-                </div>
-            </div>
-        `;
+        card.appendChild(gallery);
+        card.appendChild(info);
         
         return card;
     },
-    
-    setupPagination(totalItems = this.properties.length) {
-        const paginationContainer = document.getElementById('pagination');
-        paginationContainer.innerHTML = '';
-        
-        const totalPages = Math.ceil(totalItems / this.itemsPerPage);
-        if (totalPages <= 1) return;
-        
-        const ul = document.createElement('ul');
-        ul.className = 'pagination';
-        
-        // Previous button
-        const prevLi = document.createElement('li');
-        prevLi.className = `page-item ${this.currentPage === 1 ? 'disabled' : ''}`;
-        prevLi.innerHTML = `
-            <a class="page-link" href="#" ${this.currentPage === 1 ? '' : `data-page="${this.currentPage - 1}"`}>
-                Previous
-            </a>
-        `;
-        ul.appendChild(prevLi);
-        
-        // Page numbers
-        for (let i = 1; i <= totalPages; i++) {
-            if (
-                i === 1 || 
-                i === totalPages || 
-                (i >= this.currentPage - 1 && i <= this.currentPage + 1)
-            ) {
-                const li = document.createElement('li');
-                li.className = `page-item ${i === this.currentPage ? 'active' : ''}`;
-                li.innerHTML = `
-                    <a class="page-link" href="#" data-page="${i}">${i}</a>
-                `;
-                ul.appendChild(li);
-            } else if (
-                i === this.currentPage - 2 || 
-                i === this.currentPage + 2
-            ) {
-                const li = document.createElement('li');
-                li.className = 'page-item disabled';
-                li.innerHTML = '<a class="page-link">...</a>';
-                ul.appendChild(li);
-            }
-        }
-        
-        // Next button
-        const nextLi = document.createElement('li');
-        nextLi.className = `page-item ${this.currentPage === totalPages ? 'disabled' : ''}`;
-        nextLi.innerHTML = `
-            <a class="page-link" href="#" ${this.currentPage === totalPages ? '' : `data-page="${this.currentPage + 1}"`}>
-                Next
-            </a>
-        `;
-        ul.appendChild(nextLi);
-        
-        paginationContainer.appendChild(ul);
-    },
-    
-    showModal(propertyId) {
-        const modal = new bootstrap.Modal(document.getElementById('myModal'));
-        modal.show();
-    },
-    
-    changeView(viewType) {
-        this.currentView = viewType;
-        
-        // Update active button
-        document.querySelectorAll('[data-view]').forEach(button => {
-            button.classList.toggle('active', button.dataset.view === viewType);
-        });
-        
-        // Update display
-        const propertyGrid = document.getElementById('property-grid');
-        propertyGrid.className = viewType === 'tile' ? 'row g-4' : 'row';
-        
-        this.displayProperties();
-    }
-};
-
-// Initialize the app
-document.addEventListener('DOMContentLoaded', () => {
-    // Add styles to the document
-    const styleSheet = document.createElement('style');
-    styleSheet.textContent = styles;
-    document.head.appendChild(styleSheet);
-    
-    // Initialize the application
-    app.init();
-});
+		createOldPropertyCard(property) {
+		        const card = document.createElement('div');
+		        card.className = 'col-md-4 old-property-card';
+		        
+		        card.innerHTML = `
+		            <div class="card">
+		                <img src="${property.imageUrl}" class="card-img-top" alt="Property Image" 
+		                     onerror="this.src='placeholder-image.jpg'">
+		                <div class="card-body">
+		                    <h5 class="card-title">ZIP: ${property.zipCode}</h5>
+		                    <div class="card-text">
+		                        <div class="mb-2">${property.beds} Beds, ${property.baths} Baths</div>
+		                        ${property.squareFeet ? `<div class="mb-2">${property.squareFeet} sqft</div>` : ''}
+		                        ${property.price ? `<div class="fw-bold mb-2">$${property.price.toLocaleString()}</div>` : ''}
+		                        <div class="small text-muted">${property.type}</div>
+		                    </div>
+		                    <button class="btn btn-primary w-100 mt-3" onclick="app.showModal('${property.id}')">View Details</button>
+		                </div>
+		            </div>
+		        `;
+		        
+		        return card;
+		    },
+		    
+		    setupPagination(totalItems) {
+		        const paginationContainer = document.getElementById('pagination');
+		        if (!paginationContainer) return;
+		        
+		        paginationContainer.innerHTML = '';
+		        
+		        const totalPages = Math.ceil(totalItems / this.itemsPerPage);
+		        if (totalPages <= 1) return;
+		        
+		        const ul = document.createElement('ul');
+		        ul.className = 'pagination justify-content-center';
+		        
+		        // Previous button
+		        const prevLi = document.createElement('li');
+		        prevLi.className = `page-item ${this.currentPage === 1 ? 'disabled' : ''}`;
+		        prevLi.innerHTML = `
+		            <button class="page-link" ${this.currentPage === 1 ? 'disabled' : ''} data-page="${this.currentPage - 1}">
+		                Previous
+		            </button>
+		        `;
+		        ul.appendChild(prevLi);
+		        
+		        // Page numbers
+		        for (let i = 1; i <= totalPages; i++) {
+		            if (
+		                i === 1 || 
+		                i === totalPages || 
+		                (i >= this.currentPage - 2 && i <= this.currentPage + 2)
+		            ) {
+		                const li = document.createElement('li');
+		                li.className = `page-item ${i === this.currentPage ? 'active' : ''}`;
+		                li.innerHTML = `
+		                    <button class="page-link" data-page="${i}">${i}</button>
+		                `;
+		                ul.appendChild(li);
+		            } else if (
+		                i === this.currentPage - 3 || 
+		                i === this.currentPage + 3
+		            ) {
+		                const li = document.createElement('li');
+		                li.className = 'page-item disabled';
+		                li.innerHTML = '<span class="page-link">...</span>';
+		                ul.appendChild(li);
+		            }
+		        }
+		        
+		        // Next button
+		        const nextLi = document.createElement('li');
+		        nextLi.className = `page-item ${this.currentPage === totalPages ? 'disabled' : ''}`;
+		        nextLi.innerHTML = `
+		            <button class="page-link" ${this.currentPage === totalPages ? 'disabled' : ''} data-page="${this.currentPage + 1}">
+		                Next
+		            </button>
+		        `;
+		        ul.appendChild(nextLi);
+		        
+		        // Add click event listeners
+		        ul.addEventListener('click', (e) => {
+		            const pageButton = e.target.closest('button[data-page]');
+		            if (pageButton) {
+		                this.currentPage = parseInt(pageButton.dataset.page);
+		                this.displayProperties();
+		                window.scrollTo({ top: 0, behavior: 'smooth' });
+		            }
+		        });
+		        
+		        paginationContainer.appendChild(ul);
+		    },
+		    
+		    showModal(propertyId) {
+		        const modal = new bootstrap.Modal(document.getElementById('myModal'));
+		        modal.show();
+		    },
+		    
+		    changeView(viewType) {
+		        this.currentView = viewType;
+		        
+		        // Update active button
+		        document.querySelectorAll('[data-view]').forEach(button => {
+		            button.classList.toggle('active', button.dataset.view === viewType);
+		        });
+		        
+		        // Update display
+		        const propertyGrid = document.getElementById('property-grid');
+		        propertyGrid.className = viewType === 'tile' ? 'row g-4' : 'row';
+		        
+		        this.displayProperties();
+		    }
+		};
+		
+		// Initialize the app when the document is ready
+		document.addEventListener('DOMContentLoaded', () => {
+		    // Add styles to the document
+		    const styleSheet = document.createElement('style');
+		    styleSheet.textContent = styles;
+		    document.head.appendChild(styleSheet);
+		    
+		    // Create the HTML structure
+		    document.body.innerHTML = htmlTemplate;
+		    
+		    // Initialize the application
+		    app.init();
+		});
+		
+		    
