@@ -287,19 +287,16 @@
             setupEventListeners() {
                 const searchInput = document.getElementById('searchInput');
                 if (searchInput) {
-                    // Обработчик ввода для поиска и автокомплита
                     searchInput.addEventListener('input', (e) => {
                         const query = e.target.value;
                         if (query) {
                             this.showAutocompleteResults(query);
-                            this.handleSearch(query);
                         } else {
                             this.clearAutocomplete();
                             this.displayProperties();
                         }
                     });
 
-                    // Обработчик фокуса для показа последних результатов
                     searchInput.addEventListener('focus', (e) => {
                         if (e.target.value) {
                             this.showAutocompleteResults(e.target.value);
@@ -307,7 +304,6 @@
                     });
                 }
                 
-                // Закрытие автокомплита при клике вне
                 document.addEventListener('click', (e) => {
                     if (!e.target.closest('.search-container')) {
                         this.clearAutocomplete();
@@ -341,30 +337,23 @@
             showAutocompleteResults(query) {
                 const autocompleteList = document.getElementById('autocomplete-list');
                 autocompleteList.innerHTML = '';
-                
+
                 query = query.toLowerCase();
                 const results = new Set();
-                
-                // Собираем уникальные результаты
+
                 this.properties.forEach(property => {
-                    // Поиск по адресу
                     if (property.address && property.address.toLowerCase().includes(query)) {
                         results.add(property.address);
                     }
-                    
-                    // Поиск по ZIP-коду
                     if (property.zipCode && property.zipCode.toString().includes(query)) {
                         results.add(`ZIP: ${property.zipCode}`);
                     }
-                    
-                    // Поиск по типу недвижимости
                     if (property.type && property.type.toLowerCase().includes(query)) {
                         results.add(property.type);
                     }
                 });
-                
+
                 if (results.size > 0) {
-                    // Создаем и добавляем элементы автокомплита
                     results.forEach(result => {
                         const div = document.createElement('div');
                         div.className = 'autocomplete-item';
@@ -377,7 +366,6 @@
                         autocompleteList.appendChild(div);
                     });
                     
-                    // Показываем список
                     autocompleteList.style.display = 'block';
                 } else {
                     this.clearAutocomplete();
@@ -438,11 +426,9 @@
                 
                 propertyGrid.innerHTML = '';
                 
-                // Разделяем свойства на новые и старые
                 const newProperties = propertiesToShow.filter(prop => prop.id.startsWith('prop_'));
                 const oldProperties = propertiesToShow.filter(prop => !prop.id.startsWith('prop_'));
                 
-                // Отображаем новые свойства
                 if (newProperties.length > 0) {
                     const newPropertiesContainer = document.createElement('div');
                     newPropertiesContainer.className = 'new-properties-container';
@@ -454,7 +440,6 @@
                     propertyGrid.appendChild(newPropertiesContainer);
                 }
                 
-                // Отображаем старые свойства с пагинацией
                 if (oldProperties.length > 0) {
                     const startIndex = (this.currentPage - 1) * this.itemsPerPage;
                     const endIndex = startIndex + this.itemsPerPage;
@@ -570,7 +555,6 @@
                 const ul = document.createElement('ul');
                 ul.className = 'pagination justify-content-center';
                 
-                // Previous button
                 const prevLi = document.createElement('li');
                 prevLi.className = `page-item ${this.currentPage === 1 ? 'disabled' : ''}`;
                 prevLi.innerHTML = `
@@ -580,7 +564,6 @@
                 `;
                 ul.appendChild(prevLi);
                 
-                // Page numbers
                 for (let i = 1; i <= totalPages; i++) {
                     if (i === 1 || i === totalPages || (i >= this.currentPage - 2 && i <= this.currentPage + 2)) {
                         const li = document.createElement('li');
@@ -597,7 +580,6 @@
                     }
                 }
                 
-                // Next button
                 const nextLi = document.createElement('li');
                 nextLi.className = `page-item ${this.currentPage === totalPages ? 'disabled' : ''}`;
                 nextLi.innerHTML = `
@@ -607,7 +589,6 @@
                 `;
                 ul.appendChild(nextLi);
                 
-                // Add click event listeners
                 ul.addEventListener('click', (e) => {
                     const pageButton = e.target.closest('button[data-page]');
                     if (pageButton) {
@@ -639,21 +620,9 @@
             }
         };
 
-        // Initialize the app when the document is ready
         document.addEventListener('DOMContentLoaded', () => {
             app.init();
-            
-            // Log для отладки
-            console.log('App initialized');
-            
-            // Debug-функции для проверки работы автокомплита
-            window.debugApp = {
-                showProperties: () => console.log(app.properties),
-                testAutocomplete: (query) => app.showAutocompleteResults(query),
-                testSearch: (query) => app.handleSearch(query)
-            };
         });
     </script>
 </body>
 </html>
-
