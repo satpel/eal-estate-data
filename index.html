@@ -8,44 +8,104 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         body { background-color: #f0f0f0; }
-        .container { width: 100% !important; max-width: 100% !important; margin: 0 auto; }
-        #real-estate-search-embed { width: 100% !important; }
-        /* Styles for mobile adjustments */
-        @media (max-width: 768px) {
-            .col-sm-4 { flex: 0 0 100% !important; max-width: 100% !important; }
-            .property-card { width: 100% !important; margin: 10px 0 !important; }
-            .col-sm-6, .col-md-4 { width: 100% !important; max-width: 100% !important; flex: 0 0 100% !important; }
-            .property-image-container { width: 100%; }
-            .pagination span, .pagination button:last-child { display: none !important; }
-            .pagination button { margin-left: 5px !important; margin-right: 5px !important; }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }
-        .search-container { max-width: 600px; margin: 20px auto; display: flex; justify-content: space-between; position: relative; }
-        #search-input { flex-grow: 1; padding: 10px; font-size: 18px; border: 1px solid #ddd; border-radius: 4px; margin-right: 10px; }
-        #search-button { padding: 10px 20px; background-color: #337ab7; color: white; border: none; cursor: pointer; font-size: 18px; border-radius: 4px; }
-        #search-button:hover { background-color: #286090; }
-        .sort-view-container { display: flex; justify-content: space-between; align-items: center; max-width: 1105px; margin: 20px auto; padding: 10px 0; background-color: #f8f8f8; border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; }
-        #property-grid { width: 100%; margin: 20px auto; }
-        .property-card { border: 1px solid #ddd; margin-bottom: 20px; padding: 10px; position: relative; background-color: #fff; cursor: pointer; }
-        .pagination { display: flex; justify-content: center; align-items: center; margin-top: 20px; background-color: #f0f0f0; padding: 10px; }
-        .pagination span { margin-right: 10px; font-weight: bold; }
-        .pagination button { margin: 0 5px; padding: 5px 10px; background-color: white; color: black; border: 1px solid #ddd; cursor: pointer; }
-        .pagination button.active { background-color: #337ab7; color: white; border: 1px solid #2e6da4; }
-        #autocomplete-list { border: 1px solid #d4d4d4; max-height: 150px; overflow-y: auto; display: none; position: absolute; top: 100%; left: 0; right: 110px; background-color: white; z-index: 1000; }
-        .autocomplete-item { padding: 10px; cursor: pointer; background-color: #fff; }
-        .autocomplete-item:hover { background-color: #e9e9e9; }
-        #loading { text-align: center; margin-top: 20px; }
-        .property-card h3 { margin-top: 0; font-size: 18px; font-weight: bold; }
-        .property-location { font-size: 14px; margin: 5px 0 10px 0; }
-        .property-image-container { width: 100%; height: 200px; overflow: hidden; margin-bottom: 10px; }
-        .property-image { width: 100%; height: 100%; object-fit: cover; }
-        .property-details { margin-bottom: 10px; }
-        .property-details h5 { margin-top: 0; font-size: 16px; }
-        .get-details-btn { position: absolute; bottom: 10px; right: 10px; background-color: #337ab7; border-color: #2e6da4; }
-        .get-details-btn:hover { background-color: #286090; border-color: #204d74; }
-        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4); }
-        .modal-content { background-color: #fefefe; margin: 15% auto; padding: 30px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 10px; }
-        .close { color: #aaa; float: right; font-size: 28px; font-weight: bold; }
-        .close:hover, .close:focus { color: black; text-decoration: none; cursor: pointer; }
+        .search-container { 
+            max-width: 600px;
+            margin: 20px auto; 
+            display: flex; 
+            justify-content: space-between;
+            position: relative;
+        }
+        #search-input { 
+            flex-grow: 1; 
+            padding: 10px; 
+            font-size: 18px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        #search-button { 
+            padding: 10px 20px; 
+            background-color: #337ab7; 
+            color: white; 
+            border: none; 
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 4px;
+        }
+        #search-button:hover {
+            background-color: #286090;
+        }
+        .property-card, .property-card-large {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .property-card-large {
+            padding: 20px;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .property-info h3 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .get-details-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
+        .get-details-btn:hover {
+            background-color: #286090;
+        }
+        /* Модальные стили */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -55,18 +115,17 @@
             <button id="search-button">Search</button>
             <div id="autocomplete-list"></div>
         </div>
-        
+
         <div id="results-controls" class="hidden">
             <div id="property-grid" class="row"></div>
-            <div class="pagination"></div>
         </div>
     </div>
 
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>Get Access Now!</h2>
-            <button class="btn btn-primary btn-block">Apply Now</button>
+            <h2>Property Details</h2>
+            <p>More details about this property will be shown here.</p>
         </div>
     </div>
 
@@ -75,7 +134,6 @@
         let zipData = {};
         const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
         const propertyDataUrl = 'https://raw.githubusercontent.com/satpel/eal-estate-data/main/data/';
-        let currentPage = 1;
 
         async function loadLocationData() {
             try {
@@ -101,19 +159,30 @@
 
         function createPropertyCard(property) {
             if (property.imageUrl2 && property.imageUrl3) {
-                // Новый формат отображения для записей с несколькими изображениями
+                // Новый формат с каруселью
                 return `
                     <div class="col-sm-12">
-                        <div class="property-card">
-                            <h3>${property.type} <span class="price">${property.price}</span></h3>
-                            <p>${property.address}</p>
-                            <div class="property-images">
-                                <img src="${property.imageUrl}" alt="${property.type}" class="property-image-full">
-                                <img src="${property.imageUrl2}" alt="${property.type}" class="property-image-full">
-                                <img src="${property.imageUrl3}" alt="${property.type}" class="property-image-full">
+                        <div class="property-card-large">
+                            <div id="carousel-${property.id}" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="${property.imageUrl}" alt="Image 1">
+                                    </div>
+                                    ${property.imageUrl2 ? `<div class="item"><img src="${property.imageUrl2}" alt="Image 2"></div>` : ''}
+                                    ${property.imageUrl3 ? `<div class="item"><img src="${property.imageUrl3}" alt="Image 3"></div>` : ''}
+                                </div>
+                                <a class="left carousel-control" href="#carousel-${property.id}" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-${property.id}" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
                             </div>
-                            <div class="property-details">
+                            <div class="property-info">
+                                <h3>${property.type} <span class="price">${property.price}</span></h3>
+                                <p>${property.address}</p>
                                 <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                                <button class="get-details-btn" onclick="openModal()">Get Details</button>
                             </div>
                         </div>
                     </div>
@@ -122,7 +191,7 @@
                 // Старый формат для записей без дополнительных изображений
                 return `
                     <div class="col-sm-6 col-md-4">
-                        <div class="property-card">
+                        <div class="property-card" onclick="openModal()">
                             <h3>${property.type} <span class="price">${property.price}</span></h3>
                             <p>${property.address}</p>
                             <div class="property-image-container">
@@ -130,6 +199,7 @@
                             </div>
                             <div class="property-details">
                                 <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                                <button class="get-details-btn">Get Details</button>
                             </div>
                         </div>
                     </div>
@@ -199,7 +269,23 @@
             debounceTimer = setTimeout(() => autocomplete(this.value.toUpperCase()), 300);
         });
 
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        document.querySelector(".close").onclick = function() {
+            document.getElementById("myModal").style.display = "none";
+        };
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("myModal")) {
+                document.getElementById("myModal").style.display = "none";
+            }
+        };
+
         loadLocationData();
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
