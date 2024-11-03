@@ -244,6 +244,135 @@ const styles = `
         flex: 0 0 100%;
     }
 }
+// Обновляем стили для новых домов
+const styles = `
+.new-properties-container {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.new-property-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.image-gallery {
+    flex: 0 0 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 150px;
+    gap: 4px;
+    padding: 4px;
+}
+
+.gallery-main {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.gallery-thumb {
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.property-info {
+    flex: 0 0 40%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.property-address {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 1rem;
+}
+
+.property-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.property-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.property-type {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.contact-btn {
+    margin-top: auto;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-btn:hover {
+    background: #0056b3;
+}
+
+/* Стили для старых карточек */
+.old-properties-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.old-property-card {
+    flex: 0 0 calc(33.333% - 1rem);
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .new-property-card {
+        flex-direction: column;
+    }
+    
+    .image-gallery {
+        flex: none;
+        height: auto;
+    }
+    
+    .property-info {
+        flex: none;
+    }
+    
+    .old-property-card {
+        flex: 0 0 100%;
+    }
+}
 `;
 
 // app.js
@@ -382,19 +511,70 @@ const app = {
         this.setupPagination(oldProperties.length);
     },
     
-    createNewPropertyCard(property) {
-        const card = document.createElement('div');
-        card.className = 'new-property-card';
-        
-        const images = this.getPropertyImages(property);
-        const imageSlider = this.createImageSlider(images);
-        const infoSection = this.createPropertyInfo(property);
-        
-        card.appendChild(imageSlider);
-        card.appendChild(infoSection);
-        
-        return card;
-    },
+		// Обновляем функцию создания карточки нового дома
+		function createNewPropertyCard(property) {
+		    const card = document.createElement('div');
+		    card.className = 'new-property-card';
+		    
+		    // Создаем галерею изображений
+		    const gallery = document.createElement('div');
+		    gallery.className = 'image-gallery';
+		    
+		    const images = [property.imageUrl, property.imageUrl2, property.imageUrl3].filter(Boolean);
+		    
+		    // Главное изображение
+		    const mainImageContainer = document.createElement('div');
+		    mainImageContainer.className = 'gallery-main';
+		    mainImageContainer.innerHTML = `
+		        <img src="${images[0]}" alt="Main Property View" class="gallery-image">
+		    `;
+		    gallery.appendChild(mainImageContainer);
+		    
+		    // Дополнительные изображения
+		    images.slice(1).forEach((imgUrl, index) => {
+		        const thumbContainer = document.createElement('div');
+		        thumbContainer.className = 'gallery-thumb';
+		        thumbContainer.innerHTML = `
+		            <img src="${imgUrl}" alt="Property View ${index + 2}" class="gallery-image">
+		        `;
+		        gallery.appendChild(thumbContainer);
+		    });
+		    
+		    // Информация о собственности
+		    const info = document.createElement('div');
+		    info.className = 'property-info';
+		    info.innerHTML = `
+		        <div class="property-price">$${property.price ? property.price.toLocaleString() : 'Contact for Price'}</div>
+		        <div class="property-address">${property.address}</div>
+		        <div class="property-details">
+		            <div class="property-detail-item">
+		                <span class="detail-icon">🛏️</span>
+		                <span>${property.beds} Beds</span>
+		            </div>
+		            <div class="property-detail-item">
+		                <span class="detail-icon">🚿</span>
+		                <span>${property.baths} Baths</span>
+		            </div>
+		            ${property.squareFeet ? `
+		                <div class="property-detail-item">
+		                    <span class="detail-icon">📏</span>
+		                    <span>${property.squareFeet} sqft</span>
+		                </div>
+		            ` : ''}
+		            <div class="property-detail-item">
+		                <span class="detail-icon">📍</span>
+		                <span>${property.zipCode}</span>
+		            </div>
+		        </div>
+		        <div class="property-type">${property.type}</div>
+		        <button class="contact-btn" onclick="app.showModal('${property.id}')">Contact Agent</button>
+		    `;
+		    
+		    card.appendChild(gallery);
+		    card.appendChild(info);
+		    
+		    return card;
+		}
     
     getPropertyImages(property) {
         const images = [];
