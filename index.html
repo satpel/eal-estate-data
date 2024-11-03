@@ -100,24 +100,37 @@
         }
 
         function createPropertyCard(property) {
-            if (property.imageUrl2) {
+            if (property.imageUrl2 && property.imageUrl3) {
+                // Новый формат отображения для записей с несколькими изображениями
                 return `
                     <div class="col-sm-12">
                         <div class="property-card">
                             <h3>${property.type} <span class="price">${property.price}</span></h3>
                             <p>${property.address}</p>
-                            ${property.imageUrl ? `<img src="${property.imageUrl}" alt="${property.type}">` : ""}
-                            ${property.imageUrl2 ? `<img src="${property.imageUrl2}" alt="${property.type}">` : ""}
+                            <div class="property-images">
+                                <img src="${property.imageUrl}" alt="${property.type}" class="property-image-full">
+                                <img src="${property.imageUrl2}" alt="${property.type}" class="property-image-full">
+                                <img src="${property.imageUrl3}" alt="${property.type}" class="property-image-full">
+                            </div>
+                            <div class="property-details">
+                                <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                            </div>
                         </div>
                     </div>
                 `;
-            } else { 
+            } else {
+                // Старый формат для записей без дополнительных изображений
                 return `
                     <div class="col-sm-6 col-md-4">
                         <div class="property-card">
                             <h3>${property.type} <span class="price">${property.price}</span></h3>
                             <p>${property.address}</p>
-                            <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                            <div class="property-image-container">
+                                <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
+                            </div>
+                            <div class="property-details">
+                                <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                            </div>
                         </div>
                     </div>
                 `;
