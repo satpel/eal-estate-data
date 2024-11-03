@@ -71,33 +71,35 @@
     </div>
 
     <script>
-        // Данные для поиска городов
         let cityData = {};
         let zipData = {};
         const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
-        const propertyDataUrl = 'https://satpel.github.io/real-estate-data/data/';
+        const propertyDataUrl = 'https://raw.githubusercontent.com/satpel/eal-estate-data/main/data/';
         let currentPage = 1;
 
-        Promise.all([
-            fetch(baseUrl + 'city_index.json').then(response => response.json()),
-            fetch(baseUrl + 'zip_index.json').then(response => response.json())
-        ]).then(([cityIndex, zipIndex]) => {
-            return Promise.all([
-                ...cityIndex.map(file => fetch(baseUrl + file).then(response => response.json())),
-                ...zipIndex.map(file => fetch(baseUrl + file).then(response => response.json()))
-            ]);
-        }).then(allData => {
-            allData.forEach(data => {
-                if (Object.values(data)[0].hasOwnProperty('population')) {
+        async function loadLocationData() {
+            try {
+                const [cityIndex, zipIndex] = await Promise.all([
+                    fetch(baseUrl + 'city_index.json').then(response => response.json()),
+                    fetch(baseUrl + 'zip_index.json').then(response => response.json())
+                ]);
+
+                for (const file of cityIndex) {
+                    const data = await fetch(baseUrl + file).then(response => response.json());
                     Object.assign(cityData, data);
-                } else {
+                }
+
+                for (const file of zipIndex) {
+                    const data = await fetch(baseUrl + file).then(response => response.json());
                     Object.assign(zipData, data);
                 }
-            });
-        });
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
 
         function createPropertyCard(property) {
-            // Если новое свойство
             if (property.imageUrl2) {
                 return `
                     <div class="col-sm-12">
@@ -125,8 +127,9 @@
         async function searchProperties() {
             const input = document.getElementById('search-input').value.trim().toUpperCase();
             const grid = document.getElementById('property-grid');
+            const resultsControls = document.getElementById('results-controls');
+            
             let locationName = input;
-
             if (zipData[input]) {
                 locationName = zipData[input];
             }
@@ -141,9 +144,11 @@
                 const properties = await response.json();
 
                 grid.innerHTML = properties.map(createPropertyCard).join('');
+                resultsControls.classList.remove('hidden');
             } catch (error) {
                 console.error('Error:', error);
                 grid.innerHTML = "No properties found or error loading data.";
+                resultsControls.classList.add('hidden');
             }
         }
 
@@ -175,10 +180,13 @@
             }
         }
 
+        let debounceTimer;
         document.getElementById('search-input').addEventListener('input', function() {
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(() => autocomplete(this.value.toUpperCase()), 300);
         });
+
+        loadLocationData();
     </script>
 </body>
 </html>
