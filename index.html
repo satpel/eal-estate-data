@@ -57,105 +57,65 @@
         </div>
         
         <div id="results-controls" class="hidden">
-            <div class="sort-view-container">
-                <div class="sort-container">
-                    <label for="sort-select">Sort By</label>
-                    <select class="form-control sort-dropdown" id="sort-select" onchange="openModal()">
-                        <option value="Default">Type of Sale</option>
-                        <!-- Другие параметры сортировки... -->
-                    </select>
-                </div>
-                <div class="view-options">
-                    <button onclick="openModal()">List</button>
-                    <button class="active">Tile</button>
-                    <!-- Другие кнопки представления... -->
-                </div>
-            </div>
-
             <div id="property-grid" class="row"></div>
-
-            <div class="pagination">
-                <span>Page 1 of 7</span>
-                <button class="active">1</button>
-                <button>2</button>
-                <!-- Остальные кнопки страниц... -->
-            </div>
+            <div class="pagination"></div>
         </div>
     </div>
 
-    <!-- Modal section -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Get Access Now!</h2>
-            <p>Property Details are available for REGISTERED MEMBERS ONLY.</p>
-            <button class="btn btn-primary btn-block" onclick="window.top.location.href='https://www.qualityhousing.org/apply';">Apply Now</button>
-            <p class="terms-text">By clicking the button, I agree to the <a href="#">Terms and Conditions</a> and consent to receive messages...</p>
+            <button class="btn btn-primary btn-block">Apply Now</button>
         </div>
     </div>
 
     <script>
+        // Данные для поиска городов
         let cityData = {};
         let zipData = {};
         const baseUrl = 'https://satpel.github.io/us-location-data/us_location_data/';
-        const propertyDataUrl = 'https://satpel.github.io/eal-estate-data/data/';
+        const propertyDataUrl = 'https://satpel.github.io/real-estate-data/data/';
         let currentPage = 1;
-        const propertiesPerPage = 15;
 
-        async function loadLocationData() {
-            try {
-                const [cityIndex, zipIndex] = await Promise.all([
-                    fetch(baseUrl + 'city_index.json').then(response => response.json()),
-                    fetch(baseUrl + 'zip_index.json').then(response => response.json())
-                ]);
-
-                for (const file of cityIndex) {
-                    const data = await fetch(baseUrl + file).then(response => response.json());
+        Promise.all([
+            fetch(baseUrl + 'city_index.json').then(response => response.json()),
+            fetch(baseUrl + 'zip_index.json').then(response => response.json())
+        ]).then(([cityIndex, zipIndex]) => {
+            return Promise.all([
+                ...cityIndex.map(file => fetch(baseUrl + file).then(response => response.json())),
+                ...zipIndex.map(file => fetch(baseUrl + file).then(response => response.json()))
+            ]);
+        }).then(allData => {
+            allData.forEach(data => {
+                if (Object.values(data)[0].hasOwnProperty('population')) {
                     Object.assign(cityData, data);
-                }
-
-                for (const file of zipIndex) {
-                    const data = await fetch(baseUrl + file).then(response => response.json());
+                } else {
                     Object.assign(zipData, data);
                 }
+            });
+        });
 
-            } catch (error) {
-                console.error('Error loading data:', error);
-            }
-        }
-
-        function createPropertyCard(property, location) {
-            const [city, state] = location.split(', ').map(toTitleCase);
-            if (property.imageUrl2 && property.imageUrl3) {
-                // Новая карта для свойств с расширенными фотографиями
+        function createPropertyCard(property) {
+            // Если новое свойство
+            if (property.imageUrl2) {
                 return `
-                    <div class="col-12 property-card expanded">
-                        <h3>${property.type} <span class="price">$${property.price}</span></h3>
-                        <p class="property-location">${city}, ${state}</p>
-                        <div class="property-images">
-                            <img src="${property.imageUrl}" class="property-image-full">
-                            <img src="${property.imageUrl2}" class="property-image-full">
-                            <img src="${property.imageUrl3}" class="property-image-full">
-                        </div>
-                        <div class="property-details">
-                            <h5>${formatPropertyType(property.type)}</h5>
-                            <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                    <div class="col-sm-12">
+                        <div class="property-card">
+                            <h3>${property.type} <span class="price">${property.price}</span></h3>
+                            <p>${property.address}</p>
+                            ${property.imageUrl ? `<img src="${property.imageUrl}" alt="${property.type}">` : ""}
+                            ${property.imageUrl2 ? `<img src="${property.imageUrl2}" alt="${property.type}">` : ""}
                         </div>
                     </div>
                 `;
-            } else {
+            } else { 
                 return `
                     <div class="col-sm-6 col-md-4">
                         <div class="property-card">
-                            <h3>${property.type} <span class="price">$${property.price}</span></h3>
-                            <p class="property-location">${city}, ${state}</p>
-                            <div class="property-image-container">
-                                <img src="${property.imageUrl}" class="property-image">
-                            </div>
-                            <div class="property-details">
-                                <h5>${formatPropertyType(property.type)}</h5>
-                                <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
-                            </div>
+                            <h3>${property.type} <span class="price">${property.price}</span></h3>
+                            <p>${property.address}</p>
+                            <img src="${property.imageUrl}" alt="${property.type}" class="property-image">
                         </div>
                     </div>
                 `;
@@ -165,9 +125,8 @@
         async function searchProperties() {
             const input = document.getElementById('search-input').value.trim().toUpperCase();
             const grid = document.getElementById('property-grid');
-            const resultsControls = document.getElementById('results-controls');
-            
             let locationName = input;
+
             if (zipData[input]) {
                 locationName = zipData[input];
             }
@@ -175,56 +134,51 @@
             try {
                 const [city, state] = locationName.split(', ');
                 const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
+                
                 const response = await fetch(`${propertyDataUrl}${filename}`);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                if (!response.ok) throw new Error('Error fetching data.');
+
                 const properties = await response.json();
 
-                const paginatedProperties = properties.slice((currentPage - 1) * propertiesPerPage, currentPage * propertiesPerPage);
-                grid.innerHTML = paginatedProperties.map(property => createPropertyCard(property, locationName)).join('');
-                resultsControls.classList.remove('hidden');
+                grid.innerHTML = properties.map(createPropertyCard).join('');
             } catch (error) {
                 console.error('Error:', error);
                 grid.innerHTML = "No properties found or error loading data.";
-                resultsControls.classList.add('hidden');
             }
         }
 
+        document.getElementById('search-button').addEventListener('click', searchProperties);
+
         function autocomplete(input) {
-            const autocompleteList = document.getElementById('autocomplete-list');
-            autocompleteList.innerHTML = '';
-            autocompleteList.style.display = 'none';
+            const list = document.getElementById('autocomplete-list');
+            list.innerHTML = '';
+            list.style.display = 'none';
 
             if (input.length < 3) return;
 
             const cityMatches = Object.keys(cityData).filter(key => key.startsWith(input)).slice(0, 5);
-            const zipMatches = Object.keys(zipData).filter(zip => zip.startsWith(input)).map(zip => `${zip} (${zipData[zip]})`);
-            const matches = [...cityMatches, ...zipMatches].slice(0, 5);
+            const matches = [...cityMatches].slice(0, 5);
 
             if (matches.length > 0) {
-                autocompleteList.style.display = 'block';
+                list.style.display = 'block';
                 matches.forEach(match => {
                     const div = document.createElement('div');
                     div.textContent = match;
                     div.className = 'autocomplete-item';
                     div.onclick = function() {
                         document.getElementById('search-input').value = match.split(' (')[0];
-                        autocompleteList.style.display = 'none';
+                        list.style.display = 'none';
                         searchProperties();
                     };
-                    autocompleteList.appendChild(div);
+                    list.appendChild(div);
                 });
             }
         }
 
-        let debounceTimer;
         document.getElementById('search-input').addEventListener('input', function() {
             clearTimeout(debounceTimer);
             debounceTimer = setTimeout(() => autocomplete(this.value.toUpperCase()), 300);
         });
-
-        document.getElementById('search-button').addEventListener('click', searchProperties);
-
-        loadLocationData();
     </script>
 </body>
 </html>
