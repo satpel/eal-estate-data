@@ -7,7 +7,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* Оригинальные стили */
         body { background-color: #f0f0f0; }
         .container { max-width: 1200px; margin: 0 auto; }
         .search-container { max-width: 600px; margin: 20px auto; display: flex; justify-content: space-between; position: relative; }
@@ -107,17 +106,43 @@
         let currentPage = 1;
         const propertiesPerPage = 15;
 
+        // Загрузка данных для автокомплита
+        function loadLocationData() {
+            return Promise.all([
+                fetch(baseUrl + 'city_index.json').then(response => response.json()),
+                fetch(baseUrl + 'zip_index.json').then(response => response.json())
+            ])
+            .then(([cityIndex, zipIndex]) => {
+                return Promise.all([
+                    ...cityIndex.map(file => fetch(baseUrl + file).then(response => response.json())),
+                    ...zipIndex.map(file => fetch(baseUrl + file).then(response => response.json()))
+                ]);
+            })
+            .then(allData => {
+                allData.forEach(data => {
+                    if (Object.values(data)[0].hasOwnProperty('population')) {
+                        Object.assign(cityData, data);
+                    } else {
+                        Object.assign(zipData, data);
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
+        }
+
         function createPropertyCard(property, location) {
             const [city, state] = location.split(', ').map(toTitleCase);
-            if (property.imageUrl2 || property.imageUrl3) {
+
+            // Проверка на наличие расширенного формата записи
+            if (property.imageUrl2 && property.imageUrl3) {
                 return `
-                    <div class="col-sm-12 property-card expanded">
+                    <div class="col-12 property-card expanded">
                         <h3>${property.type} <span class="price">$${property.price}</span></h3>
                         <p class="property-location">${city}, ${state}</p>
-                        <div class="property-image-container">
-                            <img src="${property.imageUrl}" class="property-image">
-                            ${property.imageUrl2 ? `<img src="${property.imageUrl2}" class="property-image">` : ""}
-                            ${property.imageUrl3 ? `<img src="${property.imageUrl3}" class="property-image">` : ""}
+                        <div class="property-images">
+                            <img src="${property.imageUrl}" class="property-image-full">
+                            <img src="${property.imageUrl2}" class="property-image-full">
+                            <img src="${property.imageUrl3}" class="property-image-full">
                         </div>
                         <div class="property-details">
                             <h5>${formatPropertyType(property.type)}</h5>
@@ -126,16 +151,19 @@
                     </div>
                 `;
             } else {
+                // Отображение для старого формата
                 return `
-                    <div class="col-sm-6 col-md-4 property-card">
-                        <h3>${property.type} <span class="price">$${property.price}</span></h3>
-                        <p class="property-location">${city}, ${state}</p>
-                        <div class="property-image-container">
-                            <img src="${property.imageUrl}" class="property-image">
-                        </div>
-                        <div class="property-details">
-                            <h5>${formatPropertyType(property.type)}</h5>
-                            <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="property-card">
+                            <h3>${property.type} <span class="price">$${property.price}</span></h3>
+                            <p class="property-location">${city}, ${state}</p>
+                            <div class="property-image-container">
+                                <img src="${property.imageUrl}" class="property-image">
+                            </div>
+                            <div class="property-details">
+                                <h5>${formatPropertyType(property.type)}</h5>
+                                <p>${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft</p>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -155,17 +183,14 @@
             try {
                 const [city, state] = locationName.split(', ');
                 const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
-                
+
                 const response = await fetch(`${propertyDataUrl}${filename}`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const properties = await response.json();
 
                 const paginatedProperties = properties.slice((currentPage - 1) * propertiesPerPage, currentPage * propertiesPerPage);
-
                 grid.innerHTML = paginatedProperties.map(property => createPropertyCard(property, locationName)).join('');
-                
+
                 updatePagination(properties.length);
                 resultsControls.classList.remove('hidden');
             } catch (error) {
@@ -264,6 +289,9 @@
                 modal.style.display = "none";
             }
         }
+
+        // Initial data loading for autocomplete
+        loadLocationData();
     </script>
 </body>
 </html>
