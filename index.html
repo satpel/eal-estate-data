@@ -178,6 +178,38 @@
                 justify-content: center;
             }
         }
+        .search-container {
+            position: relative;
+            margin: 20px 0;
+        }
+        
+        #searchInput {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        #autocomplete-list {
+            position: absolute;
+            width: 100%;
+            max-height: 300px;
+            overflow-y: auto;
+            background: white;
+            border: 1px solid #ddd;
+            border-top: none;
+            z-index: 1000;
+        }
+        
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        .autocomplete-item:hover {
+            background-color: #f8f9fa;
+        }
     </style>
 </head>
 <body>
@@ -268,10 +300,23 @@
                 const searchInput = document.getElementById('searchInput');
                 if (searchInput) {
                     searchInput.addEventListener('input', (e) => {
-                        this.handleSearch(e.target.value);
+                        const query = e.target.value.toLowerCase();
+                        if (query) {
+                            this.showAutocompleteResults(query);
+                        } else {
+                            this.clearAutocomplete();
+                        }
                     });
                 }
                 
+                // Закрытие автокомплита при клике вне
+                document.addEventListener('click', (e) => {
+                    if (!e.target.closest('.search-container')) {
+                        this.clearAutocomplete();
+                    }
+                });
+            
+                // Остальные обработчики событий оставляем как есть
                 const sortSelect = document.getElementById('sortSelect');
                 if (sortSelect) {
                     sortSelect.addEventListener('change', (e) => {
@@ -295,7 +340,7 @@
                         [mainImage.src, thumbImage.src] = [thumbImage.src, mainImage.src];
                     }
                 });
-            },
+            }
             
             handleSearch(query) {
                 if (!query) {
@@ -536,6 +581,42 @@
                 
                 this.displayProperties();
             }
+            showAutocompleteResults(query) {
+                const autocompleteList = document.getElementById('autocomplete-list');
+                autocompleteList.innerHTML = '';
+            
+                // Собираем уникальные адреса, города и штаты
+                const results = new Set();
+                this.properties.forEach(property => {
+                    if (property.address && property.address.toLowerCase().includes(query)) {
+                        results.add(property.address);
+                    }
+                    if (property.type && property.type.toLowerCase().includes(query)) {
+                        results.add(property.type);
+                    }
+                    if (property.zipCode && property.zipCode.toString().includes(query)) {
+                        results.add(`ZIP: ${property.zipCode}`);
+                    }
+                });
+            
+                // Создаем и добавляем результаты
+                results.forEach(result => {
+                    const div = document.createElement('div');
+                    div.className = 'autocomplete-item';
+                    div.textContent = result;
+                    div.addEventListener('click', () => {
+                        document.getElementById('searchInput').value = result;
+                        this.handleSearch(result);
+                        this.clearAutocomplete();
+                    });
+                    autocompleteList.appendChild(div);
+                });
+            },
+
+            clearAutocomplete() {
+                const autocompleteList = document.getElementById('autocomplete-list');
+                autocompleteList.innerHTML = '';
+            },
         };
 
         // Initialize the app when the document is ready
