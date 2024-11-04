@@ -7,233 +7,250 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        body { 
-            background-color: #f5f7fa; 
-            padding: 20px;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .search-container { 
-            max-width: 600px;
-            margin: 20px auto 40px;
-            position: relative;
-        }
-        #search-input { 
-            width: 100%;
-            padding: 15px 20px; 
-            font-size: 18px;
-            border: 2px solid #e1e5eb;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-        #search-input:focus {
-            outline: none;
-            border-color: #337ab7;
-            box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.1);
-        }
-        #autocomplete-list {
-            position: absolute;
-            width: 100%;
-            max-height: 200px;
-            overflow-y: auto;
-            background: white;
-            border: 1px solid #e1e5eb;
-            border-radius: 0 0 8px 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            z-index: 1000;
-            display: none;
-        }
-        .autocomplete-item {
-            padding: 12px 20px;
-            cursor: pointer;
-            transition: background-color 0.2s ease;
-        }
-        .autocomplete-item:hover {
-            background-color: #f8f9fa;
-        }
-        .featured-section {
-            margin-bottom: 40px;
-        }
-        .featured-header {
-            margin-bottom: 20px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #e1e5eb;
-        }
-        .featured-header h2 {
-            color: #2c3e50;
-            font-size: 24px;
-            font-weight: 600;
-            margin: 0;
-        }
-        .featured-header p {
-            color: #337ab7;
-            font-size: 16px;
-            margin: 5px 0 0;
-        }
-        .featured-property {
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            overflow: hidden;
-            margin-bottom: 30px;
-        }
-        .carousel {
-            background-color: #000;
-        }
-        .carousel-inner img {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-        }
-        .featured-content {
-            padding: 24px;
-        }
-        .featured-price {
-            font-size: 28px;
-            color: #337ab7;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        .featured-address {
-            font-size: 18px;
-            color: #2c3e50;
-            margin-bottom: 16px;
-        }
-        .featured-details {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .property-specs {
-            color: #6c757d;
-            font-size: 16px;
-        }
-        .property-card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-            overflow: hidden;
-            margin-bottom: 20px;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .property-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-        }
-        .property-image-container img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-        }
-        .property-content {
-            padding: 20px;
-        }
-        .property-price {
-            font-size: 22px;
-            color: #337ab7;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        .property-address {
-            color: #2c3e50;
-            margin-bottom: 12px;
-            font-size: 16px;
-        }
-        .get-details-btn {
-            background-color: #337ab7;
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 6px;
-            font-size: 16px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: background-color 0.2s ease;
-            width: auto;
-        }
-        .get-details-btn:hover {
-            background-color: #286090;
-        }
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.5);
-            animation: fadeIn 0.3s ease;
-        }
-        .modal-content {
-            background-color: #fff;
-            margin: 10% auto;
-            padding: 30px;
-            border: none;
-            width: 90%;
-            max-width: 500px;
-            border-radius: 12px;
-            position: relative;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-            animation: slideIn 0.3s ease;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes slideIn {
-            from { transform: translateY(-20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        .close {
-            position: absolute;
-            right: 20px;
-            top: 15px;
-            font-size: 28px;
-            font-weight: 400;
-            color: #94a3b8;
-            transition: color 0.2s ease;
-        }
-        .close:hover {
-            color: #475569;
-        }
-        .carousel-control {
-            background-image: none !important;
-            opacity: 0.8;
-            width: 10%;
-        }
-        .carousel-control .glyphicon {
-            color: #fff;
-            text-shadow: 0 1px 2px rgba(0,0,0,0.6);
-        }
-        .carousel-indicators {
-            bottom: 20px;
-        }
-        .carousel-indicators li {
-            border-color: #fff;
-            background-color: transparent;
-        }
-        .carousel-indicators .active {
-            background-color: #fff;
-        }
-        /* Address and Specs Under Image */
-        .featured-content {
-            padding: 16px;
-        }
-        .featured-address {
-            font-size: 18px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .property-specs {
-            color: #6c757d;
-            font-size: 16px;
-            text-align: center;
-        }
+    body { 
+        background-color: #f5f7fa; 
+        padding: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .search-container { 
+        max-width: 600px;
+        margin: 20px auto 40px;
+        position: relative;
+    }
+    #search-input { 
+        width: 100%;
+        padding: 15px 20px; 
+        font-size: 18px;
+        border: 2px solid #e1e5eb;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    #search-input:focus {
+        outline: none;
+        border-color: #337ab7;
+        box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.1);
+    }
+    #autocomplete-list {
+        position: absolute;
+        width: 100%;
+        max-height: 200px;
+        overflow-y: auto;
+        background: white;
+        border: 1px solid #e1e5eb;
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        display: none;
+    }
+    .autocomplete-item {
+        padding: 12px 20px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+    .autocomplete-item:hover {
+        background-color: #f8f9fa;
+    }
+    .featured-section {
+        margin-bottom: 40px;
+    }
+    .featured-header {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #e1e5eb;
+    }
+    .featured-header h2 {
+        color: #2c3e50;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .featured-header p {
+        color: #337ab7;
+        font-size: 16px;
+        margin: 5px 0 0;
+    }
+    .featured-property {
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .featured-header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #fff;
+        margin-bottom: 2px;
+    }
+    .apply-now-btn {
+        background-color: #337ab7;
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+    .apply-now-btn:hover {
+        background-color: #286090;
+    }
+    .carousel {
+        background-color: #000;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .featured-content {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .featured-price {
+        font-size: 28px;
+        color: #337ab7;
+        font-weight: 600;
+        margin: 0;
+    }
+    .featured-address {
+        font-size: 18px;
+        color: #2c3e50;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .property-specs {
+        color: #6c757d;
+        font-size: 16px;
+        text-align: center;
+    }
+    .property-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        overflow: hidden;
+        margin-bottom: 20px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .property-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+    .property-image-container img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    .property-content {
+        padding: 20px;
+    }
+    .property-price {
+        font-size: 22px;
+        color: #337ab7;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    .property-address {
+        color: #2c3e50;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        animation: fadeIn 0.3s ease;
+    }
+    .modal-content {
+        background-color: #fff;
+        margin: 10% auto;
+        padding: 30px;
+        border: none;
+        width: 90%;
+        max-width: 500px;
+        border-radius: 12px;
+        position: relative;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        animation: slideIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    @keyframes slideIn {
+        from { transform: translateY(-20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 28px;
+        font-weight: 400;
+        color: #94a3b8;
+        transition: color 0.2s ease;
+    }
+    .close:hover {
+        color: #475569;
+    }
+    .carousel-control {
+        background-image: none !important;
+        opacity: 0.8;
+        width: 10%;
+    }
+    .carousel-control .glyphicon {
+        color: #fff;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    }
+    .carousel-indicators {
+        bottom: 20px;
+    }
+    .carousel-indicators li {
+        border-color: #fff;
+        background-color: transparent;
+    }
+    .carousel-indicators .active {
+        background-color: #fff;
+    }
+    .get-details-btn {
+        background-color: #337ab7;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        width: auto;
+    }
+    .get-details-btn:hover {
+        background-color: #286090;
+    }
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .carousel-control .glyphicon-chevron-left {
+        left: 20%;
+    }
+    .carousel-control .glyphicon-chevron-right {
+        right: 20%;
+    }
     </style>
 </head>
 <body>
@@ -308,13 +325,10 @@
         function createFeaturedPropertyCard(property) {
             return `
                 <div class="featured-property">
-                    <!-- Верхняя строка с ценой и кнопкой -->
-                    <div class="featured-header">
-                        <span class="featured-price">${property.price ? `$${property.price.toLocaleString()}` : 'Apply for Price'}</span>
-                        <button class="get-details-btn" onclick="openModal()">Apply Now</button>
+                    <div class="featured-header-content">
+                        <div class="featured-price">$${property.price ? property.price.toLocaleString() : '0'}</div>
+                        <button class="apply-now-btn" onclick="openModal()">Apply Now</button>
                     </div>
-                    
-                    <!-- Карусель изображений -->
                     <div id="carousel-${property.id}" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-${property.id}" data-slide-to="0" class="active"></li>
@@ -339,8 +353,6 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
                     </div>
-                    
-                    <!-- Нижний блок с адресом и характеристиками -->
                     <div class="featured-content">
                         <div class="featured-address">${property.address}</div>
                         <div class="property-specs">
@@ -350,7 +362,6 @@
                 </div>
             `;
         }
-
         function createPropertyCard(property) {
             return `
                 <div class="col-sm-6 col-md-4">
