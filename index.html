@@ -318,13 +318,13 @@
                         </a>
                     </div>
                     <div class="featured-content">
-                        <div class="featured-price">${property.price ? `$${property.price.toLocaleString()}` : 'Contact for Price and Address'}</div>
+                        <div class="featured-price">${property.price ? `$${property.price.toLocaleString()}` : 'Apply for Price and Address'}</div>
                         <div class="featured-address">${property.address}</div>
                         <div class="featured-details">
                             <div class="property-specs">
                                 ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
                             </div>
-                            <button class="get-details-btn" onclick="openModal()">Get Details</button>
+                            <button class="get-details-btn" onclick="openModal()">Apply</button>
                         </div>
                     </div>
                 </div>
@@ -339,12 +339,12 @@
                             <img src="${property.imageUrl}" alt="${property.type}">
                         </div>
                         <div class="property-content">
-                            <div class="property-price">${property.price ? `$${property.price.toLocaleString()}` : 'Contact for Price'}</div>
+                            <div class="property-price">${property.price ? `$${property.price.toLocaleString()}` : 'Apply for Price and Address'}</div>
                             <div class="property-address">${property.address || `ZIP: ${property.zipCode}`}</div>
                             <div class="property-specs" style="margin-bottom: 15px;">
                                 ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
                             </div>
-                            <button class="get-details-btn">Get Details</button>
+                            <button class="get-details-btn">Apply</button>
                         </div>
                     </div>
                 </div>
