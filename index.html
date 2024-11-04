@@ -293,6 +293,13 @@
         function createFeaturedPropertyCard(property) {
             return `
                 <div class="featured-property">
+                    <!-- Верхняя строка с ценой и кнопкой -->
+                    <div class="featured-header">
+                        <span class="featured-price">${property.price ? `$${property.price.toLocaleString()}` : 'Apply for Price'}</span>
+                        <button class="get-details-btn" onclick="openModal()">Apply Now</button>
+                    </div>
+                    
+                    <!-- Карусель изображений -->
                     <div id="carousel-${property.id}" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-${property.id}" data-slide-to="0" class="active"></li>
@@ -317,14 +324,12 @@
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
                     </div>
+                    
+                    <!-- Нижний блок с адресом и характеристиками -->
                     <div class="featured-content">
-                        <div class="featured-price">${property.price ? `$${property.price.toLocaleString()}` : 'Apply for Price and Address'}</div>
                         <div class="featured-address">${property.address}</div>
-                        <div class="featured-details">
-                            <div class="property-specs">
-                                ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
-                            </div>
-                            <button class="get-details-btn" onclick="openModal()">Apply</button>
+                        <div class="property-specs">
+                            ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
                         </div>
                     </div>
                 </div>
