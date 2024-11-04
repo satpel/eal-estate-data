@@ -1,5 +1,21 @@
 [
   {
+    "id": "prop_207turnerstwacotx76704",
+    "price": 800,
+    "address": "207 Turner St, Waco, TX 76704",
+    "zipCode": "76704",
+    "type": "SingleFamilyHome",
+    "beds": 2,
+    "baths": 1,
+    "squareFeet": "",
+    "imageUrl": "https://photos.zillowstatic.com/fp/83425c8e6fcfad52cd5a6716370fb1a6-cc_ft_1152.webp",
+    "priority": 1730761297977,
+    "imageUrl2": "https://photos.zillowstatic.com/fp/be17b1e0c3b7f84111e0a0b9311e9ccf-cc_ft_576.webp",
+    "imageUrl3": "https://photos.zillowstatic.com/fp/23d59d9c07b5a6221c33253e7b110a2b-cc_ft_576.webp",
+    "imageUrl4": "https://photos.zillowstatic.com/fp/d1b9524bd170eaad5943545fd38f5b1d-cc_ft_576.webp",
+    "imageUrl5": "https://photos.zillowstatic.com/fp/c6f9f53156eea90fe130aee0468d1ab7-cc_ft_576.webp"
+  },
+  {
     "id": "prop_3725windsoravewacotx76708",
     "price": 800,
     "address": "3725 Windsor Ave, Waco, TX 76708",
@@ -14,24 +30,6 @@
     "imageUrl3": "https://photos.zillowstatic.com/fp/f1d359fc6be72185f6e6940d155bd3d9-cc_ft_576.webp",
     "imageUrl4": "https://photos.zillowstatic.com/fp/c8e4d66909643940d16d8668d810f0e9-cc_ft_576.webp",
     "imageUrl5": "https://photos.zillowstatic.com/fp/e733a452b5d2edf596615dc580ef6583-cc_ft_576.webp"
-  },
-  {
-    "id": "prop_207turnerstwacotx76704",
-    "price": 900,
-    "address": "207 Turner St, Waco, TX 76704",
-    "zipCode": "76704",
-    "type": "SingleFamilyHome",
-    "beds": 2,
-    "baths": 2,
-    "squareFeet": "",
-    "imageUrl": "https://photos.zillowstatic.com/fp/83425c8e6fcfad52cd5a6716370fb1a6-cc_ft_1152.webp",
-    "priority": 1730761184599,
-    "imageUrl2": "https://photos.zillowstatic.com/fp/be17b1e0c3b7f84111e0a0b9311e9ccf-cc_ft_576.webp",
-    "imageUrl3": "https://photos.zillowstatic.com/fp/23d59d9c07b5a6221c33253e7b110a2b-cc_ft_576.webp",
-    "imageUrl4": "https://photos.zillowstatic.com/fp/d1b9524bd170eaad5943545fd38f5b1d-cc_ft_1152.webp",
-    "imageUrl5": "https://photos.zillowstatic.com/fp/c6f9f53156eea90fe130aee0468d1ab7-cc_ft_576.webp",
-    "imageUrl6": "https://photos.zillowstatic.com/fp/73371bf59efa95fe75c2e404116a3f22-cc_ft_576.webp",
-    "imageUrl7": "https://photos.zillowstatic.com/fp/9ad89f63d25e2ea91265501b77b2e45b-cc_ft_1152.webp"
   },
   {
     "id": "882522343",
