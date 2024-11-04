@@ -362,30 +362,47 @@
             if (zipData[input]) {
                 locationName = zipData[input];
             }
-
+        
             try {
                 const [city, state] = locationName.split(', ');
                 const filename = `${state.toLowerCase()}_${city.toLowerCase().replace(/\s+/g, '_')}.json`;
                 
                 const response = await fetch(`${propertyDataUrl}${filename}`);
                 if (!response.ok) throw new Error('Error fetching data.');
-
+        
                 const properties = await response.json();
                 
-                // Separate featured and regular properties
-                const featured = properties.find(p => p.imageUrl2 && p.imageUrl3);
+                // Разделяем properties на featured и regular
+                const featured = properties.filter(p => p.imageUrl2 && p.imageUrl3);
                 const regular = properties.filter(p => !p.imageUrl2 || !p.imageUrl3);
-
-                // Show/hide featured section based on existence of featured properties
-                featuredSection.style.display = featured ? 'block' : 'none';
+        
+                // Сортируем featured properties по priority (если есть) или по id в обратном порядке
+                featured.sort((a, b) => {
+                    if (a.priority && b.priority) {
+                        return b.priority - a.priority;
+                    }
+                    // Если priority нет, используем id
+                    return b.id.localeCompare(a.id);
+                });
+        
+                // Показываем секцию featured только если есть featured properties
+                featuredSection.style.display = featured.length > 0 ? 'block' : 'none';
                 
-                // Display featured property if exists
-                featuredProperty.innerHTML = featured ? createFeaturedPropertyCard(featured) : '';
+                // Отображаем все featured properties
+                featuredProperty.innerHTML = featured.map(createFeaturedPropertyCard).join('');
                 
-                // Display regular properties
+                // Отображаем обычные properties
                 grid.innerHTML = regular.map(createPropertyCard).join('');
                 
                 resultsControls.classList.remove('hidden');
+        
+                // Инициализируем все карусели для featured properties
+                featured.forEach(property => {
+                    $(`#carousel-${property.id}`).carousel({
+                        interval: false // Отключаем автоматическое переключение
+                    });
+                });
+        
             } catch (error) {
                 console.error('Error:', error);
                 featuredSection.style.display = 'none';
