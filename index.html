@@ -139,28 +139,50 @@
         margin-bottom: 20px;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
+    
     .property-card:hover {
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     }
+    
     .property-image-container img {
         width: 100%;
         height: 220px;
         object-fit: cover;
     }
+    
     .property-content {
         padding: 20px;
+        text-align: left; /* Изменено с center на left */
     }
+    
     .property-price {
         font-size: 22px;
         color: #337ab7;
         font-weight: 600;
         margin-bottom: 8px;
+        text-align: left; /* Добавлено */
     }
+    
     .property-address {
         color: #2c3e50;
         margin-bottom: 12px;
         font-size: 16px;
+        text-align: left; /* Добавлено */
+    }
+    
+    .property-specs {
+        color: #6c757d;
+        font-size: 16px;
+        text-align: left; /* Изменено с center на left */
+        margin-bottom: 15px; /* Добавлено отступ перед кнопкой */
+    }
+    
+    /* Для кнопки в property card */
+    .property-card .get-details-btn {
+        display: inline-block;
+        margin-top: 10px;
+    }
     }
     .modal {
         display: none;
@@ -370,10 +392,10 @@
                             <img src="${property.imageUrl}" alt="${property.type}">
                         </div>
                         <div class="property-content">
-                            <div class="property-price">${property.price ? `$${property.price.toLocaleString()}` : 'Apply for Price and Address'}</div>
-                            <div class="property-address">${property.address || `ZIP: ${property.zipCode}`}</div>
-                            <div class="property-specs" style="margin-bottom: 15px;">
-                                ${property.beds} Beds | ${property.baths} Baths ${property.squareFeet ? `| ${property.squareFeet} sqft` : ''}
+                            <div class="property-price">Apply for Price and Address</div>
+                            <div class="property-address">ZIP: ${property.zipCode}</div>
+                            <div class="property-specs">
+                                ${property.beds} Beds | ${property.baths} Baths | ${property.squareFeet} sqft
                             </div>
                             <button class="get-details-btn">Apply</button>
                         </div>
