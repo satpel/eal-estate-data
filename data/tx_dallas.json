@@ -1,5 +1,24 @@
 [
   {
+    "id": "prop_1946morrisstdallastx",
+    "price": 1100,
+    "address": "1946 Morris St, Dallas, TX",
+    "zipCode": "",
+    "type": "SingleFamilyHome",
+    "beds": 2,
+    "baths": 2,
+    "squareFeet": "",
+    "imageUrl": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/457860432_476190232049653_9177873564625814702_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=r_HIZEdOTpQQ7kNvgFYg1XN&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYBBOXsZTpIlzJ2XOZd4Q4um7nN7vvs5rR3iq6WuEOXdjQ&oe=67202079",
+    "priority": 1730778436254,
+    "imageUrl2": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/457507323_348754878203601_3555639729467110039_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=4VvodQ0fbU4Q7kNvgHOOPhH&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYAT2i_jclZa7znkedU8__1ZekWu6nW6vpgNWfRTbNMZ4w&oe=67202054",
+    "imageUrl3": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/457733862_1879105799253954_913178757590355066_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=dx-TdVMYKPMQ7kNvgHHgPcs&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYD4F6NIDLAJd3WMf-qlollpydwL8fnUhygp1USt6jG3Iw&oe=67200809",
+    "imageUrl4": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/457878540_523428990189155_4897329024629007518_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=YsGU5QYTc-YQ7kNvgGAMgwz&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYDJ-awFW_DCCd0XX-zoN98EUb8lXfu6Tn6S7iE6q__0SA&oe=67201706",
+    "imageUrl5": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/456707501_1228912591478009_6672393580843588814_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=_CLaG4CvzDkQ7kNvgEtVC7F&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYB4IyFh0cW0pg6OLRaS7KuV_09Va_py8VESOROaR0t3ag&oe=67202F97",
+    "imageUrl6": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/457086381_879392020297402_4286892058467859096_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=RJb7v_IJDBkQ7kNvgEMRyAH&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYBb647cSfeDn-86SdR5RcvuQaSluY7jyZkMQOUfz_x10A&oe=67200147",
+    "imageUrl7": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/456568251_891714222821939_3231623317434662766_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=WqwRe-TRlcIQ7kNvgHRX4LV&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYBRboDXWsN6Dz75Q0oc1VvwYRVMWqOaosYwdSx9DSsz-A&oe=67201BFA",
+    "imageUrl8": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/457846633_1750818995724526_5122402126284924546_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=4krkTuzhzOsQ7kNvgFqj4R7&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYDfHLue463Fb5rQ1-GEjVIPWn3gU3of48PtmGvey2Okkw&oe=67202313"
+  },
+  {
     "id": "prop_9223peninsuladrdallastx75218",
     "price": 800,
     "address": "9223 Peninsula Dr, Dallas, TX 75218",
@@ -104,25 +123,6 @@
     "imageUrl4": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/458010923_1025186665756754_7304346821455319460_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=247b10&_nc_ohc=NFkuksiqZBoQ7kNvgGZkjCm&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Ai2hKzVAsTHYfDEWkp1VPHR&oh=00_AYBYCKe4MyYtclR-gK4c3Wy8haJ1JXxlAcm0gc98-2rjHA&oe=67202BBA",
     "imageUrl5": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/458078042_1190334672090188_2595731952090205595_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=mklUCJGRv9EQ7kNvgEmclMy&_nc_ht=scontent-dfw5-1.xx&_nc_gid=Ai2hKzVAsTHYfDEWkp1VPHR&oh=00_AYDwcnnpvEx1b1kwADCl8yZwfdSw8vejSlOvL5iJ-0j_Yw&oe=672003FA",
     "imageUrl6": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/458303754_1500639330572818_3216016486969936510_n.jpg?stp=dst-jpg_p600x600&_nc_cat=106&ccb=1-7&_nc_sid=247b10&_nc_ohc=4O32pSKf09gQ7kNvgHGRtiA&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Ai2hKzVAsTHYfDEWkp1VPHR&oh=00_AYBBVs8vdmyX8KxwEzesUkuxjnJHPnKp51FWfltr2Cx8FQ&oe=67200198"
-  },
-  {
-    "id": "prop_1946morrisstdallastx",
-    "price": 1100,
-    "address": "1946 Morris St, Dallas, TX",
-    "zipCode": "",
-    "type": "SingleFamilyHome",
-    "beds": 2,
-    "baths": 2,
-    "squareFeet": "",
-    "imageUrl": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/457860432_476190232049653_9177873564625814702_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=r_HIZEdOTpQQ7kNvgFYg1XN&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYBBOXsZTpIlzJ2XOZd4Q4um7nN7vvs5rR3iq6WuEOXdjQ&oe=67202079",
-    "priority": 1730777450029,
-    "imageUrl2": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/457507323_348754878203601_3555639729467110039_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=4VvodQ0fbU4Q7kNvgHOOPhH&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYAT2i_jclZa7znkedU8__1ZekWu6nW6vpgNWfRTbNMZ4w&oe=67202054",
-    "imageUrl3": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/457733862_1879105799253954_913178757590355066_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=dx-TdVMYKPMQ7kNvgHHgPcs&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYD4F6NIDLAJd3WMf-qlollpydwL8fnUhygp1USt6jG3Iw&oe=67200809",
-    "imageUrl4": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/457878540_523428990189155_4897329024629007518_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=YsGU5QYTc-YQ7kNvgGAMgwz&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYDJ-awFW_DCCd0XX-zoN98EUb8lXfu6Tn6S7iE6q__0SA&oe=67201706",
-    "imageUrl5": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/456707501_1228912591478009_6672393580843588814_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=_CLaG4CvzDkQ7kNvgEtVC7F&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYB4IyFh0cW0pg6OLRaS7KuV_09Va_py8VESOROaR0t3ag&oe=67202F97",
-    "imageUrl6": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/457086381_879392020297402_4286892058467859096_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=RJb7v_IJDBkQ7kNvgEMRyAH&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYBb647cSfeDn-86SdR5RcvuQaSluY7jyZkMQOUfz_x10A&oe=67200147",
-    "imageUrl7": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.5328-4/456568251_891714222821939_3231623317434662766_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=WqwRe-TRlcIQ7kNvgHRX4LV&_nc_ht=scontent-dfw5-2.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYBRboDXWsN6Dz75Q0oc1VvwYRVMWqOaosYwdSx9DSsz-A&oe=67201BFA",
-    "imageUrl8": "https://scontent-dfw5-1.xx.fbcdn.net/v/t45.5328-4/457846633_1750818995724526_5122402126284924546_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=4krkTuzhzOsQ7kNvgFqj4R7&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AG7x2j1XHU-Dw_LwlL7AYgB&oh=00_AYDfHLue463Fb5rQ1-GEjVIPWn3gU3of48PtmGvey2Okkw&oe=67202313"
   },
   {
     "id": "915360126",
