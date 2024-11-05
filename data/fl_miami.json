@@ -1,5 +1,24 @@
 [
   {
+    "id": "prop_14456sw44thstmiamifl",
+    "price": 1100,
+    "address": "14456 SW 44th St, Miami, FL",
+    "zipCode": "14456",
+    "type": "SingleFamilyHome",
+    "beds": 4,
+    "baths": 2,
+    "squareFeet": "",
+    "imageUrl": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463901812_575616731563687_1234806642248782992_n.jpg?stp=dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=jQJTjV9fAxEQ7kNvgFUFugl&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYAG4mkcVlJT6mk-Yn0YMesOyuMtDO_6waB2_svWPkIaoQ&oe=671C011D",
+    "priority": 1730777201770,
+    "imageUrl2": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463806293_911220407737263_6735801588587174547_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=cBbfebFa_hgQ7kNvgEwHTgF&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYA1F60sHcdQmrHe_-CeG-pV2OAEUlTa9KElXFIj6LZUhw&oe=671C23BB",
+    "imageUrl3": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463632102_886373370122515_3869178679292185671_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=dmmm2kmvHhkQ7kNvgE88oa3&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYApzfb-3ZUdtGF043jpkwA7P7FAu6G-uEwTzt2friXyTg&oe=671C17F9",
+    "imageUrl4": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464241725_1370966073880221_8721924548288928661_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=IIvkP6R6BeAQ7kNvgHd0ijk&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYBJ6cmSIO4oHvRfuxdRYb_TFwSNfbSgYr2E8W7ryNnwpg&oe=671C08E9",
+    "imageUrl5": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463364580_1946454379179061_8493888795991061700_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=5F17jYEGud4Q7kNvgHJEtvU&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYBwG4NooicapC6NxlKix4oYY4HTuXGKnA2EiGtwrg-2yA&oe=671C1F38",
+    "imageUrl6": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464190443_426029020265660_4472243795512904470_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=1fbKJacEL4IQ7kNvgGNe2ko&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYDHGKUmx3v8gmVRG1PedbhyaxvC2hJiBenc9ECD7nfU6Q&oe=671C11D7",
+    "imageUrl7": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463602468_1944695906042656_3882796392724730344_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=LkA1xLFeW-QQ7kNvgHLfiRy&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYA3e9Rfa7a9qxOxYWjFLdbBa1s_q0Fd1R6eJ-rTXbViBA&oe=671C1B60",
+    "imageUrl8": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464222578_519611940978152_754867749546478342_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=oo_V6CRPr98Q7kNvgEmsKtb&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYDNUREzdVpMh3NiviDIERibHLRp88qgAJfIQzr-fqG9Yw&oe=671C306C"
+  },
+  {
     "id": "prop_656ne82ndstmiamifl331384128",
     "price": 1150,
     "address": "656 NE 82nd St, Miami, FL 33138-4128, ",
@@ -96,25 +115,6 @@
     "imageUrl6": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/456977568_507807068604791_7236200544991029397_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=m4_Y_oo8TFUQ7kNvgF1KjVE&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=A4KR5h3K4wyrEoFQgdD0D8J&oh=00_AYDk--gvrHQhgkg3_Yq9h8hq67lhAYx4KhsGN4PTon4djA&oe=671C3920",
     "imageUrl7": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/457021748_2348751705458394_4592680056278416363_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=9vOWDf7e100Q7kNvgEek_2G&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=A4KR5h3K4wyrEoFQgdD0D8J&oh=00_AYBBKxqywyhdVWfHXnTpGxc2ZCULuDuE_1kyLI9CfqDF2A&oe=671C3D67",
     "imageUrl8": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/456966682_1538819487066111_7936747107672967688_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=247b10&_nc_ohc=-PgKvD5GN7kQ7kNvgE4AJB8&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=A4KR5h3K4wyrEoFQgdD0D8J&oh=00_AYAsbN4piBYrYneh7ljFmYGossWzlqxcPh9Bk7KNbgXYdw&oe=671C22E5"
-  },
-  {
-    "id": "prop_14456sw44thstmiamifl",
-    "price": 1100,
-    "address": "14456 SW 44th St, Miami, FL",
-    "zipCode": "14456",
-    "type": "SingleFamilyHome",
-    "beds": 4,
-    "baths": 2,
-    "squareFeet": "",
-    "imageUrl": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463901812_575616731563687_1234806642248782992_n.jpg?stp=dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=jQJTjV9fAxEQ7kNvgFUFugl&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYAG4mkcVlJT6mk-Yn0YMesOyuMtDO_6waB2_svWPkIaoQ&oe=671C011D",
-    "priority": 1730761105804,
-    "imageUrl2": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463806293_911220407737263_6735801588587174547_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=cBbfebFa_hgQ7kNvgEwHTgF&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYA1F60sHcdQmrHe_-CeG-pV2OAEUlTa9KElXFIj6LZUhw&oe=671C23BB",
-    "imageUrl3": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463632102_886373370122515_3869178679292185671_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=dmmm2kmvHhkQ7kNvgE88oa3&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYApzfb-3ZUdtGF043jpkwA7P7FAu6G-uEwTzt2friXyTg&oe=671C17F9",
-    "imageUrl4": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464241725_1370966073880221_8721924548288928661_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=IIvkP6R6BeAQ7kNvgHd0ijk&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYBJ6cmSIO4oHvRfuxdRYb_TFwSNfbSgYr2E8W7ryNnwpg&oe=671C08E9",
-    "imageUrl5": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463364580_1946454379179061_8493888795991061700_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=5F17jYEGud4Q7kNvgHJEtvU&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYBwG4NooicapC6NxlKix4oYY4HTuXGKnA2EiGtwrg-2yA&oe=671C1F38",
-    "imageUrl6": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464190443_426029020265660_4472243795512904470_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=1fbKJacEL4IQ7kNvgGNe2ko&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYDHGKUmx3v8gmVRG1PedbhyaxvC2hJiBenc9ECD7nfU6Q&oe=671C11D7",
-    "imageUrl7": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463602468_1944695906042656_3882796392724730344_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=LkA1xLFeW-QQ7kNvgHLfiRy&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYA3e9Rfa7a9qxOxYWjFLdbBa1s_q0Fd1R6eJ-rTXbViBA&oe=671C1B60",
-    "imageUrl8": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464222578_519611940978152_754867749546478342_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=oo_V6CRPr98Q7kNvgEmsKtb&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Aakht9udpJw0o0vQVxV4X7h&oh=00_AYDNUREzdVpMh3NiviDIERibHLRp88qgAJfIQzr-fqG9Yw&oe=671C306C"
   },
   {
     "id": "914682067",
