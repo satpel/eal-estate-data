@@ -1,5 +1,24 @@
 [
   {
+    "id": "prop_4205wridgewooddrclevelandoh",
+    "price": 1000,
+    "address": "4205 W Ridgewood Dr, Cleveland, OH",
+    "zipCode": "",
+    "type": "SingleFamilyHome",
+    "beds": 3,
+    "baths": 2,
+    "squareFeet": "",
+    "imageUrl": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/464033567_2862888570533561_8446892026050330782_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=247b10&_nc_ohc=FzGW7tB-SkUQ7kNvgFPV8Sb&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYB6rZExPM4nov3CVt8Nct7-tZ1h-_FPZkuTrKJI0BqE5g&oe=671AF1FB",
+    "priority": 1730777181540,
+    "imageUrl2": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463595613_1737394376995826_7269142843537588869_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=uvewQpYn4SsQ7kNvgE2m20h&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYBqad3rKhKEGQmgglsPixHPm7gBRBmXqRX7GDJR-bpf5Q&oe=671B03F4",
+    "imageUrl3": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464061296_516077661343395_586083181478365827_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=XkeQ8zHA0pQQ7kNvgFMCt3N&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYDiAchC461sWl2wmHiNnYdXCck25aVWMViW8Nk9JC_L7g&oe=671B05A5",
+    "imageUrl4": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464102009_877503454357718_8884059939313247975_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=lb67F7fR1IAQ7kNvgF6MfpD&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYBL-E9q76F4NIW_ZuG5zHSE0RnnNOfA0H74p3zmOs-sKw&oe=671B1EE4",
+    "imageUrl5": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/463611710_8527874677305690_3126539281826485094_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=247b10&_nc_ohc=Tl4WWBqiSu0Q7kNvgGcOTUk&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYDU4rW_AL881EsOZA1ZxIMh0ofHOLlUURqG47riHjMdcQ&oe=671B1CCC",
+    "imageUrl6": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463796889_435514939561709_6631221742106991708_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=ch7_zVVGYIMQ7kNvgFFrrOV&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYB207-0jSnimFcM142AbxLLLhLI6Lmk8tz9tBx6ewfTug&oe=671AF38A",
+    "imageUrl7": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/463908169_1995183647561628_6639377558536162252_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=247b10&_nc_ohc=Up5qbjSsFUAQ7kNvgEDCIUH&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYDQawM6QnQZyHMiEjHfmNhiA_-b1l_s2sbfbDacYD5bzw&oe=671B1EBF",
+    "imageUrl8": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/464148036_471405675943804_4734075589105897300_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=690UN8xq-NoQ7kNvgFN-muU&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYBZbD47s960456K9hZZh_RBoX-c9r3ISz8kZl-FyIBSlg&oe=671B1ADF"
+  },
+  {
     "id": "prop_4806behrwaldaveclevelandoh",
     "price": 1000,
     "address": "4806 Behrwald Ave, Cleveland, OH",
@@ -48,25 +67,6 @@
     "imageUrl2": "https://scontent-atl3-2.xx.fbcdn.net/v/t45.5328-4/464141260_1311175660293330_8885099041725313456_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=CUfn33IytQkQ7kNvgGUtI6a&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AmHkCX_hp7I11kUw8Q8232y&oh=00_AYAG00JMxV_hgM0vnCWZdQUDqb8911T-ntigmToUoUvlYQ&oe=671B0D78",
     "imageUrl3": "https://scontent-atl3-2.xx.fbcdn.net/v/t45.5328-4/464004765_2557120821343331_7652234462008857032_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=pPsAOWzxh5AQ7kNvgFknAEY&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AmHkCX_hp7I11kUw8Q8232y&oh=00_AYCxr-MHDNeUIuSGNJAnooUQVzR2mxI-ZQP8Yk9CfWCCZw&oe=671B0580",
     "imageUrl4": "https://scontent-atl3-1.xx.fbcdn.net/v/t45.5328-4/461319341_555919833792769_2809559065466049231_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=PxpXE1ZkT4wQ7kNvgGXTDIl&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=AmHkCX_hp7I11kUw8Q8232y&oh=00_AYBUCh_K4Xz7b7LgY46sl4gaMLz1opbHhFYXnHnXGX2mDQ&oe=671B0FBE"
-  },
-  {
-    "id": "prop_4205wridgewooddrclevelandoh",
-    "price": 1000,
-    "address": "4205 W Ridgewood Dr, Cleveland, OH",
-    "zipCode": "",
-    "type": "SingleFamilyHome",
-    "beds": 3,
-    "baths": 2,
-    "squareFeet": "",
-    "imageUrl": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/464033567_2862888570533561_8446892026050330782_n.jpg?stp=dst-jpg_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=247b10&_nc_ohc=FzGW7tB-SkUQ7kNvgFPV8Sb&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYB6rZExPM4nov3CVt8Nct7-tZ1h-_FPZkuTrKJI0BqE5g&oe=671AF1FB",
-    "priority": 1730761088666,
-    "imageUrl2": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463595613_1737394376995826_7269142843537588869_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=uvewQpYn4SsQ7kNvgE2m20h&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYBqad3rKhKEGQmgglsPixHPm7gBRBmXqRX7GDJR-bpf5Q&oe=671B03F4",
-    "imageUrl3": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464061296_516077661343395_586083181478365827_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=XkeQ8zHA0pQQ7kNvgFMCt3N&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYDiAchC461sWl2wmHiNnYdXCck25aVWMViW8Nk9JC_L7g&oe=671B05A5",
-    "imageUrl4": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/464102009_877503454357718_8884059939313247975_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=lb67F7fR1IAQ7kNvgF6MfpD&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYBL-E9q76F4NIW_ZuG5zHSE0RnnNOfA0H74p3zmOs-sKw&oe=671B1EE4",
-    "imageUrl5": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/463611710_8527874677305690_3126539281826485094_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=247b10&_nc_ohc=Tl4WWBqiSu0Q7kNvgGcOTUk&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYDU4rW_AL881EsOZA1ZxIMh0ofHOLlUURqG47riHjMdcQ&oe=671B1CCC",
-    "imageUrl6": "https://scontent-mia3-1.xx.fbcdn.net/v/t45.5328-4/463796889_435514939561709_6631221742106991708_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=ch7_zVVGYIMQ7kNvgFFrrOV&_nc_zt=23&_nc_ht=scontent-mia3-1.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYB207-0jSnimFcM142AbxLLLhLI6Lmk8tz9tBx6ewfTug&oe=671AF38A",
-    "imageUrl7": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/463908169_1995183647561628_6639377558536162252_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=247b10&_nc_ohc=Up5qbjSsFUAQ7kNvgEDCIUH&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYDQawM6QnQZyHMiEjHfmNhiA_-b1l_s2sbfbDacYD5bzw&oe=671B1EBF",
-    "imageUrl8": "https://scontent-mia3-2.xx.fbcdn.net/v/t45.5328-4/464148036_471405675943804_4734075589105897300_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=690UN8xq-NoQ7kNvgFN-muU&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=Ao6QLOVD22zXPIQkM5BbmFp&oh=00_AYBZbD47s960456K9hZZh_RBoX-c9r3ISz8kZl-FyIBSlg&oe=671B1ADF"
   },
   {
     "id": "869314396",
