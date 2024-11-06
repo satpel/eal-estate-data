@@ -1,5 +1,20 @@
 [
   {
+    "id": "prop_202chaissondrsanclementeca92672",
+    "price": 1000,
+    "address": "202 Chaisson Dr, San Clemente, CA 92672",
+    "zipCode": "92672",
+    "type": "SingleFamilyHome",
+    "beds": 3,
+    "baths": 2,
+    "squareFeet": "",
+    "priority": 1730882162832,
+    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/e6cad4aaf3bf7533edb7a31a7fe0010b.jpg",
+    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/ef864e41ff7e9277b8075963a6181e3c.jpg",
+    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/00830f17f5333b06d342da16a1582915.jpg",
+    "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/31838f399966e61707ed1462d6c4a2e8.jpg"
+  },
+  {
     "id": "prop_412cazadorlnsanclementeca92672",
     "price": 1100,
     "address": "412 Cazador Ln, San Clemente, CA 92672",
@@ -13,20 +28,5 @@
     "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/d4238f76f685f2972aa84967f81d6871.jpg",
     "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/42eeb42dc2709bc7449988d4a4fad3c9.jpg",
     "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/d6c8ea6e54fe1c0247b54526e391c933.jpg"
-  },
-  {
-    "id": "prop_202chaissondrsanclementeca92672",
-    "price": 800,
-    "address": "202 Chaisson Dr, San Clemente, CA 92672",
-    "zipCode": "92672",
-    "type": "SingleFamilyHome",
-    "beds": 2,
-    "baths": 1,
-    "squareFeet": "",
-    "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.5328-4/465764241_1520269818626692_2062873737945072224_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=bNRX8bNLmNcQ7kNvgGft9jr&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AOUkFCJkxnjGz4_gmTpUrR3&oh=00_AYAqxrq7CKzo1HwQbtpAqr8wWxBypM-vYBc7trs3MjNLsQ&oe=672D2C1C",
-    "priority": 1730825693307,
-    "imageUrl2": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.5328-4/465373516_887864996884069_5013253057477229989_n.jpg?stp=dst-jpg_s960x960&_nc_cat=102&ccb=1-7&_nc_sid=247b10&_nc_ohc=xi2w1BS4GkUQ7kNvgE2KqfQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AOUkFCJkxnjGz4_gmTpUrR3&oh=00_AYA1eaQYkijwNiMYf6prjM9I97nUlE5D1rvdObW-wZGh1g&oe=672D14C4",
-    "imageUrl3": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.5328-4/465468659_926925832626419_1230490754520921496_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=247b10&_nc_ohc=DbVPwhSp9_YQ7kNvgEfZt0z&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AOUkFCJkxnjGz4_gmTpUrR3&oh=00_AYBTpFCk93TNJfr-1iDLQrCd-T2KzE6jbSF2bao7LN-pkA&oe=672D304A",
-    "imageUrl4": "https://scontent-sjc3-1.xx.fbcdn.net/v/t45.5328-4/465659025_875460174573836_2986677992817880684_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=247b10&_nc_ohc=mL3AbyLVMSIQ7kNvgF8xPXd&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=AOUkFCJkxnjGz4_gmTpUrR3&oh=00_AYC7iUM4vYumzl2KhxTN87LRsZdjEACobcvatkm5xmnwJA&oe=672D1120"
   }
 ]
