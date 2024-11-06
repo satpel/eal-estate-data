@@ -1,5 +1,22 @@
 [
   {
+    "id": "prop_1705e21ststodessatx79761",
+    "price": 1000,
+    "address": "1705 E 21st St, Odessa, TX 79761",
+    "zipCode": "79761",
+    "type": "SingleFamilyHome",
+    "beds": 3,
+    "baths": 2,
+    "squareFeet": "",
+    "priority": 1730879835896,
+    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/0f95e15440101ac3a24f7b3754a7db54.webp",
+    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/8cb99c465310f07125db3610b769b83d.webp",
+    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/c0cd024d9bbd6e7dae94cec4f1c6c11a.webp",
+    "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/151cd88a5f36737564b5aa9747f8e1f1.webp",
+    "imageUrl5": "https://imagehosting.qualityhousing.org/property-images/uploads/281b62d6abfcc8a1d26a080dce38bd2d.webp",
+    "imageUrl6": "https://imagehosting.qualityhousing.org/property-images/uploads/6348efbdad5f61d30cbbc85c27aef330.webp"
+  },
+  {
     "id": "prop_2719eisenhowerrdodessatx79762",
     "price": 1000,
     "address": "2719 Eisenhower Rd, Odessa, TX 79762",
@@ -46,23 +63,6 @@
     "imageUrl3": "https://photos.zillowstatic.com/fp/48e78bc031c4812a1f4a670c903d49e1-cc_ft_576.webp",
     "imageUrl4": "https://photos.zillowstatic.com/fp/0c4aceda52492bc52ceb7786d7524cbd-cc_ft_576.webp",
     "imageUrl5": "https://photos.zillowstatic.com/fp/a2a5be646e2c21b74bc1ea172f1099fb-cc_ft_576.webp"
-  },
-  {
-    "id": "prop_1705e21ststodessatx79761",
-    "price": 1000,
-    "address": "1705 E 21st St, Odessa, TX 79761",
-    "zipCode": "79761",
-    "type": "SingleFamilyHome",
-    "beds": 3,
-    "baths": 2,
-    "squareFeet": "",
-    "imageUrl": "https://photos.zillowstatic.com/fp/4c52ca6275860ee06b3c302f20357dfc-cc_ft_1152.webp",
-    "priority": 1730778358369,
-    "imageUrl2": "https://photos.zillowstatic.com/fp/abc4b7c2f9f86851ef329a7a090cc4d8-cc_ft_576.webp",
-    "imageUrl3": "https://photos.zillowstatic.com/fp/b11c44d5f226765c12063b0131c19b09-cc_ft_576.webp",
-    "imageUrl4": "https://photos.zillowstatic.com/fp/ee2e526a74e39c4da5a73f19b310675b-cc_ft_1152.webp",
-    "imageUrl5": "https://photos.zillowstatic.com/fp/5c76924ba430a8003cbff95da91b220a-cc_ft_576.webp",
-    "imageUrl6": "https://photos.zillowstatic.com/fp/4e0135426ee3a8ca0107cfe48de85e50-cc_ft_576.webp"
   },
   {
     "id": "764790485",
