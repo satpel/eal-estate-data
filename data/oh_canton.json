@@ -1,5 +1,20 @@
 [
   {
+    "id": "prop_123034thstnecantonoh",
+    "price": 1000,
+    "address": "1230 34th St NE, Canton, OH",
+    "zipCode": "",
+    "type": "SingleFamilyHome",
+    "beds": 3,
+    "baths": 3,
+    "squareFeet": "",
+    "priority": 1730881753745,
+    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/a2113e688d5438d23957924c9e66ceb5.jpg",
+    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/00186c03d5cc257902410ab2120eef8d.jpg",
+    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/5ee5d409d78963e9e13c9967a116b99b.jpg",
+    "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/67969cbc0c4298a881fd54285522d973.jpg"
+  },
+  {
     "id": "prop_80725thstnwcantonoh",
     "price": 1100,
     "address": "807 25th St NW, Canton, OH",
