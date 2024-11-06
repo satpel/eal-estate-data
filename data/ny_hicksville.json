@@ -1,5 +1,20 @@
 [
   {
+    "id": "prop_53acrelnhicksvilleny11801",
+    "price": 1100,
+    "address": "53 Acre Ln, Hicksville, NY 11801",
+    "zipCode": "11801",
+    "type": "SingleFamilyHome",
+    "beds": 4,
+    "baths": 2,
+    "squareFeet": "",
+    "priority": 1730881950785,
+    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/0dc4e5a881c97ba4df52f05d8107a323.jpg",
+    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/cf3f4809c4abdd7d0ca916f2e317a157.jpg",
+    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/10c0d8f664d3b100bf87b3c8c05f2045.jpg",
+    "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/f2b5a62bcb81d91b2450e6f64bb3f060.jpg"
+  },
+  {
     "id": "prop_14briggssthicksvilleny",
     "price": 1100,
     "address": "14 Briggs St, Hicksville, NY",
@@ -15,20 +30,5 @@
     "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/5f6d072b776f91553fb73155edb4c043.jpg",
     "imageUrl5": "https://imagehosting.qualityhousing.org/property-images/uploads/4b5760d7bd4394f923c86654e664b8f2.jpg",
     "imageUrl6": "https://imagehosting.qualityhousing.org/property-images/uploads/fd19811a5cd1d8dfc0031a59f186be0e.jpg"
-  },
-  {
-    "id": "prop_53acrelnhicksvilleny11801",
-    "price": 1100,
-    "address": "53 Acre Ln, Hicksville, NY 11801",
-    "zipCode": "11801",
-    "type": "SingleFamilyHome",
-    "beds": 4,
-    "baths": 2,
-    "squareFeet": "",
-    "imageUrl": "https://scontent-lga3-1.xx.fbcdn.net/v/t45.5328-4/465376809_1245221103193755_8841337428397515439_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=247b10&_nc_ohc=1IJ5jAIc_sQQ7kNvgHHnpBb&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=AYmPJMBdSuFAfhr_lFC-VF_&oh=00_AYBPgurmGrw4pjFRPtjg51P7e2KxT_qvdJiZszTLn3di7Q&oe=672B930B",
-    "priority": 1730825589631,
-    "imageUrl2": "https://scontent-lga3-1.xx.fbcdn.net/v/t45.5328-4/464567615_1118121960023650_4618027126859034425_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=247b10&_nc_ohc=A-b5TVFCXZQQ7kNvgG4bkAK&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=AYmPJMBdSuFAfhr_lFC-VF_&oh=00_AYCqCuqfC_oVcTDzY9jPPlAXJEzPKD2JfSQ7iKCKLjSXYg&oe=672B826C",
-    "imageUrl3": "https://scontent-lga3-2.xx.fbcdn.net/v/t45.5328-4/465543171_576882984852962_3950426665255090922_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=247b10&_nc_ohc=XpJGNAlAA2cQ7kNvgHGgaHB&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=AYmPJMBdSuFAfhr_lFC-VF_&oh=00_AYA_uXy7lWR1yTvErY-M80R6wX0QGr-ylH93u5mqjO3Jlw&oe=672B8FF8",
-    "imageUrl4": "https://scontent-lga3-2.xx.fbcdn.net/v/t45.5328-4/465308934_974741911170886_6924910892356203495_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=247b10&_nc_ohc=-anXdsr9yScQ7kNvgFzEr3A&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=AYmPJMBdSuFAfhr_lFC-VF_&oh=00_AYDQUZ9Vyb7qAUuW50WEvd9_2ZnDaG5jgAjJMVBvk0Ki6w&oe=672B9DDB"
   }
 ]
