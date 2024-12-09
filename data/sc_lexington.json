@@ -1,5 +1,20 @@
 [
   {
+    "id": "prop_136timbermilldrlexingtonsc29073",
+    "price": 1100,
+    "address": "136 Timbermill Dr, Lexington, SC 29073",
+    "zipCode": "29073",
+    "type": "SingleFamilyHome",
+    "beds": 4,
+    "baths": 2,
+    "squareFeet": "",
+    "priority": 1733758195615,
+    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/04a287d4defc4a1f26d75944cedc89c1.jpg",
+    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/ec2db2663ac4b2db39a4093a8321c7af.jpg",
+    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/d0ae87ba95a71e2927edf510d0e2fcbf.jpg",
+    "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/5f850c259b137ad51c0d81036ee7aec0.jpg"
+  },
+  {
     "id": "prop_741springcressdrlexingtonsc29073",
     "price": 1000,
     "address": "741 Spring Cress Dr, Lexington, SC 29073",
@@ -27,19 +42,5 @@
     "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/dc18086981e1999e15b79c52ab353ad6.jpg",
     "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/92b2c2a666c7270a8b0a4be81621148f.jpg",
     "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/97237d26be765889a1ae0b593d1e7e6d.jpg"
-  },
-  {
-    "id": "prop_136timbermilldrlexingtonsc29073",
-    "price": 1100,
-    "address": "136 Timbermill Dr, Lexington, SC 29073",
-    "zipCode": "29073",
-    "type": "SingleFamilyHome",
-    "beds": 4,
-    "baths": 2,
-    "squareFeet": "",
-    "priority": 1730881777750,
-    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/fcfcff9896b0cd8bcedf516f6f9a745b.jpg",
-    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/023000a00f393a30d7820e64425630ee.jpg",
-    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/e334d1fe472dd7cf58fde1510b0a37fc.jpg"
   }
 ]
