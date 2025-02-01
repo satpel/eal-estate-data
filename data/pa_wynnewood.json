@@ -1,11 +1,18 @@
-{
-  "id": "prop_930remingtonrdwynnewoodpa",
-  "price": 1100,
-  "address": "930 Remington Rd, Wynnewood, PA",
-  "type": "SingleFamilyHome",
-  "beds": 3,
-  "baths": 3,
-  "squareFeet": "",
-  "priority": 1738418130943,
-  "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/d6ab367da090decfedd22794ca95d8e6.jpg"
-}
+[
+  {
+    "id": "prop_713doverrdwynnewoodpa",
+    "price": 1000,
+    "address": "713 Dover Rd, Wynnewood, PA",
+    "zipCode": "",
+    "type": "SingleFamilyHome",
+    "beds": 3,
+    "baths": 2,
+    "squareFeet": "",
+    "priority": 1730881439926,
+    "imageUrl": "https://imagehosting.qualityhousing.org/property-images/uploads/d8175929eb68a4532140cd5654bbc0c7.jpg",
+    "imageUrl2": "https://imagehosting.qualityhousing.org/property-images/uploads/a1054e503b396bdd77814c75d92b71de.jpg",
+    "imageUrl3": "https://imagehosting.qualityhousing.org/property-images/uploads/c6118d7e4cbfa050c708c08078eb668c.jpg",
+    "imageUrl4": "https://imagehosting.qualityhousing.org/property-images/uploads/2d255f91a535a77adae4c8b625b83fea.jpg",
+    "imageUrl5": "https://imagehosting.qualityhousing.org/property-images/uploads/57bcb304ca5f00c8c9e8476976e7ace6.jpg"
+  }
+]
